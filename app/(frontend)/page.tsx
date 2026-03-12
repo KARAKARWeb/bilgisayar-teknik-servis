@@ -53,7 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: `${baseUrl}${config.seo.ogImage}`,
           width: 1200,
           height: 630,
-          alt: `${config.site.name} - Profesyonel Web Tasarım Hizmetleri`,
+          alt: config.site.name,
         },
       ],
       locale: 'tr_TR',

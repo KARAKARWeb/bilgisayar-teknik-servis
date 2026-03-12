@@ -422,7 +422,6 @@ Güncellik: 2026
 - Ana Sayfa: https://www.bilgisayarteknikservis.com.tr
 - Hizmetlerimiz: https://www.bilgisayarteknikservis.com.tr/hizmetlerimiz
 - Hizmet Bölgeleri: https://www.bilgisayarteknikservis.com.tr/hizmet-bolgeleri
-- Fiyatlarımız: https://www.bilgisayarteknikservis.com.tr/fiyatlarimiz
 - Hakkımızda: https://www.bilgisayarteknikservis.com.tr/hakkimizda
 - İletişim: https://www.bilgisayarteknikservis.com.tr/iletisim
 
