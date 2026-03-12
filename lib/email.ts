@@ -789,3 +789,315 @@ export function generateQuoteEmailHTML(data: any, siteTitle: string) {
     </html>
   `
 }
+
+export function generateTechServiceEmailHTML(data: any, siteTitle: string) {
+  const currentDate = new Date().toLocaleDateString('tr-TR', { 
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  })
+
+  const deviceTypeLabels: Record<string, string> = {
+    'laptop': 'Laptop / Dizüstü',
+    'desktop': 'Masaüstü / PC',
+    'macbook': 'MacBook / iMac',
+    'printer': 'Yazıcı',
+    'modem': 'Modem / Router',
+    'switch': 'Switch / Ağ Cihazı',
+    'nas': 'NAS / Yedekleme',
+    'server': 'Sunucu / Server'
+  }
+
+  const issueTypeLabels: Record<string, string> = {
+    'not-starting': 'Açılmıyor',
+    'slow': 'Yavaş Çalışıyor',
+    'overheating': 'Aşırı Isınma',
+    'blue-screen': 'Mavi Ekran / Hata',
+    'noise': 'Gürültü / Fan Sesi',
+    'charging': 'Şarj Olmuyor',
+    'screen': 'Ekran Sorunu',
+    'data-recovery': 'Veri Kurtarma',
+    'maintenance': 'Genel Bakım',
+    'format': 'Format / Kurulum',
+    'network': 'Ağ Sorunu',
+    'other': 'Diğer'
+  }
+
+  const urgencyLabels: Record<string, string> = {
+    'urgent': 'Acil (Aynı Gün)',
+    'normal': 'Normal (2-3 Gün)',
+    'flexible': 'Esnek (1 Hafta)'
+  }
+
+  const locationLabels: Record<string, string> = {
+    'onsite': 'Yerinde Servis',
+    'workshop': 'Servise Getireceğim',
+    'remote': 'Uzaktan Destek'
+  }
+
+  const cityLabels: Record<string, string> = {
+    'istanbul': 'İstanbul',
+    'kocaeli': 'Kocaeli',
+    'sakarya': 'Sakarya',
+    'duzce': 'Düzce',
+    'yalova': 'Yalova'
+  }
+
+  const urgencyColor = data.urgency === 'urgent' ? '#dc2626' : data.urgency === 'normal' ? '#f59e0b' : '#10b981'
+
+  return `
+    <!DOCTYPE html>
+    <html lang="tr">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+          * { margin: 0; padding: 0; box-sizing: border-box; }
+          body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6; 
+            color: #1f2937;
+            background: #f9fafb;
+            padding: 20px;
+          }
+          .container { 
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+          }
+          .header { 
+            background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+            color: #fff; 
+            padding: 32px 24px;
+            text-align: center;
+          }
+          .header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+          }
+          .header p {
+            font-size: 13px;
+            opacity: 0.9;
+          }
+          .content { 
+            padding: 32px 24px;
+          }
+          .alert {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 4px solid ${urgencyColor};
+            padding: 16px;
+            margin-bottom: 24px;
+            border-radius: 6px;
+          }
+          .alert strong {
+            color: #92400e;
+            font-size: 14px;
+            display: block;
+            margin-bottom: 4px;
+          }
+          .alert p {
+            font-size: 13px;
+            color: #78350f;
+          }
+          .summary {
+            background: #f9fafb;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+          }
+          .summary h3 {
+            color: #111827;
+            font-size: 16px;
+            margin-bottom: 16px;
+            font-weight: 600;
+          }
+          .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+          }
+          .summary-item {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #e5e7eb;
+          }
+          .summary-label {
+            font-size: 11px;
+            color: #6b7280;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+          }
+          .summary-value {
+            font-size: 14px;
+            color: #111827;
+            font-weight: 600;
+          }
+          .field { 
+            margin-bottom: 20px;
+            padding: 16px;
+            background: #f9fafb;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+          }
+          .label { 
+            font-weight: 600;
+            color: #6b7280;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+          }
+          .value { 
+            color: #111827;
+            font-size: 15px;
+            font-weight: 500;
+          }
+          .value a {
+            color: #2563eb;
+            text-decoration: none;
+          }
+          .value a:hover {
+            text-decoration: underline;
+          }
+          .message-box {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            padding: 16px;
+            margin-top: 8px;
+            white-space: pre-wrap;
+            font-size: 14px;
+            line-height: 1.6;
+          }
+          .footer {
+            background: #f9fafb;
+            padding: 24px;
+            text-align: center;
+            border-top: 1px solid #e5e7eb;
+          }
+          .footer-text {
+            font-size: 13px;
+            color: #6b7280;
+            line-height: 1.5;
+          }
+          .cta-button {
+            display: inline-block;
+            background: #111827;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            margin-top: 16px;
+          }
+          @media only screen and (max-width: 600px) {
+            body { padding: 10px; }
+            .header { padding: 24px 16px; }
+            .content { padding: 24px 16px; }
+            .footer { padding: 20px 16px; }
+            .summary-grid { grid-template-columns: 1fr; }
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="header">
+            <h1>🔧 Yeni Teknik Servis Talebi</h1>
+            <p>${currentDate}</p>
+          </div>
+          
+          <div class="content">
+            <div class="alert">
+              <strong>Servis Talebi Bildirimi</strong>
+              <p>Web sitesi teklif formundan yeni bir bilgisayar teknik servis talebi alındınız.</p>
+            </div>
+
+            <div class="summary">
+              <h3>📋 Talep Özeti</h3>
+              <div class="summary-grid">
+                <div class="summary-item">
+                  <div class="summary-label">Cihaz Tipi</div>
+                  <div class="summary-value">${deviceTypeLabels[data.deviceType] || data.deviceType}</div>
+                </div>
+                <div class="summary-item">
+                  <div class="summary-label">Arıza Türü</div>
+                  <div class="summary-value">${issueTypeLabels[data.issueType] || data.issueType}</div>
+                </div>
+                <div class="summary-item">
+                  <div class="summary-label">Aciliyet</div>
+                  <div class="summary-value" style="color: ${urgencyColor};">${urgencyLabels[data.urgency] || data.urgency}</div>
+                </div>
+                <div class="summary-item">
+                  <div class="summary-label">Servis Lokasyonu</div>
+                  <div class="summary-value">${locationLabels[data.serviceLocation] || data.serviceLocation}</div>
+                </div>
+                <div class="summary-item">
+                  <div class="summary-label">Şehir</div>
+                  <div class="summary-value">${cityLabels[data.city] || data.city}</div>
+                </div>
+                <div class="summary-item">
+                  <div class="summary-label">Talep Tarihi</div>
+                  <div class="summary-value">${currentDate.split(',')[0]}</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="label">👤 Ad Soyad</div>
+              <div class="value">${data.name}</div>
+            </div>
+
+            <div class="field">
+              <div class="label">📧 E-posta Adresi</div>
+              <div class="value">
+                <a href="mailto:${data.email}">${data.email}</a>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="label">📱 Telefon Numarası</div>
+              <div class="value">
+                <a href="tel:${data.phone}">${data.phone}</a>
+              </div>
+            </div>
+
+            ${data.message ? `
+            <div class="field">
+              <div class="label">💬 Ek Açıklama</div>
+              <div class="message-box">${data.message}</div>
+            </div>
+            ` : ''}
+
+            <div style="text-align: center; margin-top: 24px;">
+              <a href="mailto:${data.email}" class="cta-button">
+                ✉️ Hemen Yanıtla
+              </a>
+            </div>
+          </div>
+
+          <div class="footer">
+            <p class="footer-text">
+              <strong>${siteTitle}</strong><br>
+              Bu e-posta, web sitenizin teknik servis teklif formundan otomatik olarak gönderilmiştir.<br>
+              Müşterinize en kısa sürede dönüş yapmanız önerilir.
+            </p>
+            <p class="footer-text" style="margin-top: 12px; font-size: 12px; color: #9ca3af;">
+              © ${new Date().getFullYear()} ${siteTitle}. Tüm hakları saklıdır.
+            </p>
+          </div>
+        </div>
+      </body>
+    </html>
+  `
+}

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { sendEmail, generateQuoteEmailHTML } from '@/lib/email'
+import { sendEmail, generateQuoteEmailHTML, generateTechServiceEmailHTML } from '@/lib/email'
 import { rateLimit } from '@/lib/rate-limit'
 import { getSiteConfig } from '@/lib/config'
 
@@ -39,6 +39,11 @@ export async function POST(request: NextRequest) {
       projectType, 
       budget, 
       deadline, 
+      deviceType,
+      issueType,
+      urgency,
+      serviceLocation,
+      city,
       message, 
       honeypot 
     } = body
@@ -47,21 +52,44 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: true })
     }
 
-    if (!name || !email || !phone || !projectType || !budget || !deadline || !message) {
-      return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
-    }
-
     const config = await getSiteConfig()
-    const emailHTML = generateQuoteEmailHTML({
-      name,
-      email,
-      phone,
-      company,
-      projectType,
-      budget,
-      deadline,
-      message
-    }, config.site.name)
+    let emailHTML: string
+
+    // Teknik servis formu mu yoksa web tasarım formu mu kontrol et
+    if (deviceType && issueType) {
+      // Teknik servis formu
+      if (!name || !email || !phone || !deviceType || !issueType || !urgency || !serviceLocation || !city) {
+        return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
+      }
+
+      emailHTML = generateTechServiceEmailHTML({
+        name,
+        email,
+        phone,
+        deviceType,
+        issueType,
+        urgency,
+        serviceLocation,
+        city,
+        message
+      }, config.site.name)
+    } else {
+      // Web tasarım formu
+      if (!name || !email || !phone || !projectType || !budget || !deadline || !message) {
+        return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
+      }
+
+      emailHTML = generateQuoteEmailHTML({
+        name,
+        email,
+        phone,
+        company,
+        projectType,
+        budget,
+        deadline,
+        message
+      }, config.site.name)
+    }
 
     const emailResult = await sendEmail({
       to: process.env.CONTACT_EMAIL || process.env.SMTP_USER || 'info@cayirovawebtasarim.com.tr',
