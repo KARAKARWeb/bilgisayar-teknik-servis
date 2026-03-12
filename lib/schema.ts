@@ -522,7 +522,7 @@ export function generateRegionLocalBusinessSchema(config: SiteConfig, region: Re
   const schema: any = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "additionalType": "WebDesignAgency",
+    "additionalType": "ComputerRepair",
     "name": `${config.site.name} - ${displayName}`,
     "description": region.seo?.description || region.description,
     "url": `${baseUrl}/${region.slug}`,

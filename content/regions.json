@@ -134,28 +134,33 @@
   {
     "id": "region-1773272610339",
     "name": "Yalova",
-    "slug": "yalova",
+    "slug": "yalova-bilgisayar-tamir-servisi",
     "city": "Yalova",
+    "description": "Yalova genelinde profesyonel bilgisayar teknik servis. Merkez, Çınarcık, Termal ve tüm ilçelerde 2-4 saat içinde yerinde müdahale, kurumsal IT destek.",
     "geo": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": "40.6550",
+      "longitude": "29.2761"
     },
     "hero": {
-      "title": "",
-      "subtitle": ""
+      "title": "Yalova Bilgisayar Teknik Servis",
+      "subtitle": "Turizm ve Ticaret Merkezlerinde Hızlı Teknik Destek"
     },
     "content": {
-      "main": "",
+      "main": "<p>Marmara'nın incisi Yalova, termal turizm merkezi kimliğinin yanı sıra gelişen sanayi ve ticaret potansiyeliyle öne çıkar. Otel işletmeleri, termal tesisler, liman bölgesi firmaları ve ticari işletmelerin teknoloji altyapısını destekliyoruz. Merkez ilçe, Çınarcık, Termal, Çiftlikköy ve Armutlu'da aktif hizmet ağımız bulunur.</p><h2>Turizm Sektörü IT Çözümleri</h2><p>Yalova'nın termal turizm başkenti kimliği, otel ve tesis yönetim sistemleri konusunda uzmanlık gerektirir. Rezervasyon yazılımları, POS sistemleri, misafir ilişkileri yönetimi ve dijital pazarlama altyapılarının kurulumu ve bakımında deneyimliyiz. 7/24 çalışan tesislerin kesintisiz hizmet vermesi için acil müdahale ekibimiz hazırdır.</p><p>Termal otellerin spa yönetim sistemleri, fitness merkezi bilgisayarları ve güvenlik kamera ağlarının IT altyapısını yönetiyoruz. Misafir Wi-Fi sistemleri, oda kontrol teknolojileri ve akıllı bina otomasyonu entegrasyonları sunuyoruz. Veri güvenliği ve KVKK uyumluluğu önceliklerimiz arasındadır.</p><h2>Liman ve Lojistik Sektörü</h2><p>Yalova Limanı ve çevresindeki lojistik firmalarının özel IT ihtiyaçlarını karşılıyoruz. Gümrük sistemleri, kargo takip yazılımları ve depo yönetim bilgisayarlarının bakımında uzmanlaştık. Barkod okuyucu sistemler, el terminalleri ve mobil cihaz yönetimi de hizmetlerimiz arasındadır.</p><p>Nakliye firmalarının araç takip sistemleri, rota optimizasyon yazılımları ve müşteri portal altyapılarını kuruyoruz. Bulut tabanlı çözümler ile uzaktan erişim ve mobil çalışma imkanı sağlıyoruz.</p><h2>Yalova, Yalova</h2><p>Marmara kıyısından Samanlı Dağları eteklerine, şehir merkezinden kırsal bölgelere kadar geniş coğrafyada hizmet sunuyoruz. Yalova'nın turizm ve ticaret potansiyelini teknoloji desteğiyle güçlendiriyoruz.</p>",
       "seo1": "",
       "seo2": ""
     },
     "services": [],
     "prices": [],
     "seo": {
-      "title": "",
-      "description": "",
+      "title": "Yalova Bilgisayar Teknik Servis ve Tamir Çözümleri",
+      "description": "Yalova'da profesyonel bilgisayar tamiri ve IT destek. Merkez, Çınarcık, Termal'de 2-4 saat içinde yerinde müdahale. Turizm sektörü IT, otel sistemleri, lojistik destek.",
       "keywords": [
-        ""
+        "yalova bilgisayar tamiri",
+        "yalova teknik servis",
+        "çınarcık laptop tamiri",
+        "yalova otel IT destek",
+        "termal tesis bilgisayar servisi"
       ]
     }
   }
