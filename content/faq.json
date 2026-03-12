@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": "faq-1",
+    "question": "Bilgisayar tamiri ne kadar sürer ve işlem süreci nasıl ilerler?",
+    "answer": "Arıza türüne göre değişir. Yazılımsal sorunlar (virüs temizliği, sistem optimizasyonu) genellikle 1-2 saat içinde çözülür. Donanım arızaları için önce teşhis yapılır (30-60 dakika), ardından parça temini gerekiyorsa 1-3 gün sürer. Ekran değişimi, anakart tamiri gibi karmaşık işlemler 2-5 gün alabilir. Her aşamada müşteri bilgilendirilir ve onay alınır."
+  },
+  {
+    "id": "faq-2",
+    "question": "Yerinde teknik destek hizmeti nasıl çalışır ve ücretlendirmesi nedir?",
+    "answer": "Yerinde servis için önce randevu alınır. İstanbul içi çıkış ücreti 200-300 TL, diğer iller için mesafeye göre 300-500 TL'dir. Teknisyen yerinde arıza tespiti yapar, gerekli işlemleri anlatır ve fiyat bilgisi verir. Onay sonrası işlem başlar. Basit sorunlar (yazılım, ağ ayarları) yerinde çözülür. Parça değişimi gerekiyorsa cihaz servise alınabilir veya parça getirilerek yerinde takılır."
+  },
+  {
+    "id": "faq-3",
+    "question": "Veri kurtarma işleminde başarı oranı nedir ve hangi durumlarda mümkündür?",
+    "answer": "Veri kurtarma başarı oranımız %85 civarındadır. Yazılımsal sorunlarda (format, silme, virüs) başarı %95'tir. Fiziksel hasarlarda (düşme, su teması) durum değerlendirilir. Disk mekanik olarak çalışıyorsa veri kurtarma şansı yüksektir. Tamamen yanmış veya ezilmiş disklerde başarı düşüktür. İşlem öncesi ücretsiz ön değerlendirme yapılır, başarı ihtimali ve maliyet bildirilir."
+  },
+  {
+    "id": "faq-4",
+    "question": "Hangi marka ve modellere teknik servis desteği veriyorsunuz?",
+    "answer": "Tüm marka ve modellere servis vermekteyiz. Dell, HP, Lenovo, Asus, Acer, MSI, Apple MacBook, Toshiba, Samsung, Casper, Monster ve diğer tüm markalar için destek sağlıyoruz. Windows, macOS ve Linux işletim sistemlerinde uzmanız. Masaüstü, laptop, all-in-one, gaming PC, workstation ve sunucu sistemlerine müdahale ediyoruz. Eski model cihazlar için de parça temini ve destek sunuyoruz."
+  },
+  {
+    "id": "faq-5",
+    "question": "Yapılan işlemler için ne kadar garanti veriliyor?",
+    "answer": "Garanti süresi işlem türüne göre değişir. Yazılım işlemleri (format, virüs temizliği, optimizasyon) için 15 gün garanti verilir. Parça değişiminde (RAM, SSD, ekran, klavye) 30-90 gün garanti sunulur. Orijinal parçalarda üretici garantisi geçerlidir. Garanti kapsamında aynı arıza tekrar ederse ücretsiz müdahale yapılır. Kullanıcı kaynaklı hasarlar (düşürme, sıvı teması) garanti dışıdır."
+  },
+  {
+    "id": "faq-6",
+    "question": "Uzaktan teknik destek güvenli midir ve nasıl çalışır?",
+    "answer": "Uzaktan destek tamamen güvenlidir. TeamViewer, AnyDesk veya Chrome Remote Desktop gibi şifreli bağlantı yazılımları kullanılır. Sizin onayınız olmadan hiçbir işlem yapılmaz. Tüm işlemler ekranınızda görünür şekilde gerçekleştirilir. Bağlantı sonrası erişim otomatik kapanır. Şifre veya hassas bilgiler istenmez. Oturum kayıt altına alınır. Yazılım sorunları, sistem optimizasyonu, güvenlik güncellemeleri uzaktan çözülebilir."
+  },
+  {
+    "id": "faq-7",
+    "question": "Acil servis hizmeti var mı ve müdahale süresi ne kadardır?",
+    "answer": "7/24 acil servis hizmeti sunuyoruz. Kritik iş sistemleri için 2 saat içinde müdahale garantisi veriyoruz. İstanbul içi 1-2 saat, Kocaeli 2-3 saat, Sakarya 2-4 saat, Düzce 3-5 saat, Yalova 2-4 saat içinde yerinde müdahale yapılır. Sunucu çökmeleri, ağ kesintileri, veri kayıpları acil kategoridedir. Acil servis için %50 ek ücret uygulanır. Hafta sonu ve resmi tatillerde de hizmet verilir."
+  },
+  {
+    "id": "faq-8",
+    "question": "Parça değişimi gerektiğinde orijinal mi muadil mi kullanılır?",
+    "answer": "Parça seçimi müşteri tercihine bağlıdır. Orijinal parçalar üretici garantilidir, daha pahalıdır ancak tam uyumludur. Muadil parçalar uyumlu ve ekonomiktir, bizim garantimiz altındadır. Her iki seçenek için de fiyat bilgisi verilir, müşteri karar verir. Kritik parçalarda (anakart, ekran) orijinal önerilir. RAM, SSD gibi standart parçalarda muadil güvenle kullanılabilir. Tüm parçalar test edilerek takılır."
+  },
+  {
+    "id": "faq-9",
+    "question": "Kurumsal IT destek paketleri neler içerir ve nasıl fiyatlandırılır?",
+    "answer": "Kurumsal paketler 3 seviyede sunulur. Temel Paket: Aylık bakım, ofis saatleri destek, 5 cihaza kadar. Profesyonel Paket: 7/24 izleme, öncelikli müdahale, 20 cihaza kadar, sunucu yönetimi. Kurumsal Paket: Özel hesap yöneticisi, SLA garantisi, sınırsız cihaz, yedekleme sistemi, güvenlik duvarı. Fiyatlar cihaz sayısı ve hizmet kapsamına göre belirlenir. Aylık abonelik veya yıllık sözleşme seçenekleri vardır."
+  },
+  {
+    "id": "faq-10",
+    "question": "Ödeme seçenekleri nelerdir ve fatura kesilir mi?",
+    "answer": "Nakit, kredi kartı (taksit imkanı), banka havalesi ve kapıda ödeme kabul edilir. Kurumsal müşteriler için faturalı ödeme ve çek opsiyonu sunulur. Tüm işlemler için fatura veya makbuz kesilir. KDV dahil fiyat çalışılır. Ön ödeme gerektiren durumlarda (parça siparişi) %50 kapora alınır. Garanti kapsamındaki işlemler ücretsizdir. Ödeme planı oluşturulabilir, detaylar görüşülerek belirlenir."
+  }
+]

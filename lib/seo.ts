@@ -13,7 +13,7 @@ export function generatePageMetadata(
 ): Metadata {
   const baseUrl = `https://${config.site.domain}`
   const url = `${baseUrl}${page.path}`
-  const image = page.image || config.seo.ogImage || '/pendik-web-tasarim.webp'
+  const image = page.image || config.seo.ogImage || '/bilgisayar-teknik-servis.webp'
 
   return {
     title: `${page.title} | ${config.site.name}`,

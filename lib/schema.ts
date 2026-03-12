@@ -17,7 +17,7 @@ export function generateLocalBusinessSchema(config: SiteConfig, reviews?: Review
     "url": baseUrl,
     "telephone": config.contact.phone,
     "email": config.contact.email,
-    "image": `${baseUrl}/pendik-web-tasarim.webp`,
+    "image": `${baseUrl}/bilgisayar-teknik-servis.webp`,
     "logo": `${baseUrl}/logo.webp`,
     "priceRange": config.schema?.localBusiness?.priceRange || "₺₺-₺₺₺",
   }
