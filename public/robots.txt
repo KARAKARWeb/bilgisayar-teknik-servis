@@ -1,5 +1,5 @@
-# Tuzla Web Tasarım - Robots.txt
-# https://www.tuzlawebtasarim.com
+# Bilgisayar Teknik Servis - Robots.txt
+# https://www.bilgisayarteknikservis.com.tr
 
 User-agent: *
 Allow: /
@@ -63,4 +63,4 @@ Disallow: /admin/
 Disallow: /api/
 
 # Sitemap
-Sitemap: https://www.tuzlawebtasarim.com/sitemap.xml
+Sitemap: https://www.bilgisayarteknikservis.com.tr/sitemap.xml
