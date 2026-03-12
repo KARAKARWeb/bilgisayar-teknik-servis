@@ -52,7 +52,7 @@ export function Header({ config, services = [] }: HeaderProps) {
             <Link href="/" className="flex items-center space-x-2" aria-label="Ana Sayfa">
               <Image 
                 src="/logo.webp" 
-                alt="pendik web tasarım" 
+                alt={config.site.name} 
                 width={200} 
                 height={24}
                 priority
