@@ -1,103 +1,169 @@
 [
   {
-    "id": "web-tasarim",
+    "id": "yerinde-teknik-destek",
     "name": "Yerinde Teknik Destek",
     "slug": "yerinde-teknik-destek",
-    "description": "...",
+    "description": "Ofis, ev veya işletmenizde profesyonel bilgisayar tamiri ve teknik destek hizmeti.",
     "icon": "Layout",
     "featured": true,
-    "content": "<p>...</p>",
-    "features": [],
+    "content": "<p>Teknolojik altyapınızın kesintisiz çalışması, günümüz iş dünyasında vazgeçilmez bir gerekliliktir. Yerinde teknik destek hizmetimiz, bu kritik ihtiyacı karşılamak üzere tasarlanmış kapsamlı bir çözüm sunar. Deneyimli teknisyenlerimiz, ofis ortamınızda, evinizde veya işletme mekanınızda doğrudan müdahale ederek zaman kaybını minimize eder.</p><h2>Hızlı Müdahale ve Profesyonel Çözüm</h2><p>Arıza anında harekete geçen ekibimiz, İstanbul genelinde 1-2 saat, Kocaeli'de 2-3 saat içinde yerinde bulunur. İlk aşamada kapsamlı bir sistem analizi gerçekleştirilir. Donanım bileşenleri tek tek test edilir, yazılım katmanları incelenir ve ağ altyapısı kontrol edilir. Bu sistematik yaklaşım sayesinde sorunun kaynağı net şekilde belirlenir.</p><h2>Kapsam ve Uygulama Süreci</h2><p>Masaüstü bilgisayarlar, dizüstü sistemler, sunucu donanımları ve ağ ekipmanları hizmet kapsamımızdadır. Anakart arızaları, güç kaynağı sorunları, ekran hasarları, klavye ve fare değişimleri yerinde gerçekleştirilir. Yazılım tarafında işletim sistemi kurulumları, sürücü güncellemeleri, güvenlik yamalarının uygulanması ve performans optimizasyonları yapılır.</p><p>Ağ altyapısı kurulumlarında kablolama düzeni oluşturulur, switch ve router yapılandırmaları tamamlanır, güvenlik duvarı ayarları optimize edilir. Veri yedekleme sistemleri kurulur ve test edilir. Tüm işlemler sonrası detaylı raporlama yapılır, yapılan müdahaleler kayıt altına alınır.</p><h2>Garanti ve Süreklilik</h2><p>Yazılım müdahalelerinde 15 gün, donanım değişimlerinde 30-90 gün garanti süresi uygulanır. Orijinal parça kullanımında üretici garantisi devam eder. Müdahale sonrası 7 gün boyunca ücretsiz teknik destek sağlanır. Kurumsal müşterilerimiz için aylık bakım paketleri ve öncelikli müdahale seçenekleri mevcuttur.</p>",
+    "features": [
+      "1-2 saat içinde yerinde müdahale",
+      "Donanım ve yazılım tam teşhis",
+      "Ağ altyapısı kurulum ve yapılandırma",
+      "Veri yedekleme ve güvenlik",
+      "30-90 gün garanti kapsamı",
+      "Detaylı raporlama ve dokümantasyon"
+    ],
     "seo": {
-      "title": "Yerinde Teknik Destek",
-      "description": "",
+      "title": "Yerinde Teknik Destek | Profesyonel Bilgisayar Tamiri",
+      "description": "Ofis, ev ve işletmelerde yerinde bilgisayar tamiri, ağ kurulumu ve teknik destek. İstanbul genelinde 1-2 saat içinde müdahale. 30-90 gün garanti.",
       "keywords": [
-        ""
+        "yerinde bilgisayar tamiri",
+        "ofis teknik destek",
+        "bilgisayar arıza tespiti",
+        "ağ altyapısı kurulumu",
+        "sunucu bakımı"
       ]
     }
   },
   {
-    "id": "web-yazilim",
+    "id": "uzaktan-teknik-destek",
     "name": "Uzaktan Teknik Destek",
     "slug": "uzaktan-teknik-destek",
-    "description": "...",
+    "description": "Uzaktan bağlantı ile hızlı teknik destek ve sorun çözme hizmeti.",
     "icon": "code",
     "featured": true,
-    "content": "<p>...</p>",
-    "features": [],
+    "content": "<p>Coğrafi sınırların ortadan kalktığı dijital çağda, teknik destek hizmetleri de dönüşüme uğramıştır. Uzaktan teknik destek çözümümüz, güvenli şifreli bağlantılar üzerinden anlık müdahale imkanı sunar. TeamViewer, AnyDesk ve Chrome Remote Desktop gibi endüstri standardı platformlar kullanılarak sistemlerinize erişim sağlanır. Her oturum şifreli kanal üzerinden gerçekleşir ve tam güvenlik protokolleri uygulanır.</p><h2>Güvenlik ve Şeffaflık</h2><p>Uzaktan erişim sürecinde kullanıcı kontrolü her zaman önceliktir. Bağlantı kurulması için açık onayınız gerekir. Tüm işlemler ekranınızda canlı olarak görüntülenir, hiçbir gizli müdahale yapılmaz. Oturum sonlandığında erişim otomatik kapanır, sistem logları kayıt altına alınır. Şifre veya hassas bilgi paylaşımı asla talep edilmez.</p><h2>Çözüm Kapsamı</h2><p>İşletim sistemi hata ayıklama, yazılım kurulum ve yapılandırma, sürücü güncellemeleri uzaktan gerçekleştirilir. Virüs ve kötü amaçlı yazılım temizleme işlemleri detaylı tarama ile yapılır. Sistem performans optimizasyonlarında gereksiz başlangıç programları kapatılır, disk temizliği uygulanır, kayıt defteri optimize edilir.</p><p>Ağ bağlantı sorunlarında DNS ayarları kontrol edilir, IP yapılandırmaları düzeltilir, güvenlik duvarı kuralları gözden geçirilir. Yazılım uyumluluk problemlerinde sürüm çakışmaları çözülür, bağımlılıklar kurulur. Veri yedekleme sistemleri yapılandırılır ve test edilir.</p><h2>Hız ve Verimlilik</h2><p>Ortalama müdahale süresi 15-45 dakikadır. Basit sorunlar 10 dakika içinde çözülebilir. Karmaşık sistemsel problemler için maksimum 2 saat süre ayrılır. İşlem sonrası detaylı rapor hazırlanır, yapılan değişiklikler listelenir. 7 gün boyunca aynı sorun için ücretsiz tekrar müdahale garanti edilir.",
+    "features": [
+      "Güvenli şifreli bağlantı",
+      "15-45 dakika ortalama müdahale süresi",
+      "Yazılım ve sistem optimizasyonu",
+      "Virüs temizleme ve güvenlik",
+      "Ağ sorunları giderme",
+      "7 gün ücretsiz tekrar destek"
+    ],
     "seo": {
-      "title": "Uzaktan Teknik Destek",
-      "description": "",
+      "title": "Uzaktan Teknik Destek | Hızlı Bilgisayar Yardımı",
+      "description": "Güvenli uzaktan bağlantı ile bilgisayar sorunlarınızı 15-45 dakikada çözüyoruz. Yazılım, virüs temizleme, sistem optimizasyonu. 7 gün garanti.",
       "keywords": [
-        ""
+        "uzaktan bilgisayar desteği",
+        "online teknik yardım",
+        "uzaktan virüs temizleme",
+        "sistem optimizasyonu",
+        "bilgisayar yavaşlığı çözümü"
       ]
     }
   },
   {
-    "id": "seo",
+    "id": "kurumsal-it-destek",
     "name": "Kurumsal IT Destek",
     "slug": "kurumsal-it-destek",
-    "description": "...",
+    "description": "İşletmeniz için kapsamlı IT altyapı yönetimi ve 7/24 teknik destek hizmeti.",
     "icon": "search",
     "featured": true,
-    "content": "<p>...</p>",
-    "features": [],
+    "content": "<p>Kurumsal düzeyde bilişim altyapısı yönetimi, stratejik planlama ve operasyonel mükemmellik gerektirir. IT destek hizmetimiz, işletmenizin teknoloji ihtiyaçlarını bütünsel bir yaklaşımla ele alır. Proaktif izleme sistemleri sayesinde potansiyel sorunlar önceden tespit edilir, reaktif müdahaleler minimize edilir. Deneyimli IT ekibimiz, işletme süreçlerinizin kesintisiz devamını garanti eder.</p><h2>Kapsamlı Altyapı Yönetimi</h2><p>Sunucu sistemleri 7/24 izlenir, performans metrikleri anlık takip edilir. Disk kullanımı, CPU yükü, bellek tüketimi ve ağ trafiği sürekli kontrol altındadır. Kritik eşik değerlere yaklaşıldığında otomatik uyarı sistemleri devreye girer. Yedekleme süreçleri günlük olarak çalıştırılır, veri bütünlüğü doğrulanır. Disaster recovery planları hazırlanır ve periyodik olarak test edilir.</p><p>Ağ altyapısında güvenlik duvarı kuralları düzenli güncellenir, VPN bağlantıları yapılandırılır, VLAN segmentasyonu uygulanır. Active Directory yönetiminde kullanıcı hesapları organize edilir, grup politikaları tanımlanır, erişim yetkileri kontrol edilir. E-posta sunucuları için spam filtreleme, virüs tarama ve arşivleme sistemleri kurulur.</p><h2>Proaktif Bakım ve Optimizasyon</h2><p>Aylık bakım rutinlerinde sistem güncellemeleri planlanır, güvenlik yamaları uygulanır, performans raporları hazırlanır. Donanım envanteri tutulur, garanti süreleri takip edilir, yenileme ihtiyaçları önceden belirlenir. Yazılım lisansları yönetilir, uyumluluk denetimleri yapılır. Kapasite planlaması ile gelecek ihtiyaçlar öngörülür.</p><h2>SLA ve Garanti</h2><p>Hizmet seviyesi anlaşması kapsamında müdahale süreleri garanti edilir. Kritik sorunlarda 2 saat, yüksek öncelikli taleplerde 4 saat, normal isteklerde 8 saat içinde yanıt verilir. Aylık uptime oranı %99.5 olarak taahhüt edilir. Özel hesap yöneticisi atanır, aylık toplantılarla raporlama yapılır.",
+    "features": [
+      "7/24 proaktif sistem izleme",
+      "Sunucu ve ağ altyapısı yönetimi",
+      "Günlük otomatik yedekleme",
+      "2 saat kritik müdahale garantisi",
+      "%99.5 uptime taahhüdü",
+      "Özel hesap yöneticisi"
+    ],
     "seo": {
-      "title": "Kurumsal IT Destek",
-      "description": "",
+      "title": "Kurumsal IT Destek | 7/24 Bilişim Altyapı Yönetimi",
+      "description": "İşletmeniz için kapsamlı IT destek. 7/24 izleme, sunucu yönetimi, ağ altyapısı, yedekleme. 2 saat müdahale garantisi, %99.5 uptime taahhüdü.",
       "keywords": [
-        ""
+        "kurumsal IT destek",
+        "sunucu yönetimi",
+        "ağ altyapısı hizmeti",
+        "7/24 teknik destek",
+        "IT outsourcing"
       ]
     }
   },
   {
-    "id": "geo",
+    "id": "bireysel-hizmetler",
     "name": "Bireysel Hizmetler",
     "slug": "bireysel-hizmetler",
-    "description": "...",
+    "description": "Ev kullanıcıları için özel bilgisayar tamiri, kurulum ve danışmanlık hizmetleri.",
     "icon": "map-pin",
     "featured": false,
-    "content": "<p>...</p>",
-    "features": [],
+    "content": "<p>Ev ortamında kullanılan bilgisayar sistemleri, günlük yaşamın vazgeçilmez parçası haline gelmiştir. Bireysel hizmet paketimiz, ev kullanıcılarının teknik ihtiyaçlarına özel çözümler sunar. Masaüstü ve dizüstü bilgisayarlar, tablet cihazlar, akıllı TV'ler ve ev ağ sistemleri hizmet kapsamımızdadır. Her müdahale, kullanıcı dostu bir yaklaşımla gerçekleştirilir ve teknik detaylar anlaşılır şekilde açıklanır.</p><h2>Donanım Tamir ve Yükseltme</h2><p>Bilgisayar yavaşlığı sorunlarında RAM kapasitesi artırılır, HDD diskler SSD'ye dönüştürülür, sistem performansı optimize edilir. Ekran kırılmaları, klavye arızaları, batarya problemleri profesyonel ekipmanlarla giderilir. Güç kaynağı değişimleri, fan temizlikleri, termal macun yenilemeleri yapılır. Grafik kartı yükseltmeleri için uyumluluk analizi yapılır, en uygun seçenekler önerilir.</p><p>Laptop ekran menteşe onarımları, şarj soketi değişimleri, anakart seviye tamirler gerçekleştirilir. Gaming bilgisayarlar için özel soğutma sistemleri kurulur, RGB aydınlatma yapılandırılır. Eski bilgisayarların modernizasyonunda maliyet-fayda analizi sunulur, yatırım kararları desteklenir.</p><h2>Yazılım ve Sistem Kurulumları</h2><p>İşletim sistemi kurulumlarında Windows, macOS ve Linux dağıtımları desteklenir. Sürücü güncellemeleri otomatik yapılandırılır, sistem optimizasyonları uygulanır. Ofis yazılımları, multimedya programları, oyun platformları kurulur ve yapılandırılır. Antivirüs çözümleri önerilir, güvenlik duvarı ayarları optimize edilir.</p><h2>Veri Kurtarma ve Yedekleme</h2><p>Silinmiş dosya kurtarma işlemlerinde özel yazılımlar kullanılır, başarı oranı %85 civarındadır. Format atılmış disklerde veri kurtarma mümkündür. Fiziksel hasarlı disklerde durum değerlendirmesi yapılır, kurtarma ihtimali bildirilir. Bulut yedekleme sistemleri kurulur, otomatik senkronizasyon ayarlanır.",
+    "features": [
+      "Laptop ve masaüstü tamir",
+      "SSD yükseltme ve performans artırma",
+      "İşletim sistemi kurulum ve optimizasyon",
+      "Veri kurtarma hizmeti",
+      "Ev ağı kurulumu",
+      "Uygun fiyat garantisi"
+    ],
     "seo": {
-      "title": "Bireysel Hizmetler",
-      "description": "",
+      "title": "Bireysel Bilgisayar Hizmetleri | Ev Kullanıcıları İçin Tamir",
+      "description": "Ev kullanıcıları için bilgisayar tamiri, SSD yükseltme, veri kurtarma, sistem kurulumu. Uygun fiyat, hızlı servis, 30 gün garanti.",
       "keywords": [
-        ""
+        "bilgisayar tamiri",
+        "laptop ekran değişimi",
+        "SSD yükseltme",
+        "veri kurtarma",
+        "ev bilgisayar servisi"
       ]
     }
   },
   {
-    "id": "e-ticaret",
+    "id": "kurumsal-hizmetler",
     "name": "Kurumsal Hizmetler",
     "slug": "kurumsal-hizmetler",
-    "description": "...",
+    "description": "Ofis ve işletmeler için özel bilgisayar altyapısı, ağ çözümleri ve toplu servis hizmetleri.",
     "icon": "shopping-cart",
     "featured": true,
-    "content": "<p>...</p>",
-    "features": [],
+    "content": "<p>Kurumsal ölçekte faaliyet gösteren işletmelerin IT ihtiyaçları, bireysel kullanıcılardan köklü farklılıklar taşır. Çok sayıda çalışan, karmaşık ağ yapıları, kritik veri güvenliği ve kesintisiz hizmet gereksinimleri profesyonel yaklaşım gerektirir. Kurumsal hizmet paketimiz, ofis ortamlarının teknik altyapısını bütünsel olarak yönetir. 5 kişilik küçük ofislerden 100+ çalışanlı kuruluşlara kadar öleklenebilir çözümler sunulur.</p><h2>Ofis Altyapısı Kurulumu</h2><p>Yeni ofis açılışlarında komple IT altyapısı projelendirilir. Ağ topolojisi tasarlanır, kablolama şeması oluşturulur, patch panel düzeni belirlenir. Switch ve router seçimi yapılır, VLAN segmentasyonu uygulanır, QoS politikaları tanımlanır. Wi-Fi kapsama alanı analiz edilir, access point konumları optimize edilir, güvenli kablosuz ağ yapılandırılır.</p><p>Sunucu odası kurulumlarında rack sistemleri monte edilir, UPS çözümleri entegre edilir, soğutma sistemleri planlanır. Dosya sunucusu, print sunucusu, domain controller yapılandırmaları tamamlanır. E-posta sunucusu kurulur, spam filtreleme aktif edilir, arşivleme sistemi devreye alınır. VPN altyapısı ile uzaktan erişim saılanır.</p><h2>Toplu Bilgisayar Yönetimi</h2><p>Çok sayıda bilgisayarın merkezi yönetimi için Active Directory altyapısı kurulur. Grup politikaları ile standart yapılandırmalar uygulanır, güvenlik ayarları merkezi kontrol edilir. Yazılım dağıtım sistemleri ile güncellemeler otomatik yayınlanır. Envanter yönetimi ile donanım ve yazılım lisansları takip edilir.</p><p>Toplu bilgisayar alımlarında ön yapılandırma hizmeti sunulur. İşletim sistemi kurulumu, sürücü yüklemeleri, ofis yazılımları kurulumu toplu olarak gerçekleştirilir. Kullanıcı hesapları önceden tanımlanır, ağ ayarları otomatik yapılandırılır. Cihazlar kullanıma hazır şekilde teslim edilir.</p><h2>Bakım ve Destek Paketleri</h2><p>Aylık bakım sözleşmeleri ile düzenli kontroller yapılır. Çeyrekte bir kez tüm sistemler gözden geçirilir, performans raporları sunulur. Arıza durumlarında öncelikli müdahale garanti edilir. Yedek parça stoku tutulur, hızlı değişim sağlanır. Teknoloji yenileme dönemlerinde danışmanlık verilir, bütçe planlamaları desteklenir.",
+    "features": [
+      "Komple ofis IT altyapısı kurulumu",
+      "Ağ topolojisi tasarım ve uygulama",
+      "Toplu bilgisayar yönetimi",
+      "Active Directory ve grup politikaları",
+      "Aylık bakım sözleşmeleri",
+      "Öncelikli müdahale garantisi"
+    ],
     "seo": {
-      "title": "Kurumsal Hizmetler",
-      "description": "",
+      "title": "Kurumsal Bilgisayar Hizmetleri | Ofis IT Altyapısı",
+      "description": "Ofis ve işletmeler için komple IT altyapısı, ağ kurulumu, toplu bilgisayar yönetimi. Active Directory, sunucu kurulumu, bakım paketleri.",
       "keywords": [
-        ""
+        "ofis IT altyapısı",
+        "kurumsal ağ kurulumu",
+        "toplu bilgisayar yönetimi",
+        "Active Directory",
+        "ofis sunucu kurulumu"
       ]
     }
   },
   {
-    "id": "domain-hosting",
+    "id": "hizli-mudahale-hizmetleri",
     "name": "Hızlı Müdahale Hizmetleri",
     "slug": "hizli-mudahale-hizmetleri",
-    "description": "...",
+    "description": "Acil durumlarda 7/24 hızlı müdahale, kritik sistem kurtarma ve anlık teknik destek.",
     "icon": "server",
     "featured": false,
-    "content": "<p>...</p>",
-    "features": [],
+    "content": "<p>Teknolojik sistemlerde beklenmedik arızalar, iş sürekliğini tehdit eden kritik durumlar yaratabilir. Hızlı müdahale hizmetimiz, bu acil senaryolar için tasarlanmış özel bir çözümdür. 7 gün 24 saat ulaşılabilir ekibimiz, kritik arıza bildirimleri sonrası anlık harekete geçer. İstanbul genelinde 1-2 saat, Kocaeli'de 2-3 saat, Sakarya'da 2-4 saat içinde yerinde müdahale garantisi verilir. Hafta sonları ve resmi tatil günlerinde de kesintisiz hizmet devam eder.</p><h2>Kritik Sistem Kurtarma</h2><p>Sunucu çökmeleri en yüksek öncelikli kategoridir. Donanım arızalarında yedek parça stokumuzdan anlık tedarik sağlanır. Disk arızalarında RAID yapılandırmaları yeniden inşa edilir, veri bütünlüğü kontrol edilir. İşletim sistemi boot problemlerinde recovery mod üzerinden müdahale yapılır, sistem dosyaları onarılır. Yedekten geri yükleme işlemleri hızlandırılmış protokollerle gerçekleştirilir.</p><p>Ağ kesintilerinde fiziksel bağlantılar test edilir, switch ve router yapılandırmaları kontrol edilir. DHCP sunucu sorunları, DNS çözümleme hatalı, routing problemleri anlık giderilir. Güvenlik duvarı kural çakışmaları düzeltilir, VPN bağlantıları yeniden kurulur. Kritik iş uygulamalarının erişilebilirliği önceliklendirilir.</p><h2>Veri Kaybı Acil Müdahale</h2><p>Veri kaybı senaryolarında ilk 24 saat kritiktir. Silinme veya format işlemlerinden hemen sonra müdahale edildiğinde kurtarma şansı maksimize olur. Disk üzerine yeni veri yazılması engellenir, sistem güvenli moda alınır. Özel kurtarma yazılımları ile tarama başlatılır, bulunan dosyalar harici ortama aktarılır. Fiziksel disk hasarlarında laboratuvar ortamında ileri seviye müdahale yapılır.</p><h2>Fiyatlandırma ve Garanti</h2><p>Acil müdahale hizmeti için standart ücretlere %50 ek ücret uygulanır. Kritik durumlarda ön ödeme alınmaz, işlem sonrası faturalama yapılır. Kurumsal müşteriler için yıllık acil destek paketleri mevcuttur. Müdahale sonrası 15 gün garanti kapsamı uygulanır, aynı sorun tekrarlandığında ücretsiz müdahale yapılır.",
+    "features": [
+      "7/24 acil müdahale hizmeti",
+      "1-2 saat içinde yerinde ulaşım",
+      "Kritik sunucu kurtarma",
+      "Acil veri kurtarma",
+      "Hafta sonu ve tatil günleri hizmet",
+      "15 gün garanti kapsamı"
+    ],
     "seo": {
-      "title": "Hızlı Müdahale Hizmetleri",
-      "description": "",
+      "title": "Hızlı Müdahale Hizmetleri | 7/24 Acil Bilgisayar Tamiri",
+      "description": "7/24 acil bilgisayar tamiri ve teknik destek. Sunucu çökmesi, ağ kesintisi, veri kaybı durumlarında 1-2 saat içinde müdahale. Hafta sonu hizmet.",
       "keywords": [
-        ""
+        "acil bilgisayar tamiri",
+        "7/24 teknik destek",
+        "sunucu kurtarma",
+        "acil veri kurtarma",
+        "hızlı müdahale servisi"
       ]
     }
   }

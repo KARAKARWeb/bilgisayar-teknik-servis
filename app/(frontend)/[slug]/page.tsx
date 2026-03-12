@@ -193,6 +193,59 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                         const afterFirstP = content.substring(firstParagraphEnd);
                         
                         const regionNameWithoutMahallesi = region.name.replace(' Mahallesi', '');
+                        
+                        // İçerikten başlıkları çıkar ve TOC oluştur
+                        const h2Matches = content.match(/<h2>(.+?)<\/h2>/g) || [];
+                        const h3Matches = content.match(/<h3>(.+?)<\/h3>/g) || [];
+                        
+                        const tocItems: Array<{text: string, id: string, isH3: boolean}> = [];
+                        
+                        h2Matches.forEach(h2 => {
+                          const text = h2.replace(/<\/?h2>/g, '');
+                          const id = text
+                            .toLowerCase()
+                            .replace(/\s+/g, '-')
+                            .replace(/[^a-z0-9-ığüşöçİĞÜŞÖÇ]/g, '')
+                            .replace(/ı/g, 'i')
+                            .replace(/ğ/g, 'g')
+                            .replace(/ü/g, 'u')
+                            .replace(/ş/g, 's')
+                            .replace(/ö/g, 'o')
+                            .replace(/ç/g, 'c')
+                            .replace(/İ/g, 'i')
+                            .replace(/Ğ/g, 'g')
+                            .replace(/Ü/g, 'u')
+                            .replace(/Ş/g, 's')
+                            .replace(/Ö/g, 'o')
+                            .replace(/Ç/g, 'c');
+                          tocItems.push({ text, id, isH3: false });
+                        });
+                        
+                        h3Matches.forEach(h3 => {
+                          const text = h3.replace(/<\/?h3>/g, '');
+                          const id = text
+                            .toLowerCase()
+                            .replace(/\s+/g, '-')
+                            .replace(/[^a-z0-9-ığüşöçİĞÜŞÖÇ]/g, '')
+                            .replace(/ı/g, 'i')
+                            .replace(/ğ/g, 'g')
+                            .replace(/ü/g, 'u')
+                            .replace(/ş/g, 's')
+                            .replace(/ö/g, 'o')
+                            .replace(/ç/g, 'c')
+                            .replace(/İ/g, 'i')
+                            .replace(/Ğ/g, 'g')
+                            .replace(/Ü/g, 'u')
+                            .replace(/Ş/g, 's')
+                            .replace(/Ö/g, 'o')
+                            .replace(/Ç/g, 'c');
+                          tocItems.push({ text, id, isH3: true });
+                        });
+                        
+                        const tocLinks = tocItems.map(item => 
+                          `<a href="#${item.id}" class="block text-sm ${item.isH3 ? 'text-gray-700 pl-4' : 'font-medium text-gray-900'} hover:text-[#006bff] transition-colors">${item.text}</a>`
+                        ).join('\n                              ');
+                        
                         const toc = `
                           <div class="my-8 rounded-lg border border-gray-200 bg-gray-50 p-6 not-prose">
                             <div class="flex items-center gap-2 mb-4">
@@ -200,62 +253,53 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                               <div class="text-lg font-bold text-black">İçindekiler</div>
                             </div>
                             <nav class="space-y-2">
-                              <a href="#kurumsal-web-tasarim" class="block text-sm font-medium text-gray-900 hover:text-[#006bff] transition-colors">${regionNameWithoutMahallesi} Kurumsal Web Tasarım</a>
-                              <a href="#web-sitesi-tasarimi" class="block text-sm text-gray-700 hover:text-[#006bff] transition-colors pl-4">${regionNameWithoutMahallesi} Web Sitesi Tasarımı</a>
-                              <a href="#web-yazilim" class="block text-sm font-medium text-gray-900 hover:text-[#006bff] transition-colors">${regionNameWithoutMahallesi} Web Yazılım</a>
-                              <a href="#seo" class="block text-sm font-medium text-gray-900 hover:text-[#006bff] transition-colors">${regionNameWithoutMahallesi} SEO</a>
-                              <a href="#geo" class="block text-sm font-medium text-gray-900 hover:text-[#006bff] transition-colors">${regionNameWithoutMahallesi} GEO</a>
-                              <a href="#e-ticaret" class="block text-sm font-medium text-gray-900 hover:text-[#006bff] transition-colors">${regionNameWithoutMahallesi} E-Ticaret</a>
-                              <a href="#domain-hosting" class="block text-sm font-medium text-gray-900 hover:text-[#006bff] transition-colors">${regionNameWithoutMahallesi} Domain ve Hosting</a>
-                              <a href="#kurumsal-e-posta" class="block text-sm text-gray-700 hover:text-[#006bff] transition-colors pl-4">${regionNameWithoutMahallesi} Kurumsal E-Posta</a>
-                              <a href="#bolge-konum" class="block text-sm font-medium text-gray-900 hover:text-[#006bff] transition-colors">${regionNameWithoutMahallesi}, ${region.city} / ${region.district}</a>
+                              ${tocLinks}
                             </nav>
                           </div>
                         `;
                         
                         let modifiedContent = beforeFirstP + toc + afterFirstP;
                         
-                        modifiedContent = modifiedContent.replace(
-                          /<h2>(.+?) Kurumsal Web Tasarım<\/h2>/,
-                          '<h2 id="kurumsal-web-tasarim">$1 Kurumsal Web Tasarım</h2>'
-                        );
-                        modifiedContent = modifiedContent.replace(
-                          /<h2>(.+?) Web Yazılım<\/h2>/,
-                          '<h2 id="web-yazilim">$1 Web Yazılım</h2>'
-                        );
-                        modifiedContent = modifiedContent.replace(
-                          /<h2>(.+?) SEO<\/h2>/,
-                          '<h2 id="seo">$1 SEO</h2>'
-                        );
-                        modifiedContent = modifiedContent.replace(
-                          /<h2>(.+?) GEO - Generative Engine Optimization<\/h2>/,
-                          '<h2 id="geo">$1 GEO - Generative Engine Optimization</h2>'
-                        );
-                        modifiedContent = modifiedContent.replace(
-                          /<h2>(.+?) E-Ticaret<\/h2>/,
-                          '<h2 id="e-ticaret">$1 E-Ticaret</h2>'
-                        );
-                        modifiedContent = modifiedContent.replace(
-                          /<h2>(.+?) Domain ve Hosting<\/h2>/,
-                          '<h2 id="domain-hosting">$1 Domain ve Hosting</h2>'
-                        );
+                        // Tüm H2 ve H3 başlıklarına dinamik ID ekle
+                        modifiedContent = modifiedContent.replace(/<h2>(.+?)<\/h2>/g, (match, text) => {
+                          const id = text
+                            .toLowerCase()
+                            .replace(/\s+/g, '-')
+                            .replace(/[^a-z0-9-ığüşöçİĞÜŞÖÇ]/g, '')
+                            .replace(/ı/g, 'i')
+                            .replace(/ğ/g, 'g')
+                            .replace(/ü/g, 'u')
+                            .replace(/ş/g, 's')
+                            .replace(/ö/g, 'o')
+                            .replace(/ç/g, 'c')
+                            .replace(/İ/g, 'i')
+                            .replace(/Ğ/g, 'g')
+                            .replace(/Ü/g, 'u')
+                            .replace(/Ş/g, 's')
+                            .replace(/Ö/g, 'o')
+                            .replace(/Ç/g, 'c');
+                          return `<h2 id="${id}">${text}</h2>`;
+                        });
                         
-                        // H3'lere ID ekle
-                        modifiedContent = modifiedContent.replace(
-                          /<h3>(.+?) Web Sitesi Tasarımı<\/h3>/,
-                          '<h3 id="web-sitesi-tasarimi">$1 Web Sitesi Tasarımı</h3>'
-                        );
-                        modifiedContent = modifiedContent.replace(
-                          /<h3>(.+?) Kurumsal E-Posta<\/h3>/,
-                          '<h3 id="kurumsal-e-posta">$1 Kurumsal E-Posta</h3>'
-                        );
-                        
-                        // Son başlık - Bölge, Şehir / İlçe (dinamik)
-                        const locationPattern = new RegExp(`<h2>(.+?), ${region.city} \\/ ${region.district}<\\/h2>`);
-                        modifiedContent = modifiedContent.replace(
-                          locationPattern,
-                          `<h2 id="bolge-konum">$1, ${region.city} / ${region.district}</h2>`
-                        );
+                        modifiedContent = modifiedContent.replace(/<h3>(.+?)<\/h3>/g, (match, text) => {
+                          const id = text
+                            .toLowerCase()
+                            .replace(/\s+/g, '-')
+                            .replace(/[^a-z0-9-ığüşöçİĞÜŞÖÇ]/g, '')
+                            .replace(/ı/g, 'i')
+                            .replace(/ğ/g, 'g')
+                            .replace(/ü/g, 'u')
+                            .replace(/ş/g, 's')
+                            .replace(/ö/g, 'o')
+                            .replace(/ç/g, 'c')
+                            .replace(/İ/g, 'i')
+                            .replace(/Ğ/g, 'g')
+                            .replace(/Ü/g, 'u')
+                            .replace(/Ş/g, 's')
+                            .replace(/Ö/g, 'o')
+                            .replace(/Ç/g, 'c');
+                          return `<h3 id="${id}">${text}</h3>`;
+                        });
                         
                         return modifiedContent;
                       })()
