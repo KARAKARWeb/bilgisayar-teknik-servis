@@ -62,7 +62,7 @@ export function FAQListClient({ faqs: initialFaqs }: { faqs: any[] }) {
     }
   }
 
-  const categories = Array.from(new Set(faqs.map(f => f.category)))
+  const categories = Array.from(new Set(faqs.map(f => f.category).filter(Boolean)))
 
   const filteredFaqs = faqs.filter(faq => {
     const matchesSearch = faq.question.toLowerCase().includes(searchTerm.toLowerCase()) ||
