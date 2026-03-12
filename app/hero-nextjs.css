@@ -1,0 +1,408 @@
+/* Next.js.org Intro Module - Real CSS Extracted */
+
+:root {
+  --line-width: 1px;
+  --line-gap: 4px;
+  --line-offset: 0px;
+  --line-fade-stop: 0%;
+  --line-opacity: 0.3;
+  --accents-5: #666666;  /* EXACT from Next.js.org */
+  --accents-8: #171717;  /* EXACT - gray-1000 */
+  --geist-background: #ffffff;
+  --letter-spacing-1: -0.01em;
+  
+  /* Vercel Design System - EXACT (LAB converted) */
+  --ds-background-100: #ffffff;
+  --ds-gray-100: #f2f2f2;  /* LAB converted EXACT */
+  --ds-gray-200: #ebebeb;  /* LAB converted EXACT */
+  --ds-gray-400: #eaeaea;  /* LAB converted EXACT */
+  --ds-gray-700: #8f8f8f;  /* LAB converted EXACT */
+  --ds-gray-900: #666666;  /* LAB converted EXACT */
+  --ds-gray-1000: #171717; /* LAB converted EXACT */
+  --ds-gray-alpha-200: rgba(0, 0, 0, 0.05);
+  --ds-focus-ring: 0 0 0 2px var(--ds-background-100), 0 0 0 4px #0070f3;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+.intro-module__l-DIkW__root {
+  --root-padding: 0px;
+  --a-duration: 1.08s;
+  --a-duration-half: calc(var(--a-duration) / 2);
+  --a-delay: .15s;
+  --a-easing: cubic-bezier(.645, .045, .355, 1);
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  min-height: 640px;
+  padding: 65px 0;
+  isolation: isolate;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__gridLineTop:before,
+.intro-module__l-DIkW__root .intro-module__l-DIkW__gridLineBottom:after,
+.intro-module__l-DIkW__root .intro-module__l-DIkW__gridContainerLine {
+  --line-color: rgba(0, 0, 0, calc(var(--line-opacity) * 3));
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__gridLineTop:before {
+  width: 0%;
+  animation-name: intro-module__l-DIkW__width;
+  animation-duration: var(--a-duration);
+  animation-timing-function: var(--a-easing);
+  animation-fill-mode: forwards;
+  animation-delay: var(--a-delay);
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__gridLineBottom:after {
+  width: 0%;
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__title.intro-module__l-DIkW__gridLineBottom:after {
+  animation-name: intro-module__l-DIkW__width;
+  animation-duration: var(--a-duration);
+  animation-timing-function: var(--a-easing);
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--a-delay) + .1s);
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__subtitle.intro-module__l-DIkW__gridLineBottom:after {
+  animation-name: intro-module__l-DIkW__width;
+  animation-duration: var(--a-duration);
+  animation-timing-function: var(--a-easing);
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--a-delay) + .2s);
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__footer.intro-module__l-DIkW__gridLineBottom:after {
+  animation-name: intro-module__l-DIkW__width;
+  animation-duration: var(--a-duration);
+  animation-timing-function: var(--a-easing);
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--a-delay) + .3s);
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__intro>.intro-module__l-DIkW__gridContainerLine[data-side=left],
+.intro-module__l-DIkW__root .intro-module__l-DIkW__intro>.intro-module__l-DIkW__gridContainerLine[data-side=right] {
+  height: 0%;
+  animation-name: intro-module__l-DIkW__heightOffset;
+  animation-duration: var(--a-duration);
+  animation-timing-function: var(--a-easing);
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--a-delay) + .1s);
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__header .intro-module__l-DIkW__gridContainerLine {
+  height: 0%;
+  animation-name: intro-module__l-DIkW__height;
+  animation-duration: var(--a-duration-half);
+  animation-timing-function: var(--a-easing);
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--a-delay) + .1s);
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__buttons .intro-module__l-DIkW__gridContainerLine {
+  height: 0%;
+  animation-name: intro-module__l-DIkW__heightOffset;
+  animation-duration: var(--a-duration);
+  animation-timing-function: var(--a-easing);
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--a-delay) + .1s);
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__gridCircle {
+  opacity: 0;
+  animation-name: intro-module__l-DIkW__opacity;
+  animation-duration: var(--a-duration-half);
+  animation-timing-function: var(--a-easing);
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--a-delay) + .4s);
+}
+
+.intro-module__l-DIkW__root .intro-module__l-DIkW__buttons .intro-module__l-DIkW__gridCircle {
+  animation-delay: calc(var(--a-delay) + .8s);
+}
+
+@keyframes intro-module__l-DIkW__width {
+  0% { opacity: 1; }
+  to { width: calc(100% + var(--line-offset)); opacity: .3; }
+}
+
+@keyframes intro-module__l-DIkW__heightOffset {
+  0% { opacity: 1; }
+  to { height: calc(100% + var(--line-offset)); opacity: .3; }
+}
+
+@keyframes intro-module__l-DIkW__height {
+  0% { opacity: 1; }
+  to { opacity: .3; height: 100%; }
+}
+
+@keyframes intro-module__l-DIkW__opacity {
+  to { opacity: 1; }
+}
+
+.intro-module__l-DIkW__header {
+  padding: 32px;
+  position: relative;
+}
+
+.intro-module__l-DIkW__title {
+  letter-spacing: -.05em;
+  padding: 24px;
+  font-size: max(48px, min(5vw, 76px));
+  font-weight: 600;
+  line-height: 1;
+  position: relative;
+}
+
+.intro-module__l-DIkW__title .intro-module__l-DIkW__gridCircle,
+.intro-module__l-DIkW__break {
+  display: none;
+}
+
+.intro-module__l-DIkW__intro {
+  position: relative;
+}
+
+.intro-module__l-DIkW__subtitle {
+  color: #666666;
+  letter-spacing: var(--letter-spacing-1);
+  background: var(--geist-background);
+  z-index: 1;
+  width: calc(100% - var(--line-width) * 2);
+  left: var(--line-width);
+  padding: 40px 32px;
+  font-size: max(16px, min(2vw, 20px));
+  font-weight: 400;
+  line-height: 1.8;
+  position: relative;
+}
+
+.intro-module__l-DIkW__subtitle strong {
+  color: var(--accents-8);
+  font-weight: 500;
+}
+
+.intro-module__l-DIkW__subtitle p {
+  max-width: 750px;
+  margin: 0 auto;
+  color: #666666;
+}
+
+.intro-module__l-DIkW__footer {
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.intro-module__l-DIkW__footer a {
+  white-space: nowrap;
+}
+
+.intro-module__l-DIkW__buttons {
+  height: 100%;
+  padding: 40px;
+  position: relative;
+}
+
+.intro-module__l-DIkW__copy {
+  text-align: left;
+  width: fit-content;
+  font-family: var(--font-mono);
+  color: var(--accents-5);
+  cursor: copy;
+  background: transparent;
+  border: 0;
+  border-radius: 9999px;
+  align-items: center;
+  padding: 0 12px;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  position: relative;
+}
+
+.intro-module__l-DIkW__copy:focus-visible {
+  box-shadow: var(--ds-focus-ring);
+  outline: 0;
+}
+
+.intro-module__l-DIkW__copy:focus-visible svg {
+  opacity: 1;
+  transition: none;
+  right: -28px;
+}
+
+.intro-module__l-DIkW__copy:hover svg {
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.intro-module__l-DIkW__copy svg {
+  opacity: 0;
+  position: absolute;
+  right: -16px;
+}
+
+.intro-module__l-DIkW__copy svg[data-open=false] {
+  opacity: 0;
+}
+
+.intro-module__l-DIkW__gridLineTop:before,
+.intro-module__l-DIkW__gridLineBottom:after {
+  content: "";
+  width: calc(100% + var(--line-offset));
+  left: calc(var(--line-offset) / 2 * -1);
+  height: var(--line-width);
+  background: linear-gradient(to right, var(--line-color), var(--line-color) 50%, transparent 0, transparent);
+  background-size: var(--line-gap) var(--line-width);
+  -webkit-mask: linear-gradient(to left, var(--geist-background) var(--line-fade-stop), transparent),
+    linear-gradient(to right, var(--geist-background) var(--line-fade-stop), transparent),
+    linear-gradient(black, black);
+  -webkit-mask-composite: destination-in;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  position: absolute;
+}
+
+.intro-module__l-DIkW__gridLineTop:before {
+  top: 0;
+}
+
+.intro-module__l-DIkW__gridLineBottom:after {
+  bottom: -.1px;
+}
+
+.intro-module__l-DIkW__gridContainerLine {
+  width: var(--line-width);
+  background: linear-gradient(180deg, var(--line-color), var(--line-color) 50%, transparent 0, transparent);
+  background-size: var(--line-width) var(--line-gap);
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.intro-module__l-DIkW__gridContainerLine[data-side=left] {
+  left: 0;
+}
+
+.intro-module__l-DIkW__gridContainerLine[data-side=right] {
+  right: 0;
+}
+
+.intro-module__l-DIkW__gridContainerLine[data-offset] {
+  height: calc(100% + var(--line-offset));
+  top: calc(var(--line-offset) / 2 * -1);
+}
+
+.intro-module__l-DIkW__gridContainerLine[data-fade=true] {
+  -webkit-mask-composite: destination-in;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  -webkit-mask: linear-gradient(to top, var(--geist-background) var(--line-fade-stop), transparent),
+    linear-gradient(to bottom, var(--geist-background) var(--line-fade-stop), transparent),
+    linear-gradient(black, black);
+}
+
+.intro-module__l-DIkW__gridContainerLine[data-fade=top] {
+  -webkit-mask: linear-gradient(to top, var(--geist-background) var(--line-fade-stop), transparent);
+}
+
+.intro-module__l-DIkW__gridContainerLine[data-fade=bottom] {
+  -webkit-mask: linear-gradient(to bottom, var(--geist-background) var(--line-fade-stop), transparent);
+}
+
+.intro-module__l-DIkW__gridCircle {
+  --size: 73px;
+  --offset: 0px;
+  width: var(--size);
+  height: var(--size);
+  z-index: 2;
+  position: absolute;
+}
+
+.intro-module__l-DIkW__gridCircle[data-side=top-left] {
+  top: calc(var(--size) / 2 * -1);
+  left: calc(var(--size) / 2 * -1 + var(--offset));
+}
+
+.intro-module__l-DIkW__gridCircle[data-side=bottom-right] {
+  bottom: calc(var(--size) / 2 * -1);
+  right: calc(var(--size) / 2 * -1 + var(--offset));
+  transform: rotate(180deg);
+}
+
+@media (max-width: 890px) {
+  .intro-module__l-DIkW__root {
+    margin-top: 0;
+    padding: 65px 0;
+    min-height: 600px;
+  }
+
+  .intro-module__l-DIkW__header {
+    padding: 24px;
+  }
+
+  /* Title circle zaten görünür */
+
+  .intro-module__l-DIkW__subtitle {
+    padding: 24px 32px;
+  }
+
+  /* Mobilde de line ve circle'lar görünsün */
+
+  .intro-module__l-DIkW__gridCircle {
+    --size: 24px;
+  }
+
+  .intro-module__l-DIkW__gridCircle path {
+    stroke-dasharray: 5 5;
+  }
+
+  .intro-module__l-DIkW__break {
+    display: block;
+  }
+}
+
+@media (max-width: 890px) {
+  .intro-module__l-DIkW__root {
+    min-height: 525px;
+    margin-top: 0;
+    padding: 40px 0;
+  }
+
+  .intro-module__l-DIkW__buttons {
+    padding: 24px;
+  }
+
+  .intro-module__l-DIkW__title {
+    font-size: max(40px, min(5vw, 76px));
+    line-height: 1.1;
+  }
+
+  .intro-module__l-DIkW__gridContainerLine[data-side=left] {
+    left: 16px;
+  }
+
+  .intro-module__l-DIkW__gridContainerLine[data-side=right] {
+    right: 16px;
+  }
+
+  .intro-module__l-DIkW__gridCircle {
+    --offset: 16px;
+  }
+
+  .intro-module__l-DIkW__subtitle {
+    background: transparent;
+  }
+
+  .intro-module__l-DIkW__subtitle p {
+    margin: 0 auto;
+  }
+}
+
+.dark-theme .intro-module__l-DIkW__gridCircle {
+  filter: invert();
+}

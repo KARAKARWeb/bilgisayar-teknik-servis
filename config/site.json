@@ -1,0 +1,28 @@
+{
+  "site": {
+    "name": "Bilgisayar Teknik Servis",
+    "domain": "bilgisayarteknikservis.com.tr",
+    "district": "",
+    "city": "İstanbul"
+  },
+  "contact": {
+    "phone": "0545 181 4040",
+    "email": "info@bilgisayarteknikservis.com.tr",
+    "whatsapp": "https://wa.me/905451814040?text=Merhaba",
+    "address": "Esenyalı Mah. Edebali Cad. No:13/A 34903 Pendik / İstanbul"
+  },
+  "seo": {
+    "metaTitle": "Bilgisayar Teknik Servis ve Tamir Servisi Destek Çözümleri",
+    "metaDescription": "",
+    "keywords": [
+      ""
+    ]
+  },
+  "analytics": {
+    "googleAnalytics": "",
+    "googleTagManager": ""
+  },
+  "searchConsole": {
+    "verificationCode": ""
+  }
+}

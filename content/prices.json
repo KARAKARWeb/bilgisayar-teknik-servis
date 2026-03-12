@@ -1,0 +1,127 @@
+[
+  {
+    "id": "starter",
+    "name": "Başlangıç",
+    "description": "Küçük işletmeler için ideal paket.",
+    "price": 12000,
+    "period": "tek seferlik",
+    "featured": false,
+    "features": [
+      "5 Sayfa",
+      "Responsive Tasarım",
+      "Temel SEO",
+      "SSL Sertifikası",
+      "İletişim Formu",
+      "Google Maps Entegrasyonu",
+      "1 Yıl Hosting",
+      "1 Yıl Domain",
+      "Temel Destek"
+    ],
+    "cta": {
+      "text": "Teklif Al",
+      "link": "/teklif-al"
+    },
+    "seo": {
+      "title": "Başlangıç Web Tasarım Paketi",
+      "description": "Küçük işletmeler için uygun fiyatlı web sitesi paketi",
+      "inStock": true
+    }
+  },
+  {
+    "id": "professional",
+    "name": "Profesyonel",
+    "description": "Orta ölçekli işletme paketi.",
+    "price": 24400,
+    "period": "tek seferlik",
+    "featured": true,
+    "features": [
+      "10 Sayfa",
+      "Özel Tasarım",
+      "Gelişmiş SEO",
+      "SSL Sertifikası",
+      "Blog Sistemi",
+      "İçerik Yönetim Paneli",
+      "Google Analytics",
+      "Sosyal Medya Entegrasyonu",
+      "1 Yıl Hosting",
+      "1 Yıl Domain",
+      "Öncelikli Destek"
+    ],
+    "cta": {
+      "text": "Teklif Al",
+      "link": "/teklif-al"
+    },
+    "seo": {
+      "title": "Profesyonel Web Tasarım Paketi",
+      "description": "Gelişmiş özelliklerle donatılmış profesyonel web sitesi paketi",
+      "inStock": true
+    }
+  },
+  {
+    "id": "business",
+    "name": "İşletme",
+    "description": "Büyüyen işletmeler için kapsamlı paket.",
+    "price": 38000,
+    "period": "tek seferlik",
+    "featured": false,
+    "features": [
+      "15 Sayfa",
+      "Premium Tasarım",
+      "Profesyonel SEO",
+      "SSL Sertifikası",
+      "Blog + Haber Sistemi",
+      "Gelişmiş Admin Paneli",
+      "Çoklu Dil Desteği",
+      "E-Bülten Sistemi",
+      "API Entegrasyonları",
+      "Google Analytics + Tag Manager",
+      "1 Yıl Hosting",
+      "1 Yıl Domain",
+      "7/24 Destek"
+    ],
+    "cta": {
+      "text": "Teklif Al",
+      "link": "/teklif-al"
+    },
+    "seo": {
+      "title": "İşletme Web Tasarım Paketi",
+      "description": "Büyüyen işletmeler için kapsamlı web sitesi çözümleri",
+      "inStock": true
+    }
+  },
+  {
+    "id": "enterprise",
+    "name": "Kurumsal",
+    "description": "Kurumsal firmalar için özel çözümler",
+    "price": 65000,
+    "period": "tek seferlik",
+    "featured": false,
+    "features": [
+      "Sınırsız Sayfa",
+      "Özel Kurumsal Tasarım",
+      "Kurumsal SEO Stratejisi",
+      "SSL Sertifikası",
+      "Gelişmiş CMS",
+      "Çoklu Dil + Çoklu Site",
+      "E-Ticaret Entegrasyonu",
+      "Özel API Geliştirme",
+      "Gelişmiş Analitik Dashboard",
+      "CDN + Performans Optimizasyonu",
+      "Güvenlik + Yedekleme",
+      "1 Yıl Premium Hosting",
+      "1 Yıl Domain",
+      "Özel Hesap Yöneticisi",
+      "7/24 Premium Destek"
+    ],
+    "cta": {
+      "text": "Teklif Al",
+      "link": "/teklif-al"
+    },
+    "seo": {
+      "title": "Kurumsal Web Tasarım Paketi",
+      "description": "Kurumsal firmalar için özel tasarlanmış web çözümleri",
+      "inStock": true,
+      "validUntil": "2026-12-31"
+    }
+  }
+]

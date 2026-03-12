@@ -1,0 +1,142 @@
+[
+  {
+    "id": "region-1773272577978",
+    "name": "İstanbul",
+    "slug": "istanbul",
+    "city": "İstanbul",
+    "geo": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "hero": {
+      "title": "",
+      "subtitle": ""
+    },
+    "content": {
+      "main": "",
+      "seo1": "",
+      "seo2": ""
+    },
+    "services": [],
+    "prices": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "region-1773272586795",
+    "name": "Kocaeli",
+    "slug": "kocaeli",
+    "city": "Kocaeli",
+    "geo": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "hero": {
+      "title": "",
+      "subtitle": ""
+    },
+    "content": {
+      "main": "",
+      "seo1": "",
+      "seo2": ""
+    },
+    "services": [],
+    "prices": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "region-1773272594722",
+    "name": "Sakarya",
+    "slug": "sakarya",
+    "city": "Sakarya",
+    "geo": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "hero": {
+      "title": "",
+      "subtitle": ""
+    },
+    "content": {
+      "main": "",
+      "seo1": "",
+      "seo2": ""
+    },
+    "services": [],
+    "prices": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "region-1773272604112",
+    "name": "Düzce",
+    "slug": "duzce",
+    "city": "Düzce",
+    "geo": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "hero": {
+      "title": "",
+      "subtitle": ""
+    },
+    "content": {
+      "main": "",
+      "seo1": "",
+      "seo2": ""
+    },
+    "services": [],
+    "prices": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "region-1773272610339",
+    "name": "Yalova",
+    "slug": "yalova",
+    "city": "Yalova",
+    "geo": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "hero": {
+      "title": "",
+      "subtitle": ""
+    },
+    "content": {
+      "main": "",
+      "seo1": "",
+      "seo2": ""
+    },
+    "services": [],
+    "prices": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  }
+]

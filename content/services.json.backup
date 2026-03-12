@@ -1,0 +1,158 @@
+[
+  {
+    "id": "web-tasarim",
+    "name": "Web Tasarım",
+    "slug": "web-tasarim",
+    "description": "Marka dilinizi arayüze taşır, mobil akışı hızlandırır; ziyaretçiyi müşteri adımına taşırız.",
+    "icon": "Layout",
+    "featured": true,
+    "content": "<h2>Tuzla'nın Dijital Vitrini Sizinle Yükseliyor</h2>\n\n<p>Aydınlı'dan Postane'ye, Şifa'dan Akfırat'a kadar <strong>her mahallede</strong> işletmeler artık dijital varlıklarını güçlendiriyor. Siteniz sadece görsel bir kartvizit değil; <em>satış kanalınız, müşteri kazanma aracınız</em> ve markanızın 7/24 çalışan temsilcisi. Biz <u>piksel piksel</u> tasarlıyoruz, siz rakiplerinizi geride bırakıyorsunuz.</p>\n\n<p>Mobil cihazlardan gelen trafik %78'i buldu. Siteniz telefonlarda bozuk görünüyorsa, potansiyel müşteriniz 3 saniyede çıkıyor. <strong>Responsive tasarım</strong> lüks değil, zorunluluk. Tuzla'daki her sektörden firmaya özel çözümler üretiyoruz.</p>\n\n<h3>Tuzla Mahallelerinde Web Sitesi İhtiyacı Neden Arttı?</h3>\n\n<p>Evliya Çelebi'deki restoran sahibi Google'da görünmek istiyor. İçmeler'deki inşaat firması portföyünü sergilemeli. Orhanlı OSB'deki üretici ihracat yapacak; <em>dijital katalog şart</em>. Tepeören'deki tarım işletmesi ürünlerini online satmalı. Her mahalle, her sektör farklı ihtiyaç taşıyor.</p>\n\n<table>\n<thead>\n<tr>\n<th>Mahalle</th>\n<th>Sektör Yoğunluğu</th>\n<th>Dijital İhtiyaç</th>\n<th>Çözüm Süresi</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Aydınlı</td>\n<td>Lojistik, Otomotiv</td>\n<td>Kurumsal Site + CRM</td>\n<td>14 gün</td>\n</tr>\n<tr>\n<td>Orhanlı OSB</td>\n<td>Teknoloji, Yazılım</td>\n<td>B2B Portal + API</td>\n<td>21 gün</td>\n</tr>\n<tr>\n<td>Şifa</td>\n<td>Sağlık, Eczane</td>\n<td>Randevu Sistemi</td>\n<td>10 gün</td>\n</tr>\n<tr>\n<td>Postane</td>\n<td>E-Ticaret, Kargo</td>\n<td>Online Mağaza</td>\n<td>18 gün</td>\n</tr>\n</tbody>\n</table>\n\n<h3>Tasarımda Hız mı, Estetik mi? İkisi Birden</h3>\n\n<p>Yükleme süresi 2 saniyeyi geçerse, <strong>ziyaretçilerin %40'ı</strong> sayfayı terk ediyor. Güzel görünüm yetmiyor; altyapı da hızlı olmalı. Next.js framework'ü kullanıyoruz, sunucu taraflı render ile sayfalar anında açılıyor. <u>Core Web Vitals</u> skorlarınız yeşil, Google sıralamanız yükseliyor.</p>\n\n<ul>\n<li><strong>LCP (Largest Contentful Paint):</strong> 1.8 saniye altı – sayfa ana içeriği hızla yükleniyor</li>\n<li><strong>FID (First Input Delay):</strong> 50ms altı – kullanıcı tıklaması anında yanıt alıyor</li>\n<li><strong>CLS (Cumulative Layout Shift):</strong> 0.05 altı – sayfa kaymıyor, deneyim kusursuz</li>\n<li><strong>Mobil Skor:</strong> 95+ – telefonlarda da masaüstü hızı</li>\n</ul>\n\n<h2>Tuzla'da Web Tasarım Süreci Nasıl İşliyor?</h2>\n\n<p>Mimar Sinan'daki mimarlık ofisi farklı, Yayla'daki tarım firması farklı ihtiyaç duyuyor. Şablonla çalışmıyoruz; <em>her proje sıfırdan kurgulanıyor</em>. İlk görüşmede sektörünüzü analiz ediyor, rakiplerinizi inceliyor, hedef kitlenizi belirliyoruz.</p>\n\n<h3>Adım Adım Proje Akışı</h3>\n\n<ol>\n<li><strong>Keşif Toplantısı:</strong> Tuzla ofisimizde veya online – markanızı, hedeflerinizi, bütçenizi konuşuyoruz (60 dakika)</li>\n<li><strong>Wireframe Tasarım:</strong> Sayfa yapısını çiziyoruz, onayınızı alıyoruz (3 gün)</li>\n<li><strong>Görsel Tasarım:</strong> Marka kimliğinize uygun arayüz hazırlıyoruz, 2 revizyon hakkı (5 gün)</li>\n<li><strong>Frontend Kodlama:</strong> HTML, CSS, JavaScript ile responsive yapı (7 gün)</li>\n<li><strong>Backend Entegrasyon:</strong> Veritabanı, admin panel, formlar (5 gün)</li>\n<li><strong>Test & Yayın:</strong> Tüm cihazlarda kontrol, domain bağlama, SSL kurulumu (2 gün)</li>\n</ol>\n\n<p>Toplam süre 22 gün. Acil projeler için <u>express paket</u> sunuyoruz; 10 günde teslim. Cami Mahallesi'ndeki mobilya firması 8 günde yayına girdi, ilk ayda %120 trafik artışı yakaladı.</p>\n\n<h3>Hangi Teknolojileri Kullanıyoruz?</h3>\n\n<p>WordPress kullanmıyoruz. Eski teknoloji, yavaş, güvenlik açıkları fazla. <strong>Next.js 14</strong> ile çalışıyoruz; React tabanlı, server-side rendering, otomatik optimizasyon. Veritabanı olarak PostgreSQL tercih ediyoruz; MySQL'den %30 daha hızlı sorgular.</p>\n\n<table>\n<thead>\n<tr>\n<th>Teknoloji</th>\n<th>Kullanım Alanı</th>\n<th>Avantaj</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Next.js 14</td>\n<td>Frontend Framework</td>\n<td>SEO dostu, hızlı, modern</td>\n</tr>\n<tr>\n<td>TypeScript</td>\n<td>Kod Kalitesi</td>\n<td>Hata oranı %60 azalıyor</td>\n</tr>\n<tr>\n<td>Tailwind CSS</td>\n<td>Stil Yönetimi</td>\n<td>Dosya boyutu küçük, özelleştirme kolay</td>\n</tr>\n<tr>\n<td>PostgreSQL</td>\n<td>Veritabanı</td>\n<td>Güvenli, ölçeklenebilir, hızlı</td>\n</tr>\n<tr>\n<td>Vercel</td>\n<td>Hosting</td>\n<td>Global CDN, otomatik SSL, %99.9 uptime</td>\n</tr>\n</tbody>\n</table>\n\n<h2>Tuzla Mahallelerine Özel Çözümler</h2>\n\n<p>Fatih Mahallesi'ndeki perakende mağazası <em>stok entegrasyonu</em> istedi; barkod okutunca site otomatik güncelleniyor. Anadolu OSB'deki metal işleme firması <strong>B2B sipariş sistemi</strong> kurdu; bayileri online sipariş veriyor, üretim planlaması kolaylaştı.</p>\n\n<h3>Sektörel Özelleştirmeler</h3>\n\n<ul>\n<li><strong>Sağlık Sektörü:</strong> KVKK uyumlu hasta kayıt, online randevu, reçete takip modülü</li>\n<li><strong>İnşaat Firmaları:</strong> Proje galerisi, 360° tur, teklif hesaplama aracı</li>\n<li><strong>Restoran & Kafe:</strong> QR menü, online rezervasyon, paket sipariş entegrasyonu</li>\n<li><strong>Üretim Sanayi:</strong> Ürün kataloğu, teknik döküman indirme, bayi başvuru formu</li>\n<li><strong>Eğitim Kurumları:</strong> Öğrenci paneli, ders programı, online ödeme sistemi</li>\n</ul>\n\n<h3>Mobil Öncelikli Tasarım Neden Kritik?</h3>\n\n<p>Tuzla'daki kullanıcıların %82'si mobil cihazdan internete giriyor. Siteniz telefonlarda düzgün görünmüyorsa, <u>müşteri kaybediyorsunuz</u>. Biz \"mobile-first\" yaklaşımla çalışıyoruz; önce telefon tasarımı yapıyoruz, sonra masaüstüne uyarlıyoruz.</p>\n\n<p>İstasyon Mahallesi'ndeki lojistik firmasının eski sitesi mobilde kullanılamıyordu. Yeni tasarımla <strong>mobil dönüşüm %340 arttı</strong>. Kullanıcılar artık telefondan teklif alıyor, kargo takibi yapıyor, fatura indiriyor.</p>\n\n<h2>SEO Uyumlu Altyapı – Google'da Görünün</h2>\n\n<p>Güzel site yetmiyor; <em>bulunabilir olmalı</em>. Tuzla web tasarım arayan biri Google'a yazıyor, siz ilk sayfada çıkmalısınız. Teknik SEO altyapısını kurarken şu detaylara dikkat ediyoruz:</p>\n\n<ul>\n<li><strong>Semantik HTML:</strong> Başlık hiyerarşisi (H1, H2, H3) doğru kurgulanıyor</li>\n<li><strong>Schema Markup:</strong> Google'a yapılandırılmış veri gönderiyoruz, zengin snippet'ler alıyorsunuz</li>\n<li><strong>XML Sitemap:</strong> Tüm sayfalar otomatik haritaya ekleniyor</li>\n<li><strong>Robots.txt:</strong> Arama motorları hangi sayfaları tarayacak, optimize ediyoruz</li>\n<li><strong>Canonical URL:</strong> Duplicate content sorunu yaşamıyorsunuz</li>\n<li><strong>Alt Text:</strong> Görsellere açıklama ekliyoruz, görsel aramada çıkıyorsunuz</li>\n</ul>\n\n<h3>Sayfa Hızı Optimizasyonu</h3>\n\n<p>Google, yavaş siteleri cezalandırıyor. Biz <u>lazy loading</u> uyguluyoruz; görseller ekrana gelince yükleniyor. CSS ve JavaScript dosyalarını sıkıştırıyoruz; boyut %70 küçülüyor. CDN kullanıyoruz; içerik kullanıcıya en yakın sunucudan geliyor.</p>\n\n<table>\n<thead>\n<tr>\n<th>Optimizasyon</th>\n<th>Öncesi</th>\n<th>Sonrası</th>\n<th>İyileşme</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Sayfa Boyutu</td>\n<td>4.2 MB</td>\n<td>890 KB</td>\n<td>%79 azalma</td>\n</tr>\n<tr>\n<td>Yükleme Süresi</td>\n<td>5.8 saniye</td>\n<td>1.4 saniye</td>\n<td>%76 hızlanma</td>\n</tr>\n<tr>\n<td>HTTP İstek</td>\n<td>87 adet</td>\n<td>22 adet</td>\n<td>%75 azalma</td>\n</tr>\n<tr>\n<td>Mobil Skor</td>\n<td>42/100</td>\n<td>96/100</td>\n<td>+54 puan</td>\n</tr>\n</tbody>\n</table>\n\n<h2>Güvenlik ve Bakım – Siteniz Hep Güncel</h2>\n\n<p>Site yayına girdi, iş bitmedi. <strong>Güvenlik güncellemeleri</strong> yapılmalı, yedek alınmalı, performans izlenmeli. Aylık bakım paketimizle tüm bunları üstleniyoruz. Mescit Mahallesi'ndeki yayınevinin sitesi hacklenmişti; biz kurtardık, güvenlik duvarı kurduk, bir daha sorun yaşamadılar.</p>\n\n<h3>Bakım Paketinde Neler Var?</h3>\n\n<ol>\n<li><strong>Haftalık Yedekleme:</strong> Veritabanı ve dosyalar otomatik yedekleniyor, 30 gün saklanıyor</li>\n<li><strong>Güvenlik Taraması:</strong> Aylık zafiyet kontrolü, firewall güncellemesi</li>\n<li><strong>Performans İzleme:</strong> Uptime monitoring, hata logları analizi</li>\n<li><strong>İçerik Güncellemesi:</strong> Ayda 2 saate kadar metin/görsel değişikliği</li>\n<li><strong>SSL Yenileme:</strong> Sertifika otomatik yenileniyor, HTTPS kesintisiz</li>\n<li><strong>Teknik Destek:</strong> E-posta ve telefon ile sınırsız destek</li>\n</ol>\n\n<h3>Tuzla'da Referanslarımız</h3>\n\n<p>Akfırat'taki plastik üretim firması – <em>ihracat portalı</em> kurduk, 12 ülkeye satış yapıyorlar. Orta Mahalle'deki market zinciri – online sipariş sistemi, günde 340 sipariş alıyorlar. İAYOSB'deki teknoloji şirketi – <strong>SaaS platformu</strong> geliştirdik, 1.200 aktif kullanıcı.</p>\n\n<p>Tepeören'deki sera işletmesi organik ürünlerini sattı; site sayesinde <u>perakende zincirlerle anlaşma</u> imzaladılar. Evliya Çelebi'deki butik otel doluluk oranını %85'e çıkardı; rezervasyon sistemi sayesinde aracı komisyonlarından kurtuldular.</p>\n\n<h2>Fiyatlandırma – Şeffaf ve Adil</h2>\n\n<p>Paket fiyat vermiyoruz. Her proje farklı; sayfa sayısı, özellik, entegrasyon değişiyor. Ücretsiz keşif toplantısında <strong>net teklif</strong> sunuyoruz. Gizli maliyet yok, ek ücret sürprizi yok.</p>\n\n<table>\n<thead>\n<tr>\n<th>Proje Tipi</th>\n<th>Sayfa Sayısı</th>\n<th>Süre</th>\n<th>Fiyat Aralığı</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Kurumsal Site</td>\n<td>5-8 sayfa</td>\n<td>14 gün</td>\n<td>18.000₺ - 32.000₺</td>\n</tr>\n<tr>\n<td>E-Ticaret</td>\n<td>Sınırsız ürün</td>\n<td>21 gün</td>\n<td>35.000₺ - 65.000₺</td>\n</tr>\n<tr>\n<td>B2B Portal</td>\n<td>Özel modüller</td>\n<td>30 gün</td>\n<td>50.000₺ - 120.000₺</td>\n</tr>\n<tr>\n<td>Landing Page</td>\n<td>1 sayfa</td>\n<td>5 gün</td>\n<td>8.000₺ - 15.000₺</td>\n</tr>\n</tbody>\n</table>\n\n<p>Ödeme planı esnek. %40 peşin, %30 tasarım onayında, %30 teslimat. Kredi kartına taksit imkanı var. KOSB'deki gıda firması 12 taksitle ödedi, nakit akışını bozmadı.</p>\n\n<h2>Neden Bizi Tercih Etmelisiniz?</h2>\n\n<p>Tuzla'da ofisimiz var. Uzaktan çalışan freelancer değiliz; <em>yüz yüze görüşüyoruz</em>. Projelerinizi yerinde inceliyoruz, sektörünüzü anlıyoruz. İTOSB'deki elektronik üreticisinin fabrikasına gittik, üretim hattını izledik, sonra site tasarladık.</p>\n\n<ul>\n<li><strong>Yerel Uzmanlık:</strong> Tuzla'nın her mahallesini, sektör dinamiklerini biliyoruz</li>\n<li><strong>Hızlı İletişim:</strong> Aynı şehirdeyiz, acil durumda 30 dakikada ofisteyiz</li>\n<li><strong>Referans Ziyareti:</strong> Yaptığımız siteleri görmek isterseniz, müşterilerimizi ziyaret edebilirsiniz</li>\n<li><strong>Eğitim Desteği:</strong> Site tesliminde admin paneli kullanımı eğitimi veriyoruz</li>\n<li><strong>Garanti:</strong> 1 yıl teknik garanti, hata varsa ücretsiz düzeltiyoruz</li>\n</ul>\n\n<h3>İlk Adımı Atın</h3>\n\n<p>Tuzla'da dijital dönüşüm hızlanıyor. Rakipleriniz web sitesi yaptırıyor, siz geride kalmayın. <u>Ücretsiz keşif görüşmesi</u> için hemen iletişime geçin. Projenizi konuşalım, çözüm önerelim, teklif sunalım.</p>\n\n<p>Aydınlı, Şifa, Yayla, Mimar Sinan, Aydintepe, İstasyon, Postane, Evliya Çelebi, İçmeler, Orta, Tepeören, Cami, Mescit, Akfırat, Orhanlı, Fatih, Anadolu, İAYOSB, İDOSB, BOSB, KOSB, İTOSB – <strong>tüm mahallelerden</strong> işletmelere hizmet veriyoruz. Siteniz hazır, müşterileriniz bekliyor.</p>",
+    "features": [
+      "Responsive tasarım",
+      "SEO optimizasyonu",
+      "Hızlı yükleme",
+      "Mobil uyumlu",
+      "Modern UI/UX"
+    ],
+    "seo": {
+      "title": "Web Tasarım Hizmetleri | Profesyonel Web Sitesi",
+      "description": "Modern, responsive ve SEO uyumlu web tasarım hizmetleri. İşletmeniz için özel tasarlanmış profesyonel web siteleri.",
+      "keywords": [
+        "web tasarım",
+        "web sitesi",
+        "responsive tasarım",
+        "seo"
+      ]
+    }
+  },
+  {
+    "id": "web-yazilim",
+    "name": "Web Yazılım",
+    "slug": "web-yazilim",
+    "description": "İş süreçlerinize uygun modüller geliştirir; yönetimi panelde kolaylaştırırız.\n",
+    "icon": "code",
+    "featured": true,
+    "content": "İşletmenizin ihtiyaçlarına özel web yazılım çözümleri geliştiriyoruz. Modern teknolojiler ile güçlü, ölçeklenebilir ve güvenli web uygulamaları oluşturuyoruz.",
+    "features": [
+      "Özel yazılım geliştirme",
+      "API entegrasyonları",
+      "Veritabanı yönetimi",
+      "Güvenli altyapı",
+      "Ölçeklenebilir mimari"
+    ],
+    "seo": {
+      "title": "Web Yazılım Hizmetleri | Özel Yazılım Geliştirme",
+      "description": "İşletmenize özel web yazılım çözümleri. Modern teknolojiler ile güçlü ve güvenli web uygulamaları geliştiriyoruz.",
+      "keywords": [
+        "web yazılım",
+        "özel yazılım",
+        "web uygulama",
+        "yazılım geliştirme"
+      ]
+    }
+  },
+  {
+    "id": "seo",
+    "name": "SEO",
+    "slug": "seo",
+    "description": "Başlık hiyerarşisi kurar, arama niyetine uygun içerikle görünürlüğü artırırız.\n",
+    "icon": "search",
+    "featured": true,
+    "content": "Google'da üst sıralarda yer alın. Profesyonel SEO hizmetleri ile web sitenizin görünürlüğünü artırın ve organik trafiğinizi yükseltin.",
+    "features": [
+      "Anahtar kelime analizi",
+      "On-page SEO",
+      "Teknik SEO",
+      "İçerik optimizasyonu",
+      "Link building"
+    ],
+    "seo": {
+      "title": "SEO Hizmetleri | Arama Motoru Optimizasyonu",
+      "description": "Profesyonel SEO hizmetleri ile Google'da üst sıralarda yer alın. Organik trafiğinizi artırın.",
+      "keywords": [
+        "seo",
+        "arama motoru optimizasyonu",
+        "google seo",
+        "seo hizmeti"
+      ]
+    }
+  },
+  {
+    "id": "geo",
+    "name": "GEO",
+    "slug": "geo",
+    "description": "Generative Engine Optimization ile markanızın yanıt motorlarında doğru anılmasını sağlarız.",
+    "icon": "map-pin",
+    "featured": false,
+    "content": "Yerel işletmenizi Google Haritalar'da öne çıkarın. GEO (Yerel SEO) hizmetleri ile bölgenizdeki potansiyel müşterilere ulaşın.",
+    "features": [
+      "Google My Business optimizasyonu",
+      "Yerel arama sıralaması",
+      "Harita optimizasyonu",
+      "Yerel içerik stratejisi",
+      "Müşteri yorumları yönetimi"
+    ],
+    "seo": {
+      "title": "GEO Hizmetleri | Yerel Arama Optimizasyonu",
+      "description": "Yerel SEO hizmetleri ile Google Haritalar'da öne çıkın. Bölgenizdeki müşterilere ulaşın.",
+      "keywords": [
+        "geo",
+        "yerel seo",
+        "google haritalar",
+        "yerel arama"
+      ]
+    }
+  },
+  {
+    "id": "e-ticaret",
+    "name": "E-Ticaret",
+    "slug": "e-ticaret",
+    "description": "Ürün akışını sadeleştirir, ödeme adımını hızlandırır; stok, kargo ve bildirimleri bağlarız.",
+    "icon": "shopping-cart",
+    "featured": true,
+    "content": "Güçlü e-ticaret platformları ile online satışlarınızı artırın. Kullanıcı dostu, güvenli ve yüksek dönüşüm oranlı e-ticaret siteleri oluşturuyoruz.",
+    "features": [
+      "Ürün yönetim sistemi",
+      "Güvenli ödeme entegrasyonu",
+      "Stok takibi",
+      "Sipariş yönetimi",
+      "Kargo entegrasyonu"
+    ],
+    "seo": {
+      "title": "E-Ticaret Hizmetleri | Online Satış Platformu",
+      "description": "Profesyonel e-ticaret çözümleri ile online satışlarınızı artırın. Güvenli ve kullanıcı dostu platformlar.",
+      "keywords": [
+        "e-ticaret",
+        "online satış",
+        "e-ticaret sitesi",
+        "online mağaza"
+      ]
+    }
+  },
+  {
+    "id": "domain-hosting",
+    "name": "Domain ve Hosting",
+    "slug": "domain-hosting",
+    "description": "Hostener ile Alan adı ve barındırmayı doğru kurar; performansı istikrarlı tutarız.",
+    "icon": "server",
+    "featured": false,
+    "content": "Güvenilir domain ve hosting hizmetleri ile web sitenizi kesintisiz yayında tutun. Hızlı, güvenli ve 7/24 destekli hosting çözümleri sunuyoruz.",
+    "features": [
+      "Domain tescil",
+      "SSL sertifikası",
+      "Yüksek performans",
+      "Otomatik yedekleme",
+      "7/24 teknik destek"
+    ],
+    "seo": {
+      "title": "Domain ve Hosting Hizmetleri | Alan Adı",
+      "description": "Güvenilir domain ve hosting hizmetleri. Hızlı, güvenli ve kesintisiz hosting çözümleri.",
+      "keywords": [
+        "domain",
+        "hosting",
+        "alan adı",
+        "web hosting"
+      ]
+    }
+  }
+]

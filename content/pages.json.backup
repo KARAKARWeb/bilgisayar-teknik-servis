@@ -1,0 +1,189 @@
+{
+  "homepage": {
+    "hero": {
+      "title": "",
+      "subtitle": "",
+      "whatsappText": "",
+      "phoneText": "",
+      "cta": {
+        "primary": null,
+        "secondary": null
+      }
+    },
+    "seoContent1": "",
+    "services": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "Her projede tasarım, kod ve görünürlük aynı masada birleşir; markanız tek sesle konuşur. Süreç ölçülür, sonuç büyür...",
+      "description": "Kartlarda gördüğünüz her çözüm, tek hedefe bağlanır: daha hızlı erişim, daha net iletişim, daha yüksek dönüşüm..."
+    },
+    "process": {
+      "title": "Çalışma Süreci",
+      "subtitle": "Adımları karışıklaştırmayız; önce analiz, sonra tasarım, ardından geliştirme, en sonda ölçüm ve iyileştirme gelir. Her aşama kayıt altındadır...",
+      "description": "Bu akış, zaman kaybını azaltır; kararlar veriye dayanır, teslim sonrası destek kesintiye uğramaz. Kontrol sizde kalır...",
+      "steps": [
+        {
+          "title": "Keşif",
+          "description": "Hedefi netler, rakibi hızlı tararız birlikte."
+        },
+        {
+          "title": "Taslak",
+          "description": "Arayüz akışını çizer, içerik iskeleti kurarız."
+        },
+        {
+          "title": "Geliştirme",
+          "description": "Kodlar temiz, sürüm kontrolü düzenli ilerler."
+        },
+        {
+          "title": "Yayın",
+          "description": "Test eder, canlıya alır, veriyi izleriz."
+        }
+      ]
+    },
+    "features": {
+      "title": "Neden Biz?",
+      "subtitle": "Hız, güvenlik ve marka dili aynı standartta yürür; her teslimat ölçülebilir çıktılar üretir. Sürpriz yok, plan nettir daima...",
+      "description": "Seçiminiz, yalnızca bir site değil; müşteri yolculuğunu büyüten, sürdürülebilir dijital bir sistem olur. İçerik güncellenir, değer artar...",
+      "items": [
+        {
+          "title": "Uzmanlık",
+          "description": "Sektör dilini çözer, mesajı keskinleştiririz hızla."
+        },
+        {
+          "title": "Şeffaflık",
+          "description": "Takvimi paylaşır, ilerlemeyi haftalık raporlarız açıkça."
+        },
+        {
+          "title": "Performans",
+          "description": "Hız testleri yapar, skorları yükseltiriz sürdürülebilir."
+        },
+        {
+          "title": "Güvenlik",
+          "description": "SSL, yedek, izinleri sıkı yönetiriz daima."
+        },
+        {
+          "title": "İçerik",
+          "description": "Başlık düzeni kurar, okunurluğu artırırız doğrudan."
+        },
+        {
+          "title": "Destek",
+          "description": "Yayın sonrası takip eder, sorunları çözeriz."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Web Tasarım Fiyatları",
+      "subtitle": "Paketleri kapsamına göre ayırırız; teslim süresi, sayfa sayısı, entegrasyon ve revizyon adedi netleşir. Teklif yazılı, sürprizsiz ilerler...",
+      "description": "Tutarlar KDV hariçtir; alan adı, hosting ve üçüncü taraf lisanslar ayrıca belirlenir, sözleşmeye yazılır. Ödeme planı esnektir..."
+    },
+    "technologies": {
+      "title": "Teknolojilerimiz",
+      "subtitle": "Modern arayüzler, güvenli altyapı ve hızlı yayın için güncel çerçeveler, test araçları, sürüm sistemi kullanırız...",
+      "description": "Bu teknoloji seti, bakım kolaylığı sağlar; geliştirme hızı artar, hatalar erken yakalanır, yayın güveni yükselir..."
+    },
+    "reviews": {
+      "title": "Müşteri Yorumları",
+      "subtitle": "Geri bildirimler, süreç disiplinimizi gösterir; hız, iletişim ve sonuç kalitesi hakkında net ipuçları verir. Kararınızı kolaylaştırır, güven sağlar..."
+    },
+    "regions": {
+      "title": "Hizmet Bölgeleri",
+      "subtitle": "Pendik’in her mahallesine aynı standartta ilerleriz; yerel rekabeti okur, içerik başlıklarını bölgeye uyarlarız. Harita sinyali güçlenir...",
+      "description": "Karttan mahallenizi seçin; ihtiyaç notunuzu iletin, ekibimiz aynı gün geri dönüş planını paylaşsın. İletişim kısa, yön net..."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "subtitle": "En çok sorulan teknik, içerik ve özellikle teslim sorularını tek bir yerde toplar; net şekilde yanıtlar kısa, uygulanabilir..."
+    },
+    "seoContent2": "<p>1 dakikada karar vermek zorunda kalmayın. Bizim yaklaşımımız, web sitesi kurma fikrini iş hedefine bağlar. Tasarım, içerik, ölçüm aynı çizgide ilerler. <strong>Hızlı açılan sayfalar, temiz mimari, net çağrılar</strong> kurarız. seo uyumlu, geo uyumlu yapı kurulur. <em>Harita görünürlüğü, marka tonu, form akışı</em> tek ekranda kontrol edilir. Uygulamada hata payı düşer. Ziyaretçi, doğru adımı görür; ekip, raporu okur. Karar süresi kısalır, güven artar.</p><h2>Pendik Web Tasarım Hizmeti</h2><p>Hedefinizi netleştirir, pazarı okuruz. hazır web sitesi seçeneğini yalnızca ihtiyaç uygunsa öneririz. Tasarım çizgisi, ürün dilinizi taşır. <strong>Menüler sade, butonlar görünür, okuma akışı dengeli</strong> kalır. İçerik başlıkları arama niyetine göre sıralanır. Yayına çıkmadan önce hız testi yapılır. <em>Mobil deneyim, erişilebilirlik, form güveni</em> aynı oturumda doğrulanır. Bu sayede ilk temas daha güçlü olur. Ziyaretçi, teklif sayfasına tek hamlede geçer.</p><h2>İstanbul Pendik Web Tasarım</h2><p>Bölgesel rekabeti, semt aramalarını, kullanıcı sorularını inceleriz. site kurma sürecini kısa sprintlere böleriz. Her sprintte tek hedef belirlenir. <strong>İlk ekranda değer önerisi, ikinci ekranda kanıt</strong> görünür. İçerik, sektör terimleriyle şişmez. <em>Başlık düzeni, görsel alt metin, bağlantı yapısı</em> kontrol edilir. Yayında kalınca, trafik kaynağına göre mikro düzenleme yapılır. Isı haritası izler, tıklama kayıplarını buluruz. Form alanlarını kısaltır, dönüşümü artırırız.</p><h2>Pendik Web Sitesi Tasarımı</h2><p>Tasarımı yalnızca güzel görünüm sanmayız. internet sitesi kur hedefi, içerik yapısıyla başlar. Sayfa şeması, ürününüzün karar adımlarını izler. <strong>Okunur tipografi, dengeli boşluk, tutarlı renk</strong> güven duygusu üretir. <em>CTA metni, form kopyası, mikro etkileşim</em> aynı dilde yazılır. İçerik güncellenecekse, panel yetkileri planlanır. Böylece ekip, her değişikliği risk almadan yönetir. Stok, takvim, rezervasyon gibi modüller gerekiyorsa, entegrasyon çizelgesi hazırlanır. Test senaryoları da yazılır.</p><h2>Pendik Kurumsal Web Tasarım</h2><p>Kurumsal kimlik, sayfa hızından önce başlar. web sitesi kur adımında logo boşluğu, renk kontrastı, yazı ölçeği belirlenir. kurumsal iletişim için dil kılavuzu çıkarırız. <strong>Hizmet sayfaları kısa, teklif ekranı net, güven unsuru görünür</strong> kalır. <em>KVKK metni, çerez yönetimi, iletişim kanalı</em> eksiksiz yerleşir. Böylece marka, her cihazda aynı ciddiyetle görünür. İç ekip yeni içerik eklerken, başlık düzeni bozulmaz. Onay akışı tanımlanır.</p><h2>Pendik Web Tasarım Hizmetleri</h2><p>İhtiyaç tek değil, teslim çıktısı da tek olmamalı. web sitesi aç hedefinde önce sayfa türleri belirlenir. <strong>Ana sayfa, hizmet sayfası, referans bölümü</strong> ayrı amaç taşır. <em>İç bağlantı, URL yapısı, meta düzeni</em> aynı standartta ilerler. Tasarım bittiğinde, içerik üretimi tek takvimde yürür. Yayın sonrası, dönüşüm izleme kurulunca geliştirme planı güncellenir. Saha ekibi arandığında, telefon tıklaması kayıt altına alınır. Rota bellidir.</p><ul><li><p>Hedef kitle soruları çıkarılır, başlık planı buna göre kurulur.</p></li><li><p>Form alanları azaltılır, gereksiz sürtünme kaldırılır.</p></li><li><p>Görseller sıkıştırılır, dosya adları anlamlı seçilir.</p></li><li><p>Takip hedefleri tanımlanır, rapor ekranı hazır edilir.</p></li></ul><h2>Pendik Web Tasarım Ajansları</h2><p>Ajans seçerken vitrine değil, sisteme bakın. google web sitesi beklentisi, teknik temel ister. <strong>Sunucu konfigürasyonu, önbellek katmanı, sıkıştırma</strong> doğru kurulmalı. <em>Takip kodları, hedef tanımı, olay ölçümü</em> eksik kalmamalı. İçerik üretiminde, soru odaklı başlıklar öne çıkar. Ekip içi iletişim tek kanalda yürür. Teslim sonrası bakım planı yazılı paylaşılır. Revizyonlar kayıt altına alınır, karar geçmişi korunur. Böylece yeni ekip geldiğinde kopma yaşanmaz.</p><table class=\"border-collapse w-full\" style=\"min-width: 50px;\"><colgroup><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"></colgroup><tbody><tr><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Teslim Kalemi</p></td><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Beklenen Çıktı</p></td></tr><tr><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Dokümantasyon</p></td><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Kurulum, kullanım, güncelleme notları</p></td></tr><tr><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Ölçüm</p></td><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Hedefler, olaylar, rapor ekranı</p></td></tr><tr><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Performans</p></td><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Hız testi sonuçları, iyileştirme listesi</p></td></tr></tbody></table><h2>Pendik İnternet Sitesi Tasarımı</h2><p>İnternet projesi, sadece arayüz çizimi değildir. web sitesi kurulumu sırasında içerik göçü planlanır. <strong>Eski sayfaların yönlendirmesi, görsel optimizasyonu, 404 kontrolü</strong> yapılır. <em>Site haritası, robots ayarı, kanonik etiket</em> doğru yerleşir. Yeni içerik yazılırken, hedef kelimeler doğal akar. Test ortamı kurulur. Canlıya geçişte hız ölçülür, günlük rapor açılır. Panel yetkisi sınıflanır, kayıtlı kullanıcılar korunur. Yayın sonrası ilk hafta izleme sıklaşır.</p><h2>Pendik Profesyonel Web Tasarım</h2><p>Tek sayfada bile güven inşa edilir. web sayfası aç kararı, içerik sırasını doğru ister. <strong>İlk ekran fayda, ikinci ekran süreç, üçüncü ekran kanıt</strong> taşır. profesyonel hazır web sitesi tercih edilecekse, tema sınırları açık konuşulur. <em>Tipografi, ikon dili, buton hiyerarşisi</em> tutarlı kalır. Form gönderimi test edilir. Ayrıca dönüşüm kaynağına göre metin revizyonu yapılır. Yüklenen görseller sıkıştırılır, LCP süresi düşer.</p><h2>Pendik Web Tasarım Şirketi</h2><p>Şirket seçimi, teslim günü kadar sürdürülebilirliği belirler. web sayfası oluşturma işi, dokümantasyon ister. <strong>Dosya yapısı, bileşen mantığı, içerik şablonu</strong> yazılı olur. <em>Git akışı, test listesi, geri alma planı</em> netleşir. Güncelleme geldiğinde kimin neyi değiştirdiği görülür. Böylece bakım maliyeti şişmez. Yeni kampanya sayfası açılırken, aynı tasarım dili korunur. Kritik sayfalarda iki aşamalı onay uygulanır. Log kayıtları saklanır, hatanın kaynağı hızlı bulunur.</p><h2>En İyi Pendik Web Tasarım</h2><p>“En iyi” ölçülür, hissedilmez. web sayfası tasarımı performansla birleşince fark oluşur. hazır web sitesi satın al planı varsa, lisans koşulları kontrol edilir. <strong>Hız metriği, dönüşüm oranı, form tamamlanma</strong> raporlanır. <em>Isı haritası, scroll derinliği, tıklama izi</em> okunur. Metinler, gerçek soruları yanıtlar. Tasarım revizyonu, veriyle kararlandığı için zaman kaybı azalır. Yükleme sırası optimize edilir. Böylece ilk boyama hızlı gelir, kullanıcı beklemez.</p><h2>Pendik Web Tasarım Şirketleri</h2><p>Birden fazla ekiple görüşürken aynı kontrol listesini kullanın. web sayfası açma vaadi, teslim paketine yazılmalı. <strong>Kaynak dosyalar, yedek planı, içerik şablonları</strong> teslim edilir mi? <em>Toplantı notu, revizyon takibi, sorumluluk matrisi</em> net mi? Üretim ortamında izleme açık olmalı. Böylece hata çıktığında paniğe gerek kalmaz. Süreç, kayıt altında ilerlediği için kurumsal hafıza korunur. Erişimler rol bazlı verilir. <u>Yetki daraltma prensibi</u> uygulanır.</p><h2>Güvenli Pendik Web Tasarım</h2><p>Güvenlik, yayından sonra eklenen bir eklenti değildir. web sayfası hazırlama aşamasında saldırı yüzeyi küçültülür. <strong>Form doğrulama, rate limit, güvenlik başlıkları</strong> kurulur. <em>Güncelleme takvimi, yedek döngüsü, log izleme</em> tanımlanır. Şifre politikası belirlenir. Kritik sayfalarda WAF kuralı uygulanır. Böylece veri sızıntısı riski düşer, itibar korunur. İçerik editörü için iki faktör açılır. Sunucu erişimi sınırlanır. <u>Yedek geri dönüş testi</u> ayda bir yapılır.</p><table class=\"border-collapse w-full\" style=\"min-width: 50px;\"><colgroup><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"></colgroup><tbody><tr><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Kontrol</p></td><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Uygulama Notu</p></td></tr><tr><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Yedek</p></td><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Günlük alınır, haftalık geri dönülür</p></td></tr><tr><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Güncelleme</p></td><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Takvimli yapılır, log tutulur</p></td></tr><tr><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Erişim</p></td><td class=\"border border-gray-300 px-4 py-2\" colspan=\"1\" rowspan=\"1\"><p>Rol bazlı yetki, iki faktör</p></td></tr></tbody></table><h2>Pendik Web Tasarım Firması</h2><p>Firma seçimi, iletişim netliğiyle anlaşılır. internet sayfası açma isteğinde önce hedef sayfa listesi çıkarılır. <strong>Hizmet, blog, sık sorulanlar, iletişim</strong> gibi türler ayrılır. <em>İçerik sorumlusu, yayın onayı, görsel üretim</em> iş bölümüyle ilerler. Proje yönetimi tek panelden yürür. Teslimde eğitim verilir. Böylece ekip içerik eklerken tutarlılığı bozmadan ilerler. Ayrıca hedef formlar için spam filtresi kurulur. Yanıt süreleri takip edilir, müşteri kaybı azalır.</p><h2>Güvenilir Pendik Web Tasarım</h2><p>Güvenilirlik, sözleşme maddesinde değil, uygulamada görünür. internet sayfası kurma sürecinde kilometre taşı raporu paylaşırız. <strong>Tasarım onayı, geliştirme bitişi, test kapanışı</strong> tarihle kayıt altına alınır. <em>Erişim bilgisi, içerik teslimi, yayın planı</em> tek dosyada durur. Böylece iş devri kolaylaşır. Desteğin kapsamı bellidir. Proje kapanınca, bakım takvimi de başlar. İlk üç ay kritik izleme yapılır. Hata bildirimi için tek kanal kullanılır. Yanıt süresi ölçülür.</p><ol><li><p>Hedef sayfaları belirle, içerik sorumlusunu ata.</p></li><li><p>Test listesini tamamla, yönlendirmeleri doğrula.</p></li><li><p>Canlıya al, ölçüm hedeflerini kontrol et.</p></li><li><p>İlk hafta raporu incele, metinleri düzenle.</p></li></ol><h2>Pendik Web Tasarım Firmaları</h2><p>Piyasada çok seçenek var, ama ölçüt nettir. internet sayfası oluşturma işinde kaynak teslimi konuşulmalı. hazır internet sayfası yaklaşımı seçilirse, altyapı sınırları açıklanmalı. <strong>Sayfa şablonları, içerik blokları, medya kütüphanesi</strong> yönetilebilir olmalı. <em>Kullanıcı rolü, yedek planı, güncelleme rutini</em> yazılmalı. Aksi halde büyüme döneminde tıkanma yaşanır, yeni sayfa çıkarmak zorlaşır. İşletme yeni kampanya açtığında, aynı gün yayın hedeflenir. Sayfa yükü artınca performans yeniden ölçülür.</p><h2>Pendik Hosting ve Domain Çözümleri</h2><p>Altyapı seçimi, görünmeyen ama belirleyici karardır. internet sayfası açmak için alan adı tescili yapılır, DNS kayıtları düzenlenir. <strong>SSL kurulumu, yedekleme, CDN ayarı</strong> beraber planlanır. <em>Sunucu lokasyonu, kaynak limiti, izleme alarmı</em> belirlenir. Trafik artınca ölçekleme adımı hazır olur. Böylece sayfa hızında düşüş yaşanmaz. Panel erişimleri rol bazlı dağıtılır, kayıtlar saklanır. E-posta kutuları açılırken SPF, DKIM eklenir. Teslimde tüm şifreler güvenli kasada tutulur.</p><h3>Pendik Kurumsal E-Posta Çözümleri</h3><p>Kurumsal iletişimde teslimat, alan adı kadar kritiktir. e-mail kutuları açılır, cihazlara doğru eklenir. hazır internet sitesi kullanılsa bile posta ayarı ayrı uzmanlık ister. <strong>SPF, DKIM, DMARC</strong> kayıtları eklenir. <em>Gelen kutusu kuralı, arşiv düzeni, yetki devri</em> planlanır. Böylece iletiler spam’e düşmez. Personel değişse bile erişim kontrolü kaybolmaz, kayıtlar güvende kalır. Mobil kurulum yönergesi hazırlanır. İki faktör zorunlu tutulur. Hesap kapanış prosedürü yazılır.</p>",
+    "seo": {
+      "title": "Pendik Web Tasarım | Profesyonel Web Sitesi Tasarımı",
+      "description": "Pendik Web Tasarım firması, kurumsal işletmeler için kusursuz, kaliteli hızlı açılan Profesyonel Web Sitesi Tasarımı yapar. Tüm hizmetler tek çatı altında.",
+      "keywords": []
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Hakkımızda",
+      "subtitle": "Pendik ve genelinde kök salan profesyonel ekibimiz, markaları hızlı, güvenli ve ölçülebilir dijital deneyime taşır.\n"
+    },
+    "content": {
+      "description": "Biz, Pendik'te işletmelerin dijital vitrinini güçlendiren bir web tasarım ve yazılım ajansıyız. Her projede önce hedefi netleştirir, sonra tasarımı satış yolculuğuna uyarlarız. Arayüzü sadeleştirir, içerik akışını planlar, hız testleriyle sayfayı çevik tutarız. Kod tarafında sürüm kontrolü uygular, güvenlik başlıklarını kurar, yedek düzenini standartlaştırırız. Böylece site, güncellemelerde dağılmaz. Ekip içi eğitim verir, panel kullanımını kolaylaştırırız. Pendik mahallelerinde aranan, bulunan ve dönüşen sayfalar üretiriz...",
+      "mission": "Pendik işletmelerine hızlı açılan, güvenli, ölçülebilir web çözümleri sunarak dijital satış yolunu netleştiriyoruz.",
+      "vision": "Pendik'te her ölçekte markanın, veriye dayalı tasarımla sürdürülebilir büyüme kurduğu referans ajans olmak.",
+      "values": [
+        {
+          "title": "Güvenilirlik",
+          "description": "15 yıllık sektör tecrübesi, binlerce başarılı proje ve müşteri memnuniyeti odaklı yaklaşımımızla güvenilir çözümler üretiyoruz.",
+          "icon": "shield-check"
+        },
+        {
+          "title": "Kalite.",
+          "description": "Modern teknolojiler, temiz kod yapısı ve profesyonel ekibimizle en yüksek kalite standartlarında hizmet sunuyoruz.",
+          "icon": "award"
+        },
+        {
+          "title": "Yenilikçilik.",
+          "description": "Sektördeki yenilikleri takip eder, güncel teknolojileri projelerinize entegre ederek rekabet avantajı sağlarız..",
+          "icon": "lightbulb"
+        },
+        {
+          "title": "Müşteri Memnuniyeti.",
+          "description": "%98 müşteri memnuniyet oranı ile müşterilerimizin ihtiyaçlarını öncelikli tutarak çözüm odaklı hizmet veriyoruz.",
+          "icon": "heart"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Hakkımızda",
+      "description": "b",
+      "keywords": "c"
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "a",
+      "subtitle": "b"
+    },
+    "content": null,
+    "seo": {
+      "title": null,
+      "description": null,
+      "keywords": null
+    }
+  },
+  "cookies": {
+    "hero": {
+      "title": "a1",
+      "subtitle": "b1"
+    },
+    "content": "",
+    "seo": {
+      "title": null,
+      "description": null,
+      "keywords": null
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "İletişim",
+      "subtitle": ""
+    },
+    "info": {
+      "description": "Size en hızlı şekilde ulaşabileceğiniz iletişim kanallarımız."
+    },
+    "form": {
+      "description": ""
+    },
+    "maps": {
+      "iframe": ""
+    },
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    }
+  },
+  "footer": {
+    "title": "",
+    "description": ""
+  }
+}

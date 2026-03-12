@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-24T22:25:22.971Z",
+  "summary": {
+    "total": 22,
+    "passed": 22,
+    "failed": 0,
+    "warnings": 2,
+    "passRate": "100.0"
+  },
+  "errors": [],
+  "warnings": [
+    "services.json boş veya okunamadı",
+    "Frontend için özel 404 sayfası yok (opsiyonel)"
+  ]
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "web-tasarim",
+    "name": "Yerinde Teknik Destek",
+    "slug": "yerinde-teknik-destek",
+    "description": "...",
+    "icon": "Layout",
+    "featured": true,
+    "content": "<p>...</p>",
+    "features": [],
+    "seo": {
+      "title": "Yerinde Teknik Destek",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "web-yazilim",
+    "name": "Uzaktan Teknik Destek",
+    "slug": "uzaktan-teknik-destek",
+    "description": "...",
+    "icon": "code",
+    "featured": true,
+    "content": "<p>...</p>",
+    "features": [],
+    "seo": {
+      "title": "Uzaktan Teknik Destek",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "seo",
+    "name": "Kurumsal IT Destek",
+    "slug": "kurumsal-it-destek",
+    "description": "...",
+    "icon": "search",
+    "featured": true,
+    "content": "<p>...</p>",
+    "features": [],
+    "seo": {
+      "title": "Kurumsal IT Destek",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "geo",
+    "name": "Bireysel Hizmetler",
+    "slug": "bireysel-hizmetler",
+    "description": "...",
+    "icon": "map-pin",
+    "featured": false,
+    "content": "<p>...</p>",
+    "features": [],
+    "seo": {
+      "title": "Bireysel Hizmetler",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "e-ticaret",
+    "name": "Kurumsal Hizmetler",
+    "slug": "kurumsal-hizmetler",
+    "description": "...",
+    "icon": "shopping-cart",
+    "featured": true,
+    "content": "<p>...</p>",
+    "features": [],
+    "seo": {
+      "title": "Kurumsal Hizmetler",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "domain-hosting",
+    "name": "Hızlı Müdahale Hizmetleri",
+    "slug": "hizli-mudahale-hizmetleri",
+    "description": "...",
+    "icon": "server",
+    "featured": false,
+    "content": "<p>...</p>",
+    "features": [],
+    "seo": {
+      "title": "Hızlı Müdahale Hizmetleri",
+      "description": "",
+      "keywords": [
+        ""
+      ]
+    }
+  }
+]

@@ -1,0 +1,373 @@
+'use client'
+
+import { useState } from 'react'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Textarea } from '@/components/ui/textarea'
+import { Check, ArrowRight, ArrowLeft, User, Briefcase, Calendar, MessageSquare, CheckCircle } from 'lucide-react'
+
+interface QuoteFormAdvancedProps {
+  services: Array<{ id: string; name: string }>
+}
+
+const projectTypes = [
+  { id: 'landing', name: 'Landing Page', description: 'Tek sayfa web sitesi' },
+  { id: 'corporate', name: 'Kurumsal Site', description: '5-15 sayfa kurumsal web sitesi' },
+  { id: 'ecommerce', name: 'E-Ticaret', description: 'Online satış platformu' },
+  { id: 'custom', name: 'Özel Proje', description: 'Özelleştirilmiş web uygulaması' },
+]
+
+const budgetRanges = [
+  { id: '10k-20k', name: '10.000₺ - 20.000₺' },
+  { id: '20k-40k', name: '20.000₺ - 40.000₺' },
+  { id: '40k-60k', name: '40.000₺ - 60.000₺' },
+  { id: '60k+', name: '60.000₺+' },
+]
+
+const deadlines = [
+  { id: '1-month', name: '1 Ay' },
+  { id: '2-months', name: '2 Ay' },
+  { id: '3-months', name: '3 Ay' },
+  { id: 'flexible', name: 'Esnek' },
+]
+
+export function QuoteFormAdvanced({ services }: QuoteFormAdvancedProps) {
+  const [step, setStep] = useState(1)
+  const [formData, setFormData] = useState({
+    projectType: '',
+    budget: '',
+    deadline: '',
+    name: '',
+    company: '',
+    email: '',
+    phone: '',
+    message: '',
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [success, setSuccess] = useState(false)
+
+  const updateField = (field: string, value: string) => {
+    setFormData(prev => ({ ...prev, [field]: value }))
+  }
+
+  const handleSubmit = async () => {
+    setIsSubmitting(true)
+    
+    try {
+      const response = await fetch('/api/quote', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+
+      const result = await response.json()
+
+      if (result.success) {
+        setSuccess(true)
+        setStep(5)
+      }
+    } catch (err) {
+      console.error(err)
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
+  const canProceed = () => {
+    switch (step) {
+      case 1:
+        return formData.projectType !== ''
+      case 2:
+        return formData.budget !== '' && formData.deadline !== ''
+      case 3:
+        return formData.name !== '' && formData.email !== '' && formData.phone !== ''
+      case 4:
+        return formData.message !== ''
+      default:
+        return false
+    }
+  }
+
+  return (
+    <div className="space-y-8">
+      {!success && (
+        <>
+          {/* Progress Bar */}
+          <div className="flex items-center mb-8 mx-auto max-w-4xl">
+            {[1, 2, 3, 4].map((s) => (
+              <div key={s} className={`flex items-center ${s === 4 ? '' : 'flex-1'}`}>
+                <div className={`flex items-center justify-center w-10 h-10 rounded-full border-2 transition-all ${
+                  step >= s ? 'bg-black border-black text-white' : 'border-gray-300 text-gray-400'
+                }`}>
+                  {step > s ? <Check className="h-5 w-5" /> : s}
+                </div>
+                {s < 4 && (
+                  <div className={`flex-1 h-1 mx-2 transition-all ${
+                    step > s ? 'bg-black' : 'bg-gray-200'
+                  }`} />
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* Step 1: Proje Tipi */}
+          {step === 1 && (
+            <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
+              <div className="text-center mb-8">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black text-white mb-4">
+                  <Briefcase className="h-8 w-8" />
+                </div>
+                <h2 className="text-3xl font-bold text-black mb-2">Proje Tipiniz Nedir?</h2>
+                <p className="text-gray-600">Hangi tür bir web sitesi istiyorsunuz?</p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {projectTypes.map((type) => (
+                  <button
+                    key={type.id}
+                    onClick={() => updateField('projectType', type.id)}
+                    className={`relative p-6 rounded-xl border-2 transition-all text-left ${
+                      formData.projectType === type.id
+                        ? 'border-black bg-gray-50 shadow-lg'
+                        : 'border-gray-200 hover:border-gray-300 hover:shadow-md'
+                    }`}
+                  >
+                    <h3 className="text-lg font-semibold text-black mb-1">{type.name}</h3>
+                    <p className="text-sm text-gray-600">{type.description}</p>
+                    {formData.projectType === type.id && (
+                      <div className="absolute top-4 right-4">
+                        <div className="bg-black text-white rounded-full p-1">
+                          <Check className="h-4 w-4" />
+                        </div>
+                      </div>
+                    )}
+                  </button>
+                ))}
+              </div>
+
+              <Button
+                onClick={() => setStep(2)}
+                disabled={!canProceed()}
+                size="lg"
+                className="w-full"
+              >
+                Devam Et <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </div>
+          )}
+
+          {/* Step 2: Bütçe ve Süre */}
+          {step === 2 && (
+            <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
+              <div className="text-center mb-8">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black text-white mb-4">
+                  <Calendar className="h-8 w-8" />
+                </div>
+                <h2 className="text-3xl font-bold text-black mb-2">Bütçe ve Süre</h2>
+                <p className="text-gray-600">Projeniz için bütçe ve teslim sürenizi belirleyin</p>
+              </div>
+
+              <div className="space-y-6">
+                <div>
+                  <label className="block text-sm font-semibold text-black mb-3">Bütçe Aralığı</label>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {budgetRanges.map((budget) => (
+                      <button
+                        key={budget.id}
+                        onClick={() => updateField('budget', budget.id)}
+                        className={`p-4 rounded-lg border-2 transition-all text-center ${
+                          formData.budget === budget.id
+                            ? 'border-black bg-gray-50'
+                            : 'border-gray-200 hover:border-gray-300'
+                        }`}
+                      >
+                        <span className="font-medium text-black">{budget.name}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-black mb-3">Teslim Süresi</label>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                    {deadlines.map((deadline) => (
+                      <button
+                        key={deadline.id}
+                        onClick={() => updateField('deadline', deadline.id)}
+                        className={`p-4 rounded-lg border-2 transition-all text-center ${
+                          formData.deadline === deadline.id
+                            ? 'border-black bg-gray-50'
+                            : 'border-gray-200 hover:border-gray-300'
+                        }`}
+                      >
+                        <span className="font-medium text-black">{deadline.name}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <Button onClick={() => setStep(1)} variant="outline" size="lg" className="w-full">
+                  <ArrowLeft className="mr-2 h-5 w-5" /> Geri
+                </Button>
+                <Button onClick={() => setStep(3)} disabled={!canProceed()} size="lg" className="w-full">
+                  Devam Et <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </div>
+            </div>
+          )}
+
+          {/* Step 3: İletişim Bilgileri */}
+          {step === 3 && (
+            <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
+              <div className="text-center mb-8">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black text-white mb-4">
+                  <User className="h-8 w-8" />
+                </div>
+                <h2 className="text-3xl font-bold text-black mb-2">İletişim Bilgileriniz</h2>
+                <p className="text-gray-600">Size nasıl ulaşabiliriz?</p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label htmlFor="name" className="block text-sm font-medium text-black mb-2">
+                    Ad Soyad *
+                  </label>
+                  <Input
+                    id="name"
+                    type="text"
+                    value={formData.name}
+                    onChange={(e) => updateField('name', e.target.value)}
+                    placeholder="Adınız ve soyadınız"
+                    className="w-full"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="company" className="block text-sm font-medium text-black mb-2">
+                    Şirket Adı
+                  </label>
+                  <Input
+                    id="company"
+                    type="text"
+                    value={formData.company}
+                    onChange={(e) => updateField('company', e.target.value)}
+                    placeholder="Şirket adınız (opsiyonel)"
+                    className="w-full"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium text-black mb-2">
+                    E-posta *
+                  </label>
+                  <Input
+                    id="email"
+                    type="email"
+                    value={formData.email}
+                    onChange={(e) => updateField('email', e.target.value)}
+                    placeholder="ornek@email.com"
+                    className="w-full"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="phone" className="block text-sm font-medium text-black mb-2">
+                    Telefon *
+                  </label>
+                  <Input
+                    id="phone"
+                    type="tel"
+                    value={formData.phone}
+                    onChange={(e) => updateField('phone', e.target.value)}
+                    placeholder="05xxxxxxxxx"
+                    className="w-full"
+                  />
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <Button onClick={() => setStep(2)} variant="outline" size="lg" className="w-full">
+                  <ArrowLeft className="mr-2 h-5 w-5" /> Geri
+                </Button>
+                <Button onClick={() => setStep(4)} disabled={!canProceed()} size="lg" className="w-full">
+                  Devam Et <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </div>
+            </div>
+          )}
+
+          {/* Step 4: Proje Detayları */}
+          {step === 4 && (
+            <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
+              <div className="text-center mb-8">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black text-white mb-4">
+                  <MessageSquare className="h-8 w-8" />
+                </div>
+                <h2 className="text-3xl font-bold text-black mb-2">Proje Detayları</h2>
+                <p className="text-gray-600">Projeniz hakkında bize bilgi verin</p>
+              </div>
+
+              <div>
+                <label htmlFor="message" className="block text-sm font-medium text-black mb-2">
+                  Proje Açıklaması *
+                </label>
+                <Textarea
+                  id="message"
+                  value={formData.message}
+                  onChange={(e) => updateField('message', e.target.value)}
+                  placeholder="Projeniz hakkında detaylı bilgi verin..."
+                  rows={8}
+                  className="w-full"
+                />
+                <p className="text-sm text-gray-500 mt-2">
+                  En az 10 karakter giriniz
+                </p>
+              </div>
+
+              <div className="bg-blue-50 rounded-lg p-4">
+                <h3 className="font-semibold text-black mb-2">Seçimleriniz:</h3>
+                <ul className="space-y-1 text-sm text-gray-700">
+                  <li>• <strong>Proje Tipi:</strong> {projectTypes.find(p => p.id === formData.projectType)?.name}</li>
+                  <li>• <strong>Bütçe:</strong> {budgetRanges.find(b => b.id === formData.budget)?.name}</li>
+                  <li>• <strong>Süre:</strong> {deadlines.find(d => d.id === formData.deadline)?.name}</li>
+                </ul>
+              </div>
+
+              <div className="flex gap-4">
+                <Button onClick={() => setStep(3)} variant="outline" size="lg" className="w-full">
+                  <ArrowLeft className="mr-2 h-5 w-5" /> Geri
+                </Button>
+                <Button 
+                  onClick={handleSubmit} 
+                  disabled={!canProceed() || isSubmitting} 
+                  size="lg" 
+                  className="w-full"
+                >
+                  {isSubmitting ? 'Gönderiliyor...' : 'Teklif Talep Et'}
+                </Button>
+              </div>
+            </div>
+          )}
+        </>
+      )}
+
+      {/* Step 5: Başarılı */}
+      {success && (
+        <div className="text-center py-12 animate-in fade-in duration-500">
+          <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-green-100 text-green-600 mb-6">
+            <CheckCircle className="h-12 w-12" />
+          </div>
+          <h2 className="text-3xl font-bold text-black mb-4">Talebiniz Alındı!</h2>
+          <p className="text-lg text-gray-600 mb-8 max-w-md mx-auto">
+            Teklif talebiniz başarıyla iletildi. En kısa sürede sizinle iletişime geçeceğiz.
+          </p>
+          <Button onClick={() => window.location.href = '/'} size="lg">
+            Ana Sayfaya Dön
+          </Button>
+        </div>
+      )}
+    </div>
+  )
+}

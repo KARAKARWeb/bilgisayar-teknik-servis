@@ -1,0 +1,92 @@
+[
+  {
+    "id": "faq-1",
+    "question": "Pendik'te web tasarım projesi kaç günde teslim edilir?",
+    "answer": "<p><strong>Kurumsal tanıtım</strong> siteleri 14-20 gün arası hazırlanır. Tasarım aşaması 4 gün, <em>içerik entegrasyonu</em> 5 gün, kodlama 8 gün, test süreci 3 gün sürer. <u>E-ticaret projeleri</u> 28-40 gün gerektirir.</p><p>Özel yazılım geliştirme <strong>ihtiyaç analizine</strong> göre değişir. Modül karmaşıklığı, API entegrasyonları, <em>veritabanı mimarisi</em> süreyi etkiler. Pendik Marina yakınındaki <u>restoran zincirine</u> rezervasyon platformu 26 günde tamamlandı.</p><table><thead><tr><th>Proje Türü</th><th>Teslimat</th><th>Kapsam</th></tr></thead><tbody><tr><td>Tanıtım Sitesi</td><td>14-20 gün</td><td>Tasarım + Kodlama</td></tr><tr><td>E-Ticaret</td><td>28-40 gün</td><td>Ödeme + Entegrasyon</td></tr><tr><td>Özel Yazılım</td><td>45-70 gün</td><td>Analiz + Geliştirme</td></tr></tbody></table><p>Kurtköy'deki <strong>sağlık kliniğine</strong> randevu sistemi kurduk. Hasta kayıt, <em>doktor paneli</em>, SMS hatırlatma modülleri 19 günde devreye alındı. Kullanıcı <u>eğitimi 2 gün</u> sürdü.</p>",
+    "category": "Web Tasarım",
+    "active": true,
+    "publishedDate": "2025-02-14",
+    "order": 1
+  },
+  {
+    "id": "faq-2",
+    "question": "Pendik'te özel yazılım geliştirme süreci nasıl ilerler?",
+    "answer": "<p><strong>Keşif toplantısı</strong> düzenlenir. Mevcut iş akışınız, <em>dijital ihtiyaçlarınız</em>, hedefleriniz detaylı dinlenir. Teknik çözüm önerisi hazırlanır. <u>Prototip sunumu</u> yapılır.</p><p>Mikroservis mimarisi tercih edilir. <strong>RESTful API</strong> yapısı esneklik kazandırır. Veritabanı optimizasyonu yapılır. <em>Güvenlik protokolleri</em> katman katman eklenir. Test senaryoları <u>canlı ortamda</u> doğrulanır.</p><ul><li><strong>CRM Çözümleri:</strong> Müşteri ilişkileri yönetimi</li><li><strong>Envanter Sistemi:</strong> QR kod entegreli</li><li><strong>Rezervasyon Platformu:</strong> Otomatik onay</li><li><strong>Bayi Portalı:</strong> Sipariş takip modülü</li><li><strong>Finans Entegrasyonu:</strong> Cari hesap senkronizasyonu</li></ul><p>Kavakpınar OSB'deki <strong>üretim tesisine</strong> IoT tabanlı izleme yazılımı geliştirdik. Makine sensörleri, <em>üretim metrikleri</em>, bakım uyarıları dahil. Dashboard <u>gerçek zamanlı</u> veri gösteriyor.</p>",
+    "category": "Web Yazılım",
+    "active": true,
+    "publishedDate": "2025-04-22",
+    "order": 2
+  },
+  {
+    "id": "faq-3",
+    "question": "Pendik'te yerel SEO çalışması nasıl yapılır?",
+    "answer": "<p><strong>Mahalle odaklı</strong> strateji uygulanır. Yenişehir, Güzelyalı, Velibaba gibi <em>bölge isimleri</em> hedeflenir. Google İşletme Kaydı optimize edilir. <u>Konum bilgileri</u> tutarlı hale getirilir.</p><p>Teknik SEO analizi başlatılır. <strong>Core Web Vitals</strong> iyileştirilir. Mobil performans artırılır. <em>Yapılandırılmış veri</em> eklenir. Sitemap güncel tutulur. Robots.txt <u>arama motorlarına</u> doğru yönlendirme yapar.</p><ol><li><strong>Birinci Ay:</strong> Teknik altyapı optimizasyonu</li><li><strong>İkinci Ay:</strong> Yerel içerik üretimi</li><li><strong>Üçüncü Ay:</strong> Backlink kazanımı</li><li><strong>Dördüncü Ay:</strong> Yerel dizin kayıtları</li><li><strong>Beşinci Ay:</strong> Sıralama iyileşmesi</li></ol><p>Çamçeşme'deki <strong>diş kliniğine</strong> SEO hizmeti verdik. Pendik diş hekimi araması 5 ayda ilk 3'e girdi. <em>Randevu talepleri</em> %280 arttı. Organik trafik <u>istikrarlı yükseliyor</u>.</p>",
+    "category": "SEO",
+    "active": true,
+    "publishedDate": "2025-06-08",
+    "order": 3
+  },
+  {
+    "id": "faq-4",
+    "question": "Pendik'te GEO optimizasyonu neden gerekli?",
+    "answer": "<p><strong>ChatGPT, Gemini, Perplexity</strong> yapay zeka arama motorları kullanıcı davranışını değiştirdi. Pendik'te <em>web tasarım firması</em> öner gibi sorgular artıyor. Algoritmalar <u>güvenilir kaynakları</u> öne çıkarıyor.</p><p>İçerik semantik yapıda hazırlanmalı. <strong>Schema.org</strong> işaretlemesi zorunlu. Ekip profilleri detaylandırılmalı. <em>Referans projeler</em> kanıt oluşturur. SSS bölümü <u>konuşma dilinde</u> yazılmalı.</p><table><thead><tr><th>AI Platform</th><th>Strateji</th><th>Sonuç</th></tr></thead><tbody><tr><td>ChatGPT</td><td>Uzman içerik</td><td>Kaynak gösterimi</td></tr><tr><td>Gemini</td><td>Yapısal veri</td><td>Öne çıkan cevap</td></tr><tr><td>Perplexity</td><td>Güncel bilgi</td><td>İlk referans</td></tr></tbody></table><p>Esenyalı'daki <strong>hukuk bürosuna</strong> GEO çalışması yaptık. Yapay zeka aramaları artık avukat önerilerinde <em>büroyu gösteriyor</em>. Danışma talepleri <u>%190 yükseldi</u>.</p>",
+    "category": "GEO",
+    "active": true,
+    "publishedDate": "2025-08-17",
+    "order": 4
+  },
+  {
+    "id": "faq-5",
+    "question": "Pendik'te e-ticaret sitesi hangi özelliklere sahip olmalı?",
+    "answer": "<p><strong>Çoklu ödeme</strong> altyapısı kurulmalı. Sanal POS, iyzico, PayTR entegre edilmeli. <em>3D Secure 2.0</em> güvenlik standardı zorunlu. Taksit seçenekleri <u>satış artırır</u>.</p><p>Kargo entegrasyonu tam otomatik çalışmalı. <strong>Aras, MNG, Yurtiçi, Sürat</strong> API bağlantıları kurulmalı. Etiket yazdırma, <em>gönderi takibi</em> SMS bildirimi dahil. Stok senkronizasyonu <u>anlık güncellenmeli</u>.</p><ul><li><strong>Misafir Alışveriş:</strong> Kayıt olmadan ödeme</li><li><strong>Gelişmiş Filtreleme:</strong> Fiyat-marka-özellik</li><li><strong>Kupon Yönetimi:</strong> İndirim kodları</li><li><strong>Sipariş Takip:</strong> Müşteri paneli</li><li><strong>Canlı Yardım:</strong> WhatsApp Business</li></ul><p>Bahçelievler'deki <strong>giyim mağazasına</strong> e-ticaret platformu kurduk. Beden-renk varyantları, <em>stok uyarıları</em> aktif. İlk 4 ayda <u>1.240 sipariş</u> tamamlandı.</p>",
+    "category": "E-Ticaret",
+    "active": true,
+    "publishedDate": "2025-10-03",
+    "order": 5
+  },
+  {
+    "id": "faq-6",
+    "question": "Pendik'te hosting seçerken nelere dikkat edilmeli?",
+    "answer": "<p><strong>NVMe SSD</strong> disk teknolojisi tercih edilmeli. Türkiye lokasyonlu veri merkezi <em>gecikmeyi minimize</em> eder. LiteSpeed web sunucusu performans kazandırır. <u>Günlük otomatik yedekleme</u> veri güvenliği sağlar.</p><p>Trafik kapasitesi sınırsız olmalı. <strong>Bant genişliği</strong> kısıtlaması bulunmamalı. DDoS koruması standart olmalı. <em>Let's Encrypt SSL</em> ücretsiz dahil edilmeli. cPanel <u>Türkçe arayüzlü</u> olmalı.</p><table><thead><tr><th>Paket Tipi</th><th>Depolama</th><th>Kullanım</th></tr></thead><tbody><tr><td>Başlangıç</td><td>15 GB NVMe</td><td>Kurumsal tanıtım</td></tr><tr><td>İşletme</td><td>75 GB NVMe</td><td>E-ticaret platformu</td></tr><tr><td>Kurumsal</td><td>250 GB NVMe</td><td>Yüksek trafikli portal</td></tr></tbody></table><p>Yenişehir'deki <strong>eğitim kurumuna</strong> hosting hizmeti verdik. Online ders platformu, <em>öğrenci portalı</em> yoğun trafik alıyor. Sunucu <u>%99.9 uptime</u> sağlıyor.</p>",
+    "category": "Hosting",
+    "active": true,
+    "publishedDate": "2025-11-28",
+    "order": 6
+  },
+  {
+    "id": "faq-7",
+    "question": "Pendik'te kurumsal e-posta nasıl kurulur?",
+    "answer": "<p><strong>Alan adınıza</strong> özel e-posta adresleri oluşturulur. info@firmaniz.com formatı <em>kurumsal imaj</em> oluşturur. Sınırsız hesap tanımlanabilir. <u>Departman bazlı</u> yapılandırma yapılır.</p><p>IMAP/POP3/SMTP protokolleri desteklenir. <strong>Webmail paneli</strong> tarayıcıdan erişim sağlar. Outlook, Apple Mail, Thunderbird entegrasyonu kolayca yapılır. <em>Spam koruması</em> otomatik filtreler. Antivirüs taraması <u>gelen kutuyu</u> güvende tutar.</p><ol><li><strong>DNS Yapılandırma:</strong> MX kayıtları ayarlama</li><li><strong>Hesap Tanımlama:</strong> Kullanıcı oluşturma</li><li><strong>Cihaz Kurulumu:</strong> Mobil-masaüstü</li><li><strong>İmza Düzenleme:</strong> Logo-bilgiler</li><li><strong>Yedekleme Ayarı:</strong> Arşiv stratejisi</li></ol><p>Fevzi Çakmak'taki <strong>danışmanlık firmasına</strong> kurumsal mail kurduk. Ekip üyeleri, <em>proje grupları</em> ayrı hesaplar kullanıyor. Müşteri <u>güveni arttı</u>.</p>",
+    "category": "Kurumsal E-Posta",
+    "active": true,
+    "publishedDate": "2026-01-19",
+    "order": 7
+  },
+  {
+    "id": "faq-8",
+    "question": "Pendik'te mobil uyumlu web sitesi neden zorunlu?",
+    "answer": "<p><strong>Mobil kullanım</strong> %82 seviyesine ulaştı. Kullanıcılar akıllı telefondan arama yapıyor. Google <em>mobile-first indexing</em> uyguluyor. Uyumsuz siteler <u>görünürlük kaybediyor</u>.</p><p>Responsive tasarım standart olmalı. <strong>Touch-friendly</strong> butonlar yeterli boyutta tasarlanmalı. Hamburger menü mobilde açılır kapanır olmalı. <em>Sayfa yüklenme</em> 2.5 saniye altında tutulmalı. Görseller <u>WebP formatında</u> optimize edilmeli.</p><ul><li><strong>Ekran Uyumluluğu:</strong> Tablet-telefon-masaüstü</li><li><strong>Performans:</strong> Lazy loading, CDN</li><li><strong>Tıklama Alanı:</strong> 48px minimum boyut</li><li><strong>Yazı Boyutu:</strong> 16px okunabilir</li><li><strong>Form Optimizasyonu:</strong> Kolay doldurma</li></ul><p>Orhangazi'deki <strong>kafe zincirine</strong> mobil uyumlu site yaptık. Online sipariş formu <em>telefonda sorunsuz</em> çalışıyor. Mobil siparişler <u>%73 arttı</u>.</p>",
+    "category": "Mobil Uyum",
+    "active": true,
+    "publishedDate": "2026-02-11",
+    "order": 8
+  },
+  {
+    "id": "faq-9",
+    "question": "Pendik'te web sitesi güvenliği nasıl sağlanır?",
+    "answer": "<p><strong>SSL/TLS sertifikası</strong> zorunlu kurulmalı. HTTPS protokolü <em>veri şifrelemesi</em> sağlar. Tarayıcılar güvenli bağlantı ikonu gösterir. Google <u>sıralamada avantaj</u> verir.</p><p>Web Application Firewall aktif olmalı. <strong>Brute force</strong> saldırıları otomatik engellenmelidir. Haftalık güvenlik taraması yapılmalı. <em>Yazılım güncellemeleri</em> düzenli uygulanmalı. Yedekleme sistemi <u>otomatik çalışmalı</u>.</p><table><thead><tr><th>Tehdit Türü</th><th>Koruma</th><th>Çözüm</th></tr></thead><tbody><tr><td>SQL Injection</td><td>Parametre doğrulama</td><td>Prepared statements</td></tr><tr><td>XSS Atağı</td><td>Input temizleme</td><td>HTML encoding</td></tr><tr><td>DDoS</td><td>Trafik analizi</td><td>Cloudflare WAF</td></tr></tbody></table><p>Sülüntepe'deki <strong>e-ticaret firmasına</strong> güvenlik katmanları kurduk. Müşteri bilgileri, <em>ödeme verileri</em> şifreli saklanıyor. PCI-DSS uyumluluk <u>sağlandı</u>.</p>",
+    "category": "Güvenlik",
+    "active": true,
+    "publishedDate": "2026-02-25",
+    "order": 9
+  },
+  {
+    "id": "faq-10",
+    "question": "Pendik'te web sitesi performansı nasıl ölçülür?",
+    "answer": "<p><strong>Google Analytics 4</strong> kurulur. Ziyaretçi davranışları, <em>sayfa görüntülemeleri</em>, oturum süreleri izlenir. Çıkış noktaları belirlenir. <u>Dönüşüm hunileri</u> oluşturulur.</p><p>Trafik kaynakları analiz edilir. <strong>Organik arama</strong> performansı raporlanır. Sosyal medya etkisi ölçülür. <em>Doğrudan ziyaretler</em> takip edilir. Yönlendirme bağlantıları <u>hangi platformlardan</u> geliyor incelenir.</p><ol><li><strong>Hedef Belirleme:</strong> Conversion tracking</li><li><strong>Etkinlik İzleme:</strong> Button clicks, form submit</li><li><strong>E-Ticaret Analizi:</strong> Satış performansı</li><li><strong>Kitle Segmentasyonu:</strong> Yaş-konum-cihaz</li><li><strong>Sayfa Hızı:</strong> Core Web Vitals</li></ol><p>Doğu Mahallesi'ndeki <strong>emlak ofisine</strong> Analytics kurduk. Hangi mahalle aramaları <em>portföy detayına</em> yönlendiriyor görüyoruz. Reklam stratejisi <u>veri odaklı</u> optimize ediliyor.</p>",
+    "category": "Analitik",
+    "active": true,
+    "publishedDate": "2025-12-07",
+    "order": 10
+  }
+]

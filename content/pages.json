@@ -1,0 +1,312 @@
+{
+  "homepage": {
+    "hero": {
+      "title": "Bilgisayar Teknik Servis",
+      "subtitle": "Bilgisayar Teknik Servis; masaüstü, dizüstü, sunucu ve ağ sistemlerinde hızlı, profesyonel ekip ile arıza tespiti, parça değişimi, veri koruma ve yerinde teknik müdahale sağlayan kurumsal servis merkezidir.\n",
+      "whatsappText": "WhatsApp Destek",
+      "phoneText": "0 545 181 4040",
+      "cities": [
+        {
+          "name": "İstanbul",
+          "enabled": true
+        },
+        {
+          "name": "Kocaeli",
+          "enabled": true
+        },
+        {
+          "name": "Sakarya",
+          "enabled": true
+        },
+        {
+          "name": "Düzce",
+          "enabled": true
+        },
+        {
+          "name": "Yalova",
+          "enabled": true
+        }
+      ],
+      "cta": {
+        "primary": null,
+        "secondary": null
+      },
+      "trustBadges": [
+        {
+          "title": "Yerinde Destek",
+          "description": "Ofis veya evinizde yerinde teknik destek hizmeti.",
+          "icon": "map-pin"
+        },
+        {
+          "title": "Uzaktan Destek",
+          "description": "Hızlı çözüm için uzaktan bağlantı desteği.",
+          "icon": "monitor"
+        },
+        {
+          "title": "Aynı Gün Servis",
+          "description": "Acil durumlarda aynı gün içinde hızlı müdahale.",
+          "icon": "clock"
+        },
+        {
+          "title": "Deneyimli Teknik Ekip",
+          "description": "Sertifikalı ve alanında deneyimli mühendis kadro.",
+          "icon": "users"
+        },
+        {
+          "title": "Kurumsal ve Bireysel Hizmet",
+          "description": "Tüm müşteri tiplerine göre özel destek ve çözümler.",
+          "icon": "briefcase"
+        }
+      ]
+    },
+    "seoContent1": "<p><strong>Bilgisayar Teknik Servis</strong>, arızayı yalnızca gidermeye odaklanan sıradan bir yapı değildir. Asıl hedef, cihazın kararsızlaşmasına yol açan nedeni doğru saptamaktır. Yavaş açılış, ani kapanma, ısınma, görüntü gelmemesi, veri kaybı riski, anakart sorunları, SSD arızaları ve ağ problemleri aynı disiplin içinde değerlendirilir. İlk inceleme aşamasında kullanım senaryosu, donanım yaşı, parça uyumu ve iş sürekliliği dikkate alınır. Böylece masaüstü bilgisayarlar, dizüstüler, iş istasyonları ve ofis sistemleri için rastgele değil, teknik ölçüye dayalı karar verilir.</p><p>İstanbul, Kocaeli, Sakarya, Düzce ve Yalova hattında teknik desteğe ihtiyaç duyan kullanıcılar için hız kadar doğruluk da belirleyicidir. Bu nedenle servis süreci; kayıt açılması, ön teşhis, net bilgilendirme, işlem onayı ve kontrollü teslim adımlarıyla yürütülür. Gereksiz parça değişimi yapılmaz. Onarımı mümkün olan bileşenler korunur. Veri güvenliği riski taşıyan cihazlarda öncelik yedekleme planına verilir. Kurumsal müşterilerde ise kesinti süresi, ağ bütünlüğü ve kullanıcı devamlılığı esas alınır. Böylece çıkan sonuç, geçici rahatlama değil, sürdürülebilir sistem kararlılığı olur.</p>",
+    "services": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "Arıza tespitinden teslim aşamasına kadar ölçülü, hızlı ve teknik odaklı çözümler.",
+      "description": "Masaüstü, laptop, sunucu, yazıcı ve ağ cihazları için tanılama, onarım, bakım, yükseltme, veri koruma ve kurumsal destek adımları tek merkezde yönetilir.",
+      "keywords": [
+        "Bilgisayar Tamiri",
+        "Laptop Onarımı",
+        "Anakart Tamiri",
+        "SSD Yükseltme",
+        "RAM Değişimi",
+        "Ekran Kartı Tamiri",
+        "Veri Kurtarma",
+        "Sistem Optimizasyonu",
+        "Virüs Temizleme",
+        "Ağ Kurulumu"
+      ]
+    },
+    "devices": {
+      "title": "Hangi Cihazlara Hizmet Veriyoruz?",
+      "subtitle": "Tüm marka ve modellerde profesyonel teknik destek.",
+      "items": [
+        {
+          "name": "Laptop",
+          "description": "Tüm marka dizüstü bilgisayarlar.",
+          "icon": "laptop"
+        },
+        {
+          "name": "Masaüstü / PC",
+          "description": "Masaüstü bilgisayar sistemleri.",
+          "icon": "desktop"
+        },
+        {
+          "name": "All in One",
+          "description": "Hepsi bir arada bilgisayarlar",
+          "icon": "all-in-one"
+        },
+        {
+          "name": "MacBook / iMac",
+          "description": "Apple bilgisayar ve dizüstüler",
+          "icon": "apple"
+        },
+        {
+          "name": "Yazıcı",
+          "description": "Lazer ve mürekkepli yazıcılar.",
+          "icon": "printer"
+        },
+        {
+          "name": "Modem",
+          "description": "İnternet modem ve router cihazları",
+          "icon": "modem"
+        },
+        {
+          "name": "Switch / Router",
+          "description": "Ağ anahtarlama ve yönlendirme",
+          "icon": "switch"
+        },
+        {
+          "name": "NAS / Yedekleme",
+          "description": "Ağ depolama ve yedekleme.",
+          "icon": "nas"
+        },
+        {
+          "name": "Sunucu / Server",
+          "description": "Kurumsal sunucu sistemleri",
+          "icon": "server"
+        },
+        {
+          "name": "Workstation",
+          "description": "Performanslı iş istasyonları.",
+          "icon": "workstation"
+        },
+        {
+          "name": "Monitör ve Çevre Birimleri",
+          "description": "Ekran, klavye, mouselar.",
+          "icon": "monitor"
+        },
+        {
+          "name": "Acil Destek",
+          "description": "Hızlı ve Profesyonel Destek.",
+          "icon": "zap"
+        }
+      ]
+    },
+    "process": {
+      "title": "Nasıl Çalışırız?",
+      "subtitle": "Kayıt, teşhis, onay ve teslim adımlarıyla ilerleyen kontrollü servis modeli.",
+      "description": "Her işlem, belirsizliği azaltan bir servis disipliniyle yürütülür. Kullanıcı talebi, cihaz geçmişi, arıza seviyesi ve teslim öncesi test aşaması birlikte değerlendirilir; süreç kayıt altında tamamlanır.",
+      "steps": [
+        {
+          "title": "Kayıt Açılışı",
+          "description": "Talep alınır, cihaz durumu notlanır, işlem süreci başlatılır."
+        },
+        {
+          "title": "Ön Teşhis",
+          "description": "Arıza kaynağı incelenir, riskler ve gerekli adımlar belirlenir."
+        },
+        {
+          "title": "Onay Süreci",
+          "description": "Maliyet, süre ve uygulanacak işlem net biçimde sunulur."
+        },
+        {
+          "title": "Kontrollü Teslim",
+          "description": "Test tamamlanır, işlem özeti hazırlanır, cihaz güvenle teslim edilir."
+        }
+      ]
+    },
+    "features": {
+      "title": "Neden Biz?",
+      "subtitle": "Çünkü teknik karar, hız kadar doğruluk ve kayıt disiplini gerektirir.",
+      "description": "Teknik servis değeri, yalnızca onarımla ölçülmez. Doğru tespit, veri güvenliği, işlem şeffaflığı, parça uyumu ve teslim sonrası sistem kararlılığı birlikte değerlendirildiğinde gerçek kalite ortaya çıkar.",
+      "items": [
+        {
+          "title": "Doğru Tespit",
+          "description": "Arızanın kaynağı bulunur, yüzeyde kalan belirtilerle yetinilmez."
+        },
+        {
+          "title": "Net Bilgilendirme",
+          "description": "İşlem öncesi kapsam, maliyet ve süre açık biçimde paylaşılır."
+        },
+        {
+          "title": "Veri Önceliği",
+          "description": "Kritik dosyalar için koruma ve aktarım planı önce hazırlanır."
+        },
+        {
+          "title": "Parça Disiplini",
+          "description": "Uygunsuz bileşen yerine doğru uyumlu parça tercih edilir."
+        },
+        {
+          "title": "Test Süreci",
+          "description": "Teslim öncesi performans, sıcaklık ve kararlılık kontrolleri yapılır."
+        },
+        {
+          "title": "Kurumsal Yaklaşım",
+          "description": "Bireysel ve ofis talepleri farklı teknik senaryolarla ele alınır."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Pendik Web Tasarım Fiyatları",
+      "subtitle": "Fiyat, ihtiyaç düzeyi ve proje kapsamına göre dengeli belirlenir.",
+      "description": "Hazır paket mantığı yerine hedefe uygun kapsam belirlenir. Böylece gereksiz maliyet oluşmaz, eksik teslim riski düşer, yatırım kalemi markanın gerçek ihtiyacına göre netleşir."
+    },
+    "technologies": {
+      "title": "Markalar",
+      "subtitle": "Birçok üretici için uyumlu bakım ve onarım disiplini.",
+      "description": "AMD veya Intel tabanlı sistemler ve farklı sunucu altyapıları için uyumlu parça, doğru teşhis ve kontrollü servis yaklaşımı uygulanır."
+    },
+    "reviews": {
+      "title": "Müşteri Yorumları",
+      "subtitle": ""
+    },
+    "regions": {
+      "title": "Hizmet Bölgeleri",
+      "subtitle": "Marmara hattında seçili iller için yerinde ve planlı teknik destek.",
+      "description": "İstanbul, Kocaeli, Sakarya, Düzce ve Yalova içinde bireysel kullanıcılar, ofisler, mağazalar ve küçük ölçekli işletmeler için planlı servis, yerinde müdahale ve cihaz bazlı teknik çözüm desteği sunulur."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "subtitle": "Karar aşamasında gerekli temel yanıtlar bu bölümde."
+    },
+    "seoContent2": "<article class=\"seo-article\">\n  <p>Arıza yaşayan bir cihazın gerçek ihtiyacı, yalnızca parça değişimi değildir. Doğru teşhis, güvenli işlem ve kararlı teslim üçlüsü belirleyicidir. Bu nedenle servis seçerken hız kadar teknik yeterlilik, kayıt düzeni ve açıklık da dikkate alınmalıdır. Ani kapanan bir laptop, görüntü vermeyen masaüstü, açılmayan sunucu ya da kararsız ağ cihazı aynı ciddiyetle incelenmelidir.</p>\n\n  <p>Kurumsal ve bireysel kullanıcıların beklentisi farklıdır. Ev kullanıcısı veri kaybından çekinir. İşletme ise kesintisiz çalışma ister. Teknik servis metni de bu ayrımı yansıtmalıdır. Aşağıdaki yapı, hem arama niyetini karşılar hem de karar aşamasındaki ziyaretçiye net bir çerçeve sunar.</p>\n\n  <h2>Bilgisayar Tamir Servisi</h2>\n  <p><strong><em><u>bilgisayar servisi</u></em></strong> ihtiyacı çoğu zaman beklenmedik anda doğar. Cihaz açılmaz, sistem yavaşlar, fan sesi artar ya da veri erişimi kesilir. Sağlıklı bir müdahale için ilk aşamada donanım testi, depolama kontrolü, ısı ölçümü ve güç dengesi incelenir. Ardından sorunun yazılımsal mı, bileşensel mi olduğu ayrıştırılır. Bu ayrım yapılmadan verilen kararlar, maliyeti büyütür. Teknik ölçümle ilerleyen servis yapısı ise hem süreyi kısaltır hem yanlış işlem riskini düşürür. Özellikle iş amaçlı kullanılan cihazlarda geçici çözüm değil, kararlılık üreten müdahale tercih edilmelidir.</p>\n\n  <h3>İstanbul Bilgisayar Teknik Servisi</h3>\n  <p><strong><em><u>bilgisayar tamir servisi</u></em></strong> arayan İstanbul kullanıcıları için erişim hızı kadar operasyon düzeni de önem taşır. Yoğun iş akışı içinde cihazı günlerce bekletmek kabul edilebilir değildir. Bu nedenle ön kayıt, hızlı ön teşhis ve işlem onayı akıcı kurulmalıdır. İlçe bazlı planlama, yerinde servis gereksinimi ve cihaz türüne göre farklı senaryolar hazırlanmalıdır. Ofisler için ağ bağlantısı, yazıcı erişimi ve kullanıcı hesap sürekliliği incelenmelidir. Bireysel cihazlarda ise ekran, batarya, klavye, SSD ve anakart hattı dikkatle ele alınmalıdır. İstanbul’da teknik servis metni, yalnızca genel vaatlerle değil, işlem düzeniyle güven vermelidir.</p>\n\n  <table>\n    <tr>\n      <th>İşlem Alanı</th>\n      <th>İlk Kontrol</th>\n      <th>Öncelik</th>\n    </tr>\n    <tr>\n      <td>Masaüstü</td>\n      <td>Güç, RAM, disk, sıcaklık</td>\n      <td>Kararlılık</td>\n    </tr>\n    <tr>\n      <td>Laptop</td>\n      <td>Ekran, batarya, menteşe, SSD</td>\n      <td>Taşınabilirlik</td>\n    </tr>\n    <tr>\n      <td>Sunucu</td>\n      <td>Disk yapısı, ağ, yedekleme</td>\n      <td>Süreklilik</td>\n    </tr>\n  </table>\n\n  <h2>Bilgisayar Tamircisi</h2>\n  <p><strong><em><u>bilgisayar tamircisi</u></em></strong> seçerken dikkat edilmesi gereken ölçüt, yalnızca cihazı çalıştırması değildir. Asıl ölçüt, sorunu neden oluştuğuyla birlikte çözmesidir. Geçici açılan sistemler, kısa süre sonra aynı arızayı tekrarlar. Bu yüzden işlem yapan kişinin yalnızca montaj bilgisi değil, test düzeni ve parça uyumu konusunda da güçlü olması gerekir. Uyumlu adaptör seçimi, anakart hattı kontrolü, SSD sağlık verisi, fan temizliği ve termal macun yenilemesi aynı bütünün parçasıdır. Doğru teknik yaklaşım, cihazın kalan ömrünü de korur. Kullanıcı için asıl kazanç, tek seferlik rahatlama değil, istikrarlı çalışma düzenidir.</p>\n\n  <h3>Kocaeli En İyi Bilgisayar Teknik Servisi</h3>\n  <p><strong><em><u>bilgisayar tamiri</u></em></strong> talebinin yoğun olduğu Kocaeli hattında işletmeler için üretim ve ofis sürekliliği büyük önem taşır. Bu nedenle en iyi servis tanımı, yalnızca hızlı olmakla kurulmaz. Yedekleme disiplini, parça uyumu, işlem kaydı ve teslim testi birlikte değerlendirilir. Sanayi çevresinde kullanılan sistemlerde toz, ısı ve elektrik dalgalanması daha sık sorun üretir. Böyle alanlarda fan bloğu temizliği, güç kaynağı kontrolü ve depolama sağlığı ayrı başlıklardır. Kocaeli odaklı içerikte teknik açıklık öne çıkmalıdır. Kullanıcı, hangi işlem neden önerildiğini tek bakışta anlamalıdır.</p>\n\n  <ul>\n    <li><strong><em><u>bilgisayar teknik destek</u></em></strong> sürecinde ilk amaç veri kaybını önlemektir.</li>\n    <li><strong><em><u>bilgisayar teknik servis</u></em></strong> seçiminde işlem öncesi bilgilendirme aranmalıdır.</li>\n    <li><strong><em><u>bilgisayar teknik servisi</u></em></strong> teslim öncesi test raporuyla güven üretir.</li>\n    <li><strong><em><u>pc servisi</u></em></strong> için parça uyumu rastgele bırakılmamalıdır.</li>\n  </ul>\n\n  <h2>Bilgisayar Teknik Servis</h2>\n  <p><strong><em><u>pc tamir servisi</u></em></strong> ifadesi çoğu kullanıcı için basit görünür; ancak arka plandaki teknik düzen çok daha hassastır. Sorun bazen diskten değil, bozuk güncellemeden kaynaklanır. Bazen ekran arızası sanılan durum, kablo hattı ya da grafik biriminden doğar. Bu yüzden kontrollü servis yaklaşımında varsayım değil, ölçüm esastır. Isı değerleri, açılış kayıtları, SMART çıktıları ve voltaj davranışı birlikte okunur. Böylece işlem gereksiz büyütülmez. Kullanıcı bütçesi korunur. Aynı zamanda cihazın gelecekte tekrar arıza vermesine neden olabilecek zayıf alanlar da erken tespit edilir.</p>\n\n  <h3>Sakarya Kurumsal Bilgisayar Teknik Servisi</h3>\n  <p><strong><em><u>pc tamircisi</u></em></strong> arayan kurumsal Sakarya müşterileri için tek cihaz değil, iş akışı önemlidir. Muhasebe sistemi duran bir ofis, yalnızca bilgisayar arızası yaşamaz; doğrudan operasyon kaybı yaşar. Bu nedenle kurumsal teknik destek planında kullanıcı sayısı, ağ omurgası, yazıcı erişimi, paylaşım klasörleri ve lisanslı yazılım devamlılığı birlikte değerlendirilir. Arıza sonrası ilk amaç, çalışmayı yeniden başlatmaktır. Ardından kalıcı düzeltme yapılır. Sakarya odaklı servis metni, bu ayrımı açık biçimde göstermelidir. Karar verici kişi, teknik müdahalenin iş tarafına etkisini net görmelidir.</p>\n\n  <table>\n    <tr>\n      <th>Müşteri Tipi</th>\n      <th>Öncelikli Beklenti</th>\n      <th>Servis Yaklaşımı</th>\n    </tr>\n    <tr>\n      <td>Bireysel</td>\n      <td>Hızlı onarım</td>\n      <td>Cihaz bazlı işlem</td>\n    </tr>\n    <tr>\n      <td>Ofis</td>\n      <td>Kesinti azaltma</td>\n      <td>Ağ ve kullanıcı devamlılığı</td>\n    </tr>\n    <tr>\n      <td>Kurumsal</td>\n      <td>Kayıtlı süreç</td>\n      <td>Planlı bakım ve raporlama</td>\n    </tr>\n  </table>\n\n  <h2>Bilgisayar Tamiri</h2>\n  <p><strong><em><u>pc tamiri</u></em></strong> yalnızca bozulan parçayı değiştirmek değildir. Özellikle eskiyen cihazlarda parça değişimi ile performans kazancı arasındaki denge iyi hesaplanmalıdır. SSD yükseltmesiyle hız kazanacak bir sistem için anakart değişimi önermek doğru değildir. Buna karşılık veri hatası veren disklerde erteleme daha büyük sorun doğurur. Bu nedenle doğru servis metni, kullanıcıya neyin acil olduğunu açık anlatmalıdır. Ekran kırığı, şişen batarya, sıvı teması, fan blokajı ya da mavi ekran döngüsü farklı öncelikler taşır. Teknik netlik, kullanıcının güvenini doğrudan etkiler.</p>\n\n  <h3>Yalova En Yakın Bilgisayar Teknik Servisi</h3>\n  <p><strong><em><u>pc teknik destek</u></em></strong> ihtiyacı Yalova hattında çoğu zaman hızlı çözüm beklentisiyle başlar. Ancak yakınlık tek başına yeterli ölçü değildir. Cihazın güvenle teslim alınması, durumunun kayıt altına girmesi ve işlem sonrası net açıklamayla iade edilmesi gerekir. Kullanıcılar özellikle ekran, klavye, şarj soketi, SSD ve yazılım çökmesi gibi sorunlarda kısa süre içinde somut bilgi bekler. Bu nedenle Yalova odaklı içerikte servis yaklaşımı yalın ama güçlü kurulmalıdır. Yakın servis algısı, ancak teknik güvenceyle değer kazanır. Aksi hâlde erişim kolaylığı, kalıcı memnuniyet üretmez.</p>\n\n  <ol>\n    <li><strong><em><u>pc teknik servis</u></em></strong> talebinde cihaz geçmişi not edilmelidir.</li>\n    <li><strong><em><u>pc teknik servisi</u></em></strong> için ön teşhis süresi açık sunulmalıdır.</li>\n    <li><strong><em><u>server servisi</u></em></strong> planında yedekleme ilk sırada yer almalıdır.</li>\n    <li><strong><em><u>server tamir servisi</u></em></strong> işlemleri test raporuyla tamamlanmalıdır.</li>\n  </ol>\n\n  <h2>Bilgisayar Teknik Destek</h2>\n  <p><strong><em><u>server tamircisi</u></em></strong> gerektiren senaryolar, standart masaüstü arızalarından farklıdır. Sunucu tarafında tek hata, çok sayıda kullanıcıyı etkileyebilir. RAID yapısı, disk sağlığı, güç ünitesi, ağ portları ve yedekleme düzeni birlikte incelenmelidir. Burada acele kararlar daha yüksek kayıp doğurur. Önce erişim güvenliği sağlanır. Sonra veri bütünlüğü korunur. Ardından parça ve yapı değerlendirilir. Teknik destek metni de bu ciddiyeti taşımalıdır. Sunucu bakımında sessiz çalışan fakat hatalı log üreten sistemler de risklidir. Erken tespit, daha büyük kesintilerin önüne geçer.</p>\n\n  <h3>Düzce Bilgisayar Teknik Servis</h3>\n  <p><strong><em><u>server tamiri</u></em></strong> ve istemci cihaz desteğini birlikte arayan Düzce kullanıcıları için servis sağlayıcının farklı cihaz gruplarını okuyabilmesi gerekir. Küçük işletmelerde masaüstü, yazıcı, modem ve paylaşımlı klasör yapısı birlikte çalışır. Tek cihaz arızası gibi görünen bir durum, ağ tarafını da etkileyebilir. Bu yüzden Düzce odaklı teknik içerikte yalnızca cihaz onarımı değil, çalışma düzenini koruyan yaklaşım anlatılmalıdır. İşlem sırasında veri kopyası, kullanıcı yetkileri ve bağlantı testleri de hesaba katılmalıdır. Sağlam servis, görünen sorunun arkasındaki kırılgan halkayı da bulur.</p>\n\n  <h2>Bilgisayar Servisi</h2>\n  <p><strong><em><u>server teknik destek</u></em></strong>, <strong><em><u>server teknik servis</u></em></strong>, <strong><em><u>server teknik servisi</u></em></strong>, <strong><em><u>sunucu servisi</u></em></strong>, <strong><em><u>sunucu tamir servisi</u></em></strong>, <strong><em><u>sunucu tamircisi</u></em></strong>, <strong><em><u>sunucu tamiri</u></em></strong>, <strong><em><u>sunucu teknik destek</u></em></strong>, <strong><em><u>sunucu teknik servis</u></em></strong> ve <strong><em><u>sunucu teknik servisi</u></em></strong> başlıkları aynı güven zincirinin parçalarıdır. İster bireysel cihaz olsun ister iş kritik sistemler, aranan şey netliktir. Kullanıcı neyin bozuk olduğunu, neyin değişeceğini, hangi riskin bulunduğunu ve teslim sonrası ne beklemesi gerektiğini bilmek ister. Güçlü servis metni tam burada öne çıkar. Kararı kolaylaştırır. Belirsizliği azaltır. Teknik dili sadeleştirir. Aynı zamanda kurumsal ağırlığı korur.</p>\n</article>",
+    "seo": {
+      "title": "Bilgisayar Teknik Servis ve Tamir, Kurumsal Destek Çözümleri",
+      "description": "Bilgisayar Teknik Servis; İstanbul, Kocaeli, Sakarya, Düzce ve Yalova’da laptop, masaüstü, sunucu ve ağ cihazları için hızlı tamir ve teknik destek sunar.",
+      "keywords": []
+    },
+    "cta": {
+      "title": "Acil Destek ve Profesyonel Hizmet İçin;",
+      "description": "Hemen Ücretsiz danışmanlık için şimdi iletişime geçin.",
+      "primaryButtonText": "Teklif Al!"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Hakkımızda",
+      "subtitle": "Teknik doğruluk, kayıt disiplini ve sürdürülebilir cihaz kararlılığı üzerine kurulu yapı."
+    },
+    "content": {
+      "description": "Bilgisayar Teknik Servis, teknik arızayı yalnızca müdahale edilmesi gereken bir sorun olarak görmez; iş sürekliliğini etkileyen operasyonel bir başlık olarak ele alır. Bu yaklaşım, masaüstü bilgisayar, laptop, sunucu, yazıcı ve ağ cihazlarında daha doğru karar alınmasını sağlar. Her talep kayıtla başlar. Her işlem ölçümle ilerler. Her teslim test ile tamamlanır. Amaç, kullanıcıyı teknik terimlerle yormak değil, net sonuca ulaştırmaktır. Karar sürecinde açıklık, işlem tarafında disiplin ve teslim aşamasında güven temel ilkeleri oluşturur.",
+      "mission": "Arızayı doğru saptayan, güven veren, kayıtlı teknik süreç standardı oluşturmak.",
+      "vision": "Bölgesel ölçekte referans kabul edilen güçlü teknik servis merkezi konumuna ulaşmak.",
+      "values": [],
+      "valuesSubtitle": "Karar kalitesini yükselten, güven duygusunu güçlendiren ve hizmet standardını koruyan temel ilkeler bu yapının merkezinde yer alır."
+    },
+    "seo": {
+      "title": "Hakkımızda",
+      "description": "Hakkımızda; teknik yaklaşım, kayıt disiplini, veri güvenliği ve sürdürülebilir cihaz kararlılığı odaklı kurumsal servis anlayışı.",
+      "keywords": []
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Gizlilik Politikası",
+      "subtitle": "Kişisel veriler, açık amaç ve sınırlı işleme ilkesiyle korunur."
+    },
+    "content": "Bilgisayar Teknik Servis internet sitesini ziyaret eden kullanıcıların paylaştığı bilgiler, hukuka uygun işleme ilkesi çerçevesinde korunur. İletişim formu, teklif talebi, servis kaydı ve benzeri alanlar üzerinden iletilen veriler; başvuruyu değerlendirme, iletişim kurma, teknik süreç yürütme ve kayıt düzenini sağlama amacıyla sınırlı olarak işlenir. Yetkisiz erişimi önlemek için uygun teknik ve idari tedbirler uygulanır. Kişisel veriler, açık yasal zorunluluk bulunmadıkça ilgisiz üçüncü taraflara aktarılmaz. Kullanıcı, kendi verisine ilişkin bilgi talep etme, düzeltme isteme ve gerekli hâllerde silme başvurusu yapma hakkına sahiptir.\n",
+    "seo": {
+      "title": "Gizlilik Politikası",
+      "description": "Gizlilik politikası; kişisel verilerin hangi amaçlarla işlendiğini, nasıl korunduğunu ve kullanıcı haklarının nasıl yönetildiğini açıklar.",
+      "keywords": []
+    }
+  },
+  "cookies": {
+    "hero": {
+      "title": "Çerez Politikası",
+      "subtitle": "Çerez kullanımı, işlevsellik, güvenlik ve ölçüm amacıyla sınırlandırılır."
+    },
+    "content": "Bilgisayar Teknik Servis internet sitesinde kullanılan çerezler, sayfa işlevlerinin sağlıklı çalışması, oturum sürekliliğinin korunması, güvenlik kontrollerinin desteklenmesi ve performansın ölçülmesi amacıyla değerlendirilir. Zorunlu çerezler, sitenin temel çalışma düzeni için gereklidir. Analitik veya işlevsel çerezler ise kullanıcı tercihine bağlı şekilde devreye alınabilir. Ziyaretçi, tarayıcı ayarları üzerinden çerezleri sınırlandırabilir, silebilir ya da tamamen devre dışı bırakabilir. Bununla birlikte bazı tercihler, belirli alanların beklenen şekilde çalışmamasına yol açabilir. Çerez tercihleri, kullanıcı tarafından istenen anda yeniden düzenlenebilir.\n",
+    "seo": {
+      "title": "Çerez Politikası",
+      "description": "Çerez politikası; zorunlu çerezler, performans ölçümü, kullanıcı tercihleri ve tarayıcı üzerinden çerez yönetimi hakkında bilgi sunar.\n",
+      "keywords": []
+    }
+  },
+  "sitemap": {
+    "hero": {
+      "title": "Site Haritası",
+      "subtitle": "Tüm sayfalara düzenli ve hızlı erişim sağlayan yönlendirme alanı."
+    },
+    "seo": {
+      "title": "Site Haritası",
+      "description": "Site haritası; ana sayfa, hizmetler, fiyatlar, iletişim, teklif ve politika sayfalarına düzenli erişim sunan yönlendirme alanıdır.\n",
+      "keywords": []
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "İletişim",
+      "subtitle": "Talep, kayıt ve soru başvuruları için resmi iletişim kanalları."
+    },
+    "info": {
+      "description": "Resmî kanallar ve erişim noktaları."
+    },
+    "form": {
+      "description": "Talebinizi net biçimde iletin."
+    },
+    "maps": {
+      "iframe": ""
+    },
+    "seo": {
+      "title": "İletişim",
+      "description": "İletişim sayfası üzerinden servis kaydı bırakabilir, teklif talep edebilir ve teknik destek sürecine hızlı biçimde başlayabilirsiniz.\n",
+      "keywords": []
+    }
+  },
+  "footer": {
+    "title": "Bilgisayar Teknik Servis",
+    "description": "Bilgisayar Teknik Servis; masaüstü, laptop, sunucu ve ağ altyapılarında arıza tespiti, bakım, onarım, veri güvenliği ve yerinde destek süreçlerini kayıtlı, ölçülü ve teknik standartlara bağlı biçimde yöneten kurumsal servis yapısıdır."
+  }
+}

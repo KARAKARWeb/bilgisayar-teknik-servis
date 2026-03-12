@@ -1,0 +1,59 @@
+{
+  "hizmetlerimiz": {
+    "title": "Hizmetlerimiz",
+    "description": "Teknik destek başlıklarının tamamını tek çatı altında sunan servis yapısı.",
+    "seo": {
+      "title": "Hizmetlerimiz",
+      "description": "Hizmetlerimiz; arıza tespiti, bakım, parça değişimi, veri kurtarma, ağ desteği ve sunucu müdahalelerini tek merkezde toplar.\n",
+      "keywords": []
+    }
+  },
+  "fiyatlarimiz": {
+    "seo": {
+      "title": "Web Tasarım Fiyatları - 2026",
+      "description": "Web tasarım fiyatlarını etkileyen proje kapsamı, sayfa yapısı, içerik derinliği ve teknik ihtiyaç kalemlerini açık biçimde değerlendirin.\n",
+      "keywords": []
+    },
+    "title": "Web Tasarım Fiyatlarımız",
+    "subtitle": "İhtiyaca göre şekillenen ücret yapısını netleştiren bilgilendirme alanı.",
+    "comparison": {
+      "title": "Paket Özellik Karşılaştırması",
+      "description": "Paketlerin Özelliklerini detaylı olarak karşılaştırın ve size en uygun olanı seçin."
+    }
+  },
+  "hizmet-bolgeleri": {
+    "title": "Hizmet Bölgelerimiz",
+    "subtitle": "Destek verilen iller ve servis erişim düzeni bu sayfada yer alır.",
+    "seo": {
+      "title": "Hizmet Bölgelerimiz",
+      "description": "",
+      "keywords": []
+    }
+  },
+  "teklif-al": {
+    "title": "Teklif Al",
+    "description": "aa",
+    "seo": {
+      "title": "Web Tasarım Fiyat Teklifi Al",
+      "description": "Teklif al sayfasında cihaz türü ve arıza durumuna göre net, ölçülü ve açıklayıcı fiyatlandırma sürecine hızlı başvuru yapılır.\n",
+      "keywords": []
+    }
+  },
+  "fiyat-hesapla": {
+    "title": "Fiyat Hesaplama",
+    "description": "Proje kapsamına göre maliyet öngörüsü sunan pratik değerlendirme alanı.",
+    "seo": {
+      "title": "Web Tasarım Fiyat Hesaplama",
+      "description": "Web tasarım fiyat hesaplama alanında proje türü, içerik kapsamı ve teknik gereksinimlere göre yaklaşık maliyet öngörüsü oluşturun.\n",
+      "keywords": []
+    }
+  },
+  "gizlilik-politikasi": {
+    "title": "Gizlilik Politikası",
+    "subtitle": "Toplanan veriyi, saklama süresini ve paylaşım sınırlarını açık yazar; haklarınızı net biçimde belirtiriz."
+  },
+  "cerez-politikasi": {
+    "title": "Çerez Politikası",
+    "subtitle": "Çerez türlerini, amaçlarını ve tercih yönetimini anlaşılır anlatır; ölçüm araçlarını şeffaf şekilde listeleriz."
+  }
+}

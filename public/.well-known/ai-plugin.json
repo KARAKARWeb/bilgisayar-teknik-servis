@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "tuzla_web_tasarim",
+  "name_for_human": "Tuzla Web Tasarım",
+  "description_for_model": "Tuzla Web Tasarım - İstanbul Tuzla'da profesyonel web tasarım, yazılım, SEO, GEO ve e-ticaret hizmetleri sunan dijital ajans. 17 mahalle ve 5 organize sanayi bölgesine özel çözümler. Next.js, React, TypeScript uzmanlığı. Hostener altyapısıyla hosting, domain tescil, SSL sertifikası, kurumsal e-posta hizmetleri. Tersane, denizcilik, eğitim, emlak, restoran sektörlerine özel web çözümleri.",
+  "description_for_human": "Tuzla'da web tasarım, yazılım ve SEO hizmetleri. Modern teknolojilerle hızlı, güvenli ve mobil uyumlu web siteleri.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.tuzlawebtasarim.com/sitemap.xml"
+  },
+  "logo_url": "https://www.tuzlawebtasarim.com/logo.webp",
+  "contact_email": "info@tuzlawebtasarim.com",
+  "legal_info_url": "https://www.tuzlawebtasarim.com/gizlilik-politikasi"
+}
