@@ -11,7 +11,7 @@ export function generateLocalBusinessSchema(config: SiteConfig, reviews?: Review
   const schema: any = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "additionalType": "WebDesignAgency",
+    "additionalType": "ComputerRepair",
     "name": config.schema?.localBusiness?.name || config.site.name,
     "description": config.schema?.localBusiness?.description || config.seo?.metaDescription || `${config.site.name}, ${config.site.district} ve ${config.site.city} bölgesinde profesyonel web tasarım, yazılım geliştirme, SEO ve dijital pazarlama hizmetleri sunmaktadır.`,
     "url": baseUrl,

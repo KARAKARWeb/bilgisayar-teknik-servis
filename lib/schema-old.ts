@@ -5,7 +5,7 @@ export function generateLocalBusinessSchema(config: SiteConfig) {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "additionalType": "WebDesignAgency",
+    "additionalType": "ComputerRepair",
     "name": config.schema.localBusiness.name,
     "description": config.schema.localBusiness.description,
     "image": `${config.contact.website}${config.seo.logo}`,
