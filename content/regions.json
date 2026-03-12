@@ -2,112 +2,132 @@
   {
     "id": "region-1773272577978",
     "name": "İstanbul",
-    "slug": "istanbul",
+    "slug": "istanbul-bilgisayar-tamir-servisi",
     "city": "İstanbul",
+    "description": "İstanbul genelinde profesyonel bilgisayar teknik servis, yerinde tamir ve IT destek hizmetleri. Anadolu ve Avrupa yakasında 1-2 saat içinde müdahale.",
     "geo": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": "41.0082",
+      "longitude": "28.9784"
     },
     "hero": {
-      "title": "",
-      "subtitle": ""
+      "title": "İstanbul Bilgisayar Teknik Servis",
+      "subtitle": "Anadolu ve Avrupa Yakası'nda Hızlı ve Güvenilir Teknik Destek"
     },
     "content": {
-      "main": "",
+      "main": "<p>Türkiye'nin en büyük metropolü İstanbul'da, 16 milyonluk nüfusun teknoloji ihtiyaçları kesintisiz devam eder. Şehrin dinamik yapısı, iş dünyasının yoğun temposu ve bireysel kullanıcıların artan beklentileri, bilgisayar teknik servis hizmetlerinde profesyonellik ve hız gerektirir. Anadolu ve Avrupa yakasını kapsayan geniş hizmet ağımız, İstanbul'un her noktasına ulaşım imkanı sunar.</p><h2>İstanbul Kurumsal IT Destek</h2><p>Finansal merkezler, holding ofisleri ve üretim tesisleri için özel kurumsal destek paketleri sunuyoruz. Maslak, Levent, Şişli, Ataşehir ve Kozyatağı iş merkezlerinde yoğunlaşan kurumsal müşterilerimize öncelikli müdahale garantisi veriyoruz. Sunucu odası yönetimi, ağ altyapısı kurulumu ve 7/24 izleme sistemleri aktif şekilde çalışır.</p><p>Avrupa yakasında Beylikdüzü, Esenyurt ve İkitelli sanayi bölgelerindeki üretim tesisleri için özel IT çözümleri geliştiriyoruz. Anadolu yakasında Dudullu, Ümraniye ve Tuzla organize sanayi bölgelerinde de aynı standartları uyguluyoruz.</p><h2>Yerinde Teknik Destek</h2><p>İstanbul trafiğinin yoğunluğu göz önüne alındığında, yerinde müdahale hizmeti kritik önem taşır. Kadıköy, Beşiktaş, Üsküdar, Fatih ve Beyoğlu gibi merkezi ilçelerde 1 saat içinde, çevre ilçelerde 2 saat içinde yerinde bulunuyoruz. Ekibimiz her bölge için özel rota planlaması yapar.</p><p>Laptop ekran değişimi, anakart tamiri, SSD yükseltmesi gibi donanım müdahaleleri yerinde gerçekleştirilir. İşletim sistemi kurulumu, veri kurtarma ve ağ yapılandırması da ofis ortamınızda tamamlanır.</p><h2>İstanbul, İstanbul</h2><p>Boğaz manzaralı ofislerden Anadolu yakasının yoğun iş merkezlerine, tarihi yarımadadan modern plaza binalarına kadar her noktada hizmet veriyoruz. İstanbul'un çok katmanlı yapısı, farklı sektörlerin teknik ihtiyaçlarını anlamamızı sağlar.</p>",
       "seo1": "",
       "seo2": ""
     },
     "services": [],
     "prices": [],
     "seo": {
-      "title": "",
-      "description": "",
+      "title": "İstanbul Bilgisayar Teknik Servis ve Tamir Çözümleri",
+      "description": "İstanbul'da profesyonel bilgisayar tamiri ve teknik destek. Anadolu ve Avrupa yakasında 1-2 saat içinde yerinde müdahale. Kurumsal IT destek, veri kurtarma, ağ kurulumu.",
       "keywords": [
-        ""
+        "istanbul bilgisayar tamiri",
+        "istanbul teknik servis",
+        "anadolu yakası bilgisayar servisi",
+        "avrupa yakası laptop tamiri",
+        "istanbul kurumsal IT destek"
       ]
     }
   },
   {
     "id": "region-1773272586795",
     "name": "Kocaeli",
-    "slug": "kocaeli",
+    "slug": "kocaeli-bilgisayar-tamir-servisi",
     "city": "Kocaeli",
+    "description": "Kocaeli genelinde profesyonel bilgisayar teknik servis. İzmit, Gebze, Darıca ve tüm ilçelerde 2-3 saat içinde yerinde müdahale, kurumsal IT destek.",
     "geo": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": "40.8533",
+      "longitude": "29.8815"
     },
     "hero": {
-      "title": "",
-      "subtitle": ""
+      "title": "Kocaeli Bilgisayar Teknik Servis",
+      "subtitle": "Endüstriyel Bölge ve İş Merkezlerinde Profesyonel Destek"
     },
     "content": {
-      "main": "",
+      "main": "<p>Türkiye'nin endüstriyel kalbi Kocaeli, yoğun üretim faaliyetleri ve gelişen iş dünyasıyla kesintisiz IT altyapısı gerektirir. Ford Otosan'dan Tupıraş'a, Arçelik'ten Goodyear'a kadar dev fabrikaların yanı sıra binlerce KOBİ'nin teknoloji ihtiyaçlarını karşılıyoruz. İzmit merkez, Gebze, Darıca, Körfez ve Karçık ilçelerinde aktif hizmet ağımız mevcuttur.</p><h2>Endüstriyel IT Çözümleri</h2><p>Kocaeli'nin endüstriyel kimliği, özel teknik bilgi ve deneyim gerektirir. Fabrika otomasyon sistemleri, endüstriyel PC'ler, SCADA bilgisayarları ve üretim hattı kontrol üniteleri için uzmanlaşmış destek sunuyoruz. 7/24 çalışan üretim hatlarında kesinti sürelerini minimize eden hızlı müdahale protokollerimiz vardır.</p><p>TOSB, KOSB ve diğer organize sanayi bölgelerindeki firmalar için özel bakım paketleri hazırladık. Periyodik kontroller, öngörülebilir bakım ve acil müdahale garantisi ile üretim süreçlerinizin devamlılığını sağlıyoruz. Yedek parça stoklarımız endüstriyel standartlara uygun ürünlerle donatılmıştır.</p><h2>Gebze Teknoloji Merkezi</h2><p>Gebze Teknopark ve çevresindeki yazılım firmaları, Ar-Ge merkezleri ve teknoloji şirketleri için özel hizmet paketi sunuyoruz. Yüksek performanslı iş istasyonları, render sunucuları ve geliştirme ortamlarının bakımında uzmanlaştık. Veri güvenliği ve yedekleme sistemleri kurulumu önceliklerimiz arasındadır.</p><p>Gebze'nin dinamik iş ortamı, hızlı çözüm ve esnek destek gerektirir. Startup'lardan kuruluş firmalara kadar her ölçekte işletmeye uygun paketler tasarladık. Bulut altyapı entegrasyonu, uzaktan çalışma sistemleri ve siber güvenlik danışmanlığı da hizmetlerimiz arasındadır.</p><h2>Kocaeli, Kocaeli</h2><p>Marmara Denizi kıyısından Düzce sınırına, Sakarya'dan İstanbul'a komşu bölgelere kadar geniş coğrafyada hizmet veriyoruz. Kocaeli'nin endüstriyel gücünü destekleyen teknoloji ortaklarınızız.</p>",
       "seo1": "",
       "seo2": ""
     },
     "services": [],
     "prices": [],
     "seo": {
-      "title": "",
-      "description": "",
+      "title": "Kocaeli Bilgisayar Teknik Servis ve Tamir Çözümleri",
+      "description": "Kocaeli'de profesyonel bilgisayar tamiri ve IT destek. İzmit, Gebze, Darıca'da 2-3 saat içinde yerinde müdahale. Endüstriyel IT, kurumsal destek, fabrika sistemleri.",
       "keywords": [
-        ""
+        "kocaeli bilgisayar tamiri",
+        "izmit teknik servis",
+        "gebze laptop tamiri",
+        "kocaeli kurumsal IT",
+        "endüstriyel bilgisayar servisi"
       ]
     }
   },
   {
     "id": "region-1773272594722",
     "name": "Sakarya",
-    "slug": "sakarya",
+    "slug": "sakarya-bilgisayar-tamir-servisi",
     "city": "Sakarya",
+    "description": "Sakarya genelinde profesyonel bilgisayar teknik servis. Adapazarı, Serdivan, Akyazı ve tüm ilçelerde 2-4 saat içinde yerinde müdahale, kurumsal IT destek.",
     "geo": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": "40.7569",
+      "longitude": "30.3781"
     },
     "hero": {
-      "title": "",
-      "subtitle": ""
+      "title": "Sakarya Bilgisayar Teknik Servis",
+      "subtitle": "Sanayi ve Ticaret Merkezlerinde Güvenilir Teknik Destek"
     },
     "content": {
-      "main": "",
+      "main": "<p>Marmara Bölgesi'nin gelişen sanayi kenti Sakarya, otomotivden mobilyaya, gıdadan elektroniğe geniş üretim yelpazesiyle öne çıkar. Toyota, Hyundai, Yazaki gibi global şirketlerin yanı sıra binlerce yerel üreticinin teknoloji altyapısını destekliyoruz. Adapazarı merkez, Serdivan, Akyazı, Hendek ve Karasu ilçelerinde aktif servis ağımız bulunur.</p><h2>Otomotiv Sektörü IT Desteği</h2><p>Sakarya'nın otomotiv başkenti kimliği, özel endüstriyel bilgi gerektirir. Üretim tesislerindeki otomasyon sistemleri, kalite kontrol bilgisayarları ve lojistik yönetim ağları için uzmanlaşmış destek sunuyoruz. Just-in-time üretim sistemlerinin kesintisiz çalışması için 7/24 acil müdahale ekibimiz hazırdır.</p><p>Yan sanayi firmalarının ERP sistemleri, CAD/CAM istasyonları ve üretim planlama bilgisayarlarının bakımında deneyimliyiz. Veri yedekleme, sistem güvenliği ve performans optimizasyonu rutin hizmetlerimiz arasındadır. Endüstriyel standartlara uygun parça kullanımı ve uzun ömürlü çözümler önceliklerimizdedir.</p><h2>Mobilya ve Ağaç İşleme Sektörü</h2><p>Sakarya'nın geleneksel gücü mobilya sektöründe, CNC tezgah kontrol sistemleri ve tasarım istasyonları kritik önem taşır. 3D modelleme bilgisayarları, render sunucuları ve üretim kontrol üniteleri için özel bakım paketleri hazırladık. Toz ve nem gibi atölye koşullarına dayanıklı donanım çözümleri öneriyoruz.</p><p>Küçük ölçekli mobilya atölyelerinden büyük fabrika tesislerine kadar her seviyede hizmet veriyoruz. Sipariş takip sistemleri, stok yönetimi ve müşteri ilişkileri yazılımlarının kurulumu ve bakımı da kapsamımızdadır.</p><h2>Sakarya, Sakarya</h2><p>Sakarya Nehri kıyısından Sapanca Gölü'ne, organize sanayi bölgelerinden şehir merkezine kadar geniş coğrafyada hizmet sunuyoruz. Sakarya'nın endüstriyel büyümesine teknoloji desteğiyle katkı sağlıyoruz.</p>",
       "seo1": "",
       "seo2": ""
     },
     "services": [],
     "prices": [],
     "seo": {
-      "title": "",
-      "description": "",
+      "title": "Sakarya Bilgisayar Teknik Servis ve Tamir Çözümleri",
+      "description": "Sakarya'da profesyonel bilgisayar tamiri ve IT destek. Adapazarı, Serdivan, Akyazı'da 2-4 saat içinde yerinde müdahale. Otomotiv sektörü IT, endüstriyel destek.",
       "keywords": [
-        ""
+        "sakarya bilgisayar tamiri",
+        "adapazarı teknik servis",
+        "serdivan laptop tamiri",
+        "sakarya kurumsal IT",
+        "otomotiv sektörü bilgisayar servisi"
       ]
     }
   },
   {
     "id": "region-1773272604112",
     "name": "Düzce",
-    "slug": "duzce",
+    "slug": "duzce-bilgisayar-tamir-servisi",
     "city": "Düzce",
+    "description": "Düzce genelinde profesyonel bilgisayar teknik servis. Merkez, Kaynası, Aksaça ve tüm ilçelerde 3-5 saat içinde yerinde müdahale, kurumsal IT destek.",
     "geo": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": "40.8438",
+      "longitude": "31.1565"
     },
     "hero": {
-      "title": "",
-      "subtitle": ""
+      "title": "Düzce Bilgisayar Teknik Servis",
+      "subtitle": "Orman Ürünleri ve Tarım Sektöründe Uzman Destek"
     },
     "content": {
-      "main": "",
+      "main": "<p>Batı Karadeniz'in gelişen sanayi kenti Düzce, orman ürünleri, mobilya ve tarım sektörlerinde öne çıkar. Organize sanayi bölgelerindeki üretim tesisleri, tarımsal işletmeler ve ticari firmaların teknoloji altyapısını destekliyoruz. Merkez ilçe, Kaynası, Aksaça, Gölyaka ve Çilimli'de aktif hizmet ağımız mevcuttur.</p><h2>Orman Ürünleri Sektörü IT</h2><p>Düzce'nin geleneksel gücü orman ürünleri sektöründe, kereste fabrikaları ve mobilya üreticileri için özel IT çözümleri sunuyoruz. CNC tezgah kontrol sistemleri, stok yönetim bilgisayarları ve üretim planlama yazılımlarının bakımında uzmanlaştık. Atölye ortamının zorlu koşullarına dayanıklı donanım çözümleri öneriyoruz.</p><p>Mobilya tasarım istasyonları, 3D modelleme bilgisayarları ve render sunucuları için performans optimizasyonu sağlıyoruz. Veri yedekleme sistemleri ile tasarım dosyalarınızın güvenliğini garanti ediyoruz. Küçük atölyelerden büyük fabrika tesislerine kadar her ölçekte hizmet veriyoruz.</p><h2>Tarımsal İşletme Teknolojileri</h2><p>Düzce'nin verimli tarım arazilerinde faaliyet gösteren modern çiftliklerin teknoloji ihtiyaçlarını karşılıyoruz. Akıllı tarım sistemleri, sera otomasyon bilgisayarları ve hayvancılık yönetim yazılımları kapsamımızdadır. Kırsal bölgelerde internet altyapısı kurulumu ve uzaktan izleme sistemleri de sunuyoruz.</p><p>Tarımsal kooperatiflerin muhasebe sistemleri, ürün takip yazılımları ve dijital pazarlama altyapılarının kurulumunda yardımcı oluyoruz. Dijitalleşen tarım sektöründe teknoloji ortaklarınızız.</p><h2>Düzce, Düzce</h2><p>Bolu sınırından Sakarya'ya, Karadeniz kıyısından iç bölgelere kadar geniş coğrafyada hizmet sunuyoruz. Düzce'nin ekonomik kalkınmasına teknoloji desteğiyle katkı sağlıyoruz.</p>",
       "seo1": "",
       "seo2": ""
     },
     "services": [],
     "prices": [],
     "seo": {
-      "title": "",
-      "description": "",
+      "title": "Düzce Bilgisayar Teknik Servis ve Tamir Çözümleri",
+      "description": "Düzce'de profesyonel bilgisayar tamiri ve IT destek. Merkez, Kaynası, Aksaça'da 3-5 saat içinde yerinde müdahale. Orman ürünleri sektörü IT, tarımsal teknoloji.",
       "keywords": [
-        ""
+        "düzce bilgisayar tamiri",
+        "düzce teknik servis",
+        "kaynası laptop tamiri",
+        "düzce kurumsal IT",
+        "orman ürünleri bilgisayar servisi"
       ]
     }
   },
