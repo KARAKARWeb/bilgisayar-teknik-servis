@@ -32,10 +32,10 @@
   },
   "teklif-al": {
     "title": "Teklif Al",
-    "description": "aa",
+    "description": "",
     "seo": {
-      "title": "Web Tasarım Fiyat Teklifi Al",
-      "description": "Teklif al sayfasında cihaz türü ve arıza durumuna göre net, ölçülü ve açıklayıcı fiyatlandırma sürecine hızlı başvuru yapılır.\n",
+      "title": "Fiyat Teklifi Al",
+      "description": "",
       "keywords": []
     }
   },

@@ -4,9 +4,9 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-import { Check, ArrowRight, ArrowLeft, User, Briefcase, Calendar, MessageSquare, CheckCircle } from 'lucide-react'
+import { Check, ArrowRight, ArrowLeft, CheckCircle } from 'lucide-react'
 
-interface QuoteFormAdvancedProps {
+interface QuoteFormTechServiceProps {
   services: Array<{ id: string; name: string }>
 }
 
@@ -56,7 +56,7 @@ const cities = [
   { id: 'yalova', name: 'Yalova' },
 ]
 
-export function QuoteFormAdvanced({ services }: QuoteFormAdvancedProps) {
+export function QuoteFormTechService({ services }: QuoteFormTechServiceProps) {
   const [step, setStep] = useState(1)
   const [formData, setFormData] = useState({
     deviceType: '',
@@ -136,31 +136,28 @@ export function QuoteFormAdvanced({ services }: QuoteFormAdvancedProps) {
             ))}
           </div>
 
-          {/* Step 1: Proje Tipi */}
+          {/* Step 1: Cihaz Tipi */}
           {step === 1 && (
             <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
               <div className="text-center mb-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black text-white mb-4">
-                  <Briefcase className="h-8 w-8" />
-                </div>
-                <h2 className="text-3xl font-bold text-black mb-2">Proje Tipiniz Nedir?</h2>
-                <p className="text-gray-600">Hangi tür bir web sitesi istiyorsunuz?</p>
+                <h2 className="text-3xl font-bold text-black mb-2">Cihaz Tipiniz Nedir?</h2>
+                <p className="text-gray-600">Hangi cihaz için teknik servis talep ediyorsunuz?</p>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {projectTypes.map((type) => (
+                {deviceTypes.map((type) => (
                   <button
                     key={type.id}
-                    onClick={() => updateField('projectType', type.id)}
+                    onClick={() => updateField('deviceType', type.id)}
                     className={`relative p-6 rounded-xl border-2 transition-all text-left ${
-                      formData.projectType === type.id
+                      formData.deviceType === type.id
                         ? 'border-black bg-gray-50 shadow-lg'
                         : 'border-gray-200 hover:border-gray-300 hover:shadow-md'
                     }`}
                   >
                     <h3 className="text-lg font-semibold text-black mb-1">{type.name}</h3>
                     <p className="text-sm text-gray-600">{type.description}</p>
-                    {formData.projectType === type.id && (
+                    {formData.deviceType === type.id && (
                       <div className="absolute top-4 right-4">
                         <div className="bg-black text-white rounded-full p-1">
                           <Check className="h-4 w-4" />
@@ -182,55 +179,36 @@ export function QuoteFormAdvanced({ services }: QuoteFormAdvancedProps) {
             </div>
           )}
 
-          {/* Step 2: Bütçe ve Süre */}
+          {/* Step 2: Arıza Türü */}
           {step === 2 && (
             <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
               <div className="text-center mb-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black text-white mb-4">
-                  <Calendar className="h-8 w-8" />
-                </div>
-                <h2 className="text-3xl font-bold text-black mb-2">Bütçe ve Süre</h2>
-                <p className="text-gray-600">Projeniz için bütçe ve teslim sürenizi belirleyin</p>
+                <h2 className="text-3xl font-bold text-black mb-2">Arıza veya Hizmet Türü</h2>
+                <p className="text-gray-600">Cihazınızda ne gibi bir sorun var?</p>
               </div>
 
-              <div className="space-y-6">
-                <div>
-                  <label className="block text-sm font-semibold text-black mb-3">Bütçe Aralığı</label>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {budgetRanges.map((budget) => (
-                      <button
-                        key={budget.id}
-                        onClick={() => updateField('budget', budget.id)}
-                        className={`p-4 rounded-lg border-2 transition-all text-center ${
-                          formData.budget === budget.id
-                            ? 'border-black bg-gray-50'
-                            : 'border-gray-200 hover:border-gray-300'
-                        }`}
-                      >
-                        <span className="font-medium text-black">{budget.name}</span>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-semibold text-black mb-3">Teslim Süresi</label>
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                    {deadlines.map((deadline) => (
-                      <button
-                        key={deadline.id}
-                        onClick={() => updateField('deadline', deadline.id)}
-                        className={`p-4 rounded-lg border-2 transition-all text-center ${
-                          formData.deadline === deadline.id
-                            ? 'border-black bg-gray-50'
-                            : 'border-gray-200 hover:border-gray-300'
-                        }`}
-                      >
-                        <span className="font-medium text-black">{deadline.name}</span>
-                      </button>
-                    ))}
-                  </div>
-                </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {issueTypes.map((issue) => (
+                  <button
+                    key={issue.id}
+                    onClick={() => updateField('issueType', issue.id)}
+                    className={`relative p-4 rounded-lg border-2 transition-all text-left ${
+                      formData.issueType === issue.id
+                        ? 'border-black bg-gray-50 shadow-lg'
+                        : 'border-gray-200 hover:border-gray-300'
+                    }`}
+                  >
+                    <h3 className="text-base font-semibold text-black mb-1">{issue.name}</h3>
+                    <p className="text-sm text-gray-600">{issue.description}</p>
+                    {formData.issueType === issue.id && (
+                      <div className="absolute top-3 right-3">
+                        <div className="bg-black text-white rounded-full p-1">
+                          <Check className="h-3 w-3" />
+                        </div>
+                      </div>
+                    )}
+                  </button>
+                ))}
               </div>
 
               <div className="flex gap-4">
@@ -244,19 +222,96 @@ export function QuoteFormAdvanced({ services }: QuoteFormAdvancedProps) {
             </div>
           )}
 
-          {/* Step 3: İletişim Bilgileri */}
+          {/* Step 3: Aciliyet ve Lokasyon */}
           {step === 3 && (
             <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
               <div className="text-center mb-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black text-white mb-4">
-                  <User className="h-8 w-8" />
+                <h2 className="text-3xl font-bold text-black mb-2">Servis Tercihleri</h2>
+                <p className="text-gray-600">Aciliyet durumu ve servis lokasyonunu belirleyin</p>
+              </div>
+
+              <div className="space-y-6">
+                <div>
+                  <label className="block text-sm font-semibold text-black mb-3">Aciliyet Durumu</label>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    {urgencyLevels.map((urgency) => (
+                      <button
+                        key={urgency.id}
+                        onClick={() => updateField('urgency', urgency.id)}
+                        className={`p-4 rounded-lg border-2 transition-all text-left ${
+                          formData.urgency === urgency.id
+                            ? 'border-black bg-gray-50'
+                            : 'border-gray-200 hover:border-gray-300'
+                        }`}
+                      >
+                        <h3 className="font-semibold text-black text-sm mb-1">{urgency.name}</h3>
+                        <p className="text-xs text-gray-600">{urgency.description}</p>
+                      </button>
+                    ))}
+                  </div>
                 </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-black mb-3">Servis Lokasyonu</label>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    {serviceLocations.map((location) => (
+                      <button
+                        key={location.id}
+                        onClick={() => updateField('serviceLocation', location.id)}
+                        className={`p-4 rounded-lg border-2 transition-all text-left ${
+                          formData.serviceLocation === location.id
+                            ? 'border-black bg-gray-50'
+                            : 'border-gray-200 hover:border-gray-300'
+                        }`}
+                      >
+                        <h3 className="font-semibold text-black text-sm mb-1">{location.name}</h3>
+                        <p className="text-xs text-gray-600">{location.description}</p>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-black mb-3">Şehir</label>
+                  <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+                    {cities.map((city) => (
+                      <button
+                        key={city.id}
+                        onClick={() => updateField('city', city.id)}
+                        className={`p-3 rounded-lg border-2 transition-all text-center ${
+                          formData.city === city.id
+                            ? 'border-black bg-gray-50'
+                            : 'border-gray-200 hover:border-gray-300'
+                        }`}
+                      >
+                        <span className="font-medium text-black text-sm">{city.name}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <Button onClick={() => setStep(2)} variant="outline" size="lg" className="w-full">
+                  <ArrowLeft className="mr-2 h-5 w-5" /> Geri
+                </Button>
+                <Button onClick={() => setStep(4)} disabled={!canProceed()} size="lg" className="w-full">
+                  Devam Et <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </div>
+            </div>
+          )}
+
+          {/* Step 4: İletişim Bilgileri */}
+          {step === 4 && (
+            <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
+              <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold text-black mb-2">İletişim Bilgileriniz</h2>
                 <p className="text-gray-600">Size nasıl ulaşabiliriz?</p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
+                <div className="md:col-span-2">
                   <label htmlFor="name" className="block text-sm font-medium text-black mb-2">
                     Ad Soyad *
                   </label>
@@ -266,20 +321,6 @@ export function QuoteFormAdvanced({ services }: QuoteFormAdvancedProps) {
                     value={formData.name}
                     onChange={(e) => updateField('name', e.target.value)}
                     placeholder="Adınız ve soyadınız"
-                    className="w-full"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-black mb-2">
-                    Şirket Adı
-                  </label>
-                  <Input
-                    id="company"
-                    type="text"
-                    value={formData.company}
-                    onChange={(e) => updateField('company', e.target.value)}
-                    placeholder="Şirket adınız (opsiyonel)"
                     className="w-full"
                   />
                 </div>
@@ -311,53 +352,30 @@ export function QuoteFormAdvanced({ services }: QuoteFormAdvancedProps) {
                     className="w-full"
                   />
                 </div>
-              </div>
 
-              <div className="flex gap-4">
-                <Button onClick={() => setStep(2)} variant="outline" size="lg" className="w-full">
-                  <ArrowLeft className="mr-2 h-5 w-5" /> Geri
-                </Button>
-                <Button onClick={() => setStep(4)} disabled={!canProceed()} size="lg" className="w-full">
-                  Devam Et <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-              </div>
-            </div>
-          )}
-
-          {/* Step 4: Proje Detayları */}
-          {step === 4 && (
-            <div className="space-y-6 animate-in fade-in duration-500 mx-auto max-w-4xl">
-              <div className="text-center mb-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black text-white mb-4">
-                  <MessageSquare className="h-8 w-8" />
+                <div className="md:col-span-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-black mb-2">
+                    Ek Açıklama (Opsiyonel)
+                  </label>
+                  <Textarea
+                    id="message"
+                    value={formData.message}
+                    onChange={(e) => updateField('message', e.target.value)}
+                    placeholder="Sorun hakkında detaylı bilgi verebilirsiniz..."
+                    rows={4}
+                    className="w-full"
+                  />
                 </div>
-                <h2 className="text-3xl font-bold text-black mb-2">Proje Detayları</h2>
-                <p className="text-gray-600">Projeniz hakkında bize bilgi verin</p>
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-black mb-2">
-                  Proje Açıklaması *
-                </label>
-                <Textarea
-                  id="message"
-                  value={formData.message}
-                  onChange={(e) => updateField('message', e.target.value)}
-                  placeholder="Projeniz hakkında detaylı bilgi verin..."
-                  rows={8}
-                  className="w-full"
-                />
-                <p className="text-sm text-gray-500 mt-2">
-                  En az 10 karakter giriniz
-                </p>
               </div>
 
               <div className="bg-blue-50 rounded-lg p-4">
-                <h3 className="font-semibold text-black mb-2">Seçimleriniz:</h3>
+                <h3 className="font-semibold text-black mb-2">Talep Özeti:</h3>
                 <ul className="space-y-1 text-sm text-gray-700">
-                  <li>• <strong>Proje Tipi:</strong> {projectTypes.find(p => p.id === formData.projectType)?.name}</li>
-                  <li>• <strong>Bütçe:</strong> {budgetRanges.find(b => b.id === formData.budget)?.name}</li>
-                  <li>• <strong>Süre:</strong> {deadlines.find(d => d.id === formData.deadline)?.name}</li>
+                  <li><strong>Cihaz:</strong> {deviceTypes.find(d => d.id === formData.deviceType)?.name}</li>
+                  <li><strong>Sorun:</strong> {issueTypes.find(i => i.id === formData.issueType)?.name}</li>
+                  <li><strong>Aciliyet:</strong> {urgencyLevels.find(u => u.id === formData.urgency)?.name}</li>
+                  <li><strong>Lokasyon:</strong> {serviceLocations.find(l => l.id === formData.serviceLocation)?.name}</li>
+                  <li><strong>Şehir:</strong> {cities.find(c => c.id === formData.city)?.name}</li>
                 </ul>
               </div>
 
@@ -387,7 +405,7 @@ export function QuoteFormAdvanced({ services }: QuoteFormAdvancedProps) {
           </div>
           <h2 className="text-3xl font-bold text-black mb-4">Talebiniz Alındı!</h2>
           <p className="text-lg text-gray-600 mb-8 max-w-md mx-auto">
-            Teklif talebiniz başarıyla iletildi. En kısa sürede sizinle iletişime geçeceğiz.
+            Servis talebiniz başarıyla iletildi. En kısa sürede sizinle iletişime geçeceğiz.
           </p>
           <Button onClick={() => window.location.href = '/'} size="lg">
             Ana Sayfaya Dön

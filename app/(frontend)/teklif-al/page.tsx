@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { getSiteConfig } from '@/lib/config'
 import { getServices } from '@/lib/content'
 import { getPageSettings } from '@/lib/page-settings'
-import { QuoteFormAdvanced } from '@/components/forms/quote-form-advanced'
+import { QuoteFormTechService } from '@/components/forms/quote-form-tech-service'
 import { Breadcrumb } from '@/components/layout/breadcrumb'
 import { generateBreadcrumbSchema } from '@/lib/schema'
 
@@ -103,7 +103,7 @@ export default async function TeklifAlPage() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto">
           <div className="mx-auto max-w-6xl px-4">
-            <QuoteFormAdvanced services={services} />
+            <QuoteFormTechService services={services} />
           </div>
         </div>
       </section>
