@@ -164,7 +164,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             <div className="container mx-auto">
               <div className="mx-auto max-w-3xl text-center">
                 <h1 className="text-h1-mobile font-semibold text-black md:text-h1-tablet lg:text-h1-desktop">
-                  {region.name.replace(' Mahallesi', '')} Web Tasarım
+                  {region.name.replace(' Mahallesi', '')} Bilgisayar Teknik Servis
                 </h1>
                 {region.city && (
                   <p className="mt-6 text-[18px] text-gray-900">
@@ -561,10 +561,9 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                   </div>
                 </div>
               </div>
-            </div>
 
-            {/* Sidebar - Right */}
-            <aside className="hidden lg:block">
+              {/* Sidebar - Right */}
+              <aside className="hidden lg:block">
               <ScrollStickySidebar topOffset={96}>
                 <div className="space-y-6">
                   {/* Tüm Hizmetlerimiz */}
@@ -624,6 +623,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 </div>
               </ScrollStickySidebar>
             </aside>
+            </div>
           </div>
         </section>
 
