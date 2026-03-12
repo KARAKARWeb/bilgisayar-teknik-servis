@@ -118,7 +118,7 @@ export function FoundationSection({ services, pageContent, config }: FoundationS
               <span data-connector="true"></span>
               <span data-connector="true"></span>
             </div>
-            <span data-text="true" style={{ paddingLeft: '10px', paddingRight: '10px' }}>{config?.site?.name || 'Web Tasarım'}</span>
+            <h2 data-text="true" style={{ paddingLeft: '10px', paddingRight: '10px', fontSize: '24px', fontWeight: 600, lineHeight: 1.1, margin: 0 }}>{config?.site?.name || 'Web Tasarım'}</h2>
             <div data-connectors="true" data-side="bottom">
               <span data-connector="true"></span>
               <span data-connector="true"></span>
