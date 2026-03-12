@@ -109,7 +109,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
     const baseUrl = `https://${config.site.domain}`
     const breadcrumbItems = [
       { name: 'Hizmet Bölgeleri', url: `${baseUrl}/hizmet-bolgeleri` },
-      { name: regionDisplayName, url: `${baseUrl}/${region.slug}` }
+      { name: regionNameWithoutMahallesi, url: `${baseUrl}/${region.slug}` }
     ]
     const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems)
     
